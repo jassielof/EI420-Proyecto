@@ -1,0 +1,1494 @@
+# The Hayagriva YAML File Format for Bibliography (Typst)
+# https://github.com/typst/hayagriva/blob/main/docs/file-format.md
+
+############################# CHAPTER 1
+PoultryIncubationACompleteGuide:
+  type: book
+  title: "Poultry Incubation: A Complete Guide"
+  author: "McCaffrey H. E."
+  date: 2016-03-01
+  edition: 1
+  publisher: Academic Press
+
+AnimalWelfareAndEggProduction:
+  type: book
+  title: "Animal Welfare and Egg Production"
+  author: "Duncan I. J. H."
+  date: 2017
+  publisher: Woodhead Publishing
+
+AvProduction2015:
+  type: book
+  title: "Producción Avícola: Fundamentos y Técnicas"
+  publisher: Editorial Universitaria
+  Author: ["Pérez J. A.", "Torres C. R."]
+  date: 2015
+
+CIAGov2024Bolivia:
+  type: web
+  title: "The World Factbook: Bolivia"
+  url:
+    {
+      value: https://www.cia.gov/the-world-factbook/countries/bolivia,
+      date: 2024,
+    }
+
+ElDeberErnestoEstremadoiroFlores2024:
+  type: web
+  title: "Ernesto Estremadoiro Flores"
+  url:
+    {
+      value: https://eldeber.com.bo/autor/ernesto-estremadoiro-flores_7366,
+      date: 2024,
+    }
+
+####################### CHAPTER 2
+## definitions
+RAEProyecto:
+  type: web
+  title: "Diccionario de la lengua española"
+  author: "Real Academia Española (RAE)"
+  date: 2024
+  edition: 24
+  url: https://dle.rae.es/proyecto
+
+GomezGestionProyectos:
+  type: book
+  author: "Gómez, M."
+  title: "Gestión de proyectos: Guía práctica para la elaboración y ejecución de proyectos"
+  date: 2021
+  publisher: Editorial Ariel
+
+GrayEvaluacionProyectos:
+  type: book
+  author: "Gray, L."
+  title: "Evaluación de proyectos: Un enfoque práctico"
+  date: 2020
+  edition: 8
+  publisher: McGraw-Hill
+
+MeredithMantelPM:
+  type: book
+  author: ["J. R. Meredith", "S. J. Mantel"]
+  title: "Project Management: A Managerial Approach"
+  date: 2020
+  page-range: 64
+
+PintoJKKharbandaOP:
+  type: book
+  author: ["Jeffrey K. Pinto", "Om P. Kharbanda"]
+  title: "Project Management: Achieving Competitive Advantage"
+  date: 2018
+  publisher: Pearson
+  page-range: 76
+
+SchwalbeITPM:
+  type: book
+  author: "Kathy Schwalbe"
+  title: "Information Technology Project Management"
+  date: 2018
+  page-range: 92
+
+HaberbergRiepleSM:
+  type: book
+  author: ["Adrian Haberberg", "Alison Rieple"]
+  title: "Strategic Management: Theory and Application"
+  date: 2018
+  page-range: 112
+
+SmithEPM:
+  type: book
+  author: "Nigel J. Smith"
+  title: "Engineering Project Management"
+  date: 2017
+  publisher: Wiley
+  page-range: "55-56"
+
+GriffinOLearyKellyOB:
+  type: book
+  author: ["Ricky W. Griffin", "Anne M. O'Leary-Kelly"]
+  title: "Organizational Behavior: Managing People and Organizations"
+  date: 2019
+  edition: 12
+  publisher: Cengage Learning
+  page-range: "88-90"
+
+MannRobertsBL:
+  type: book
+  author: ["Richard A. Mann", "Barry S. Roberts"]
+  title: "Business Law and the Regulation of Business"
+  date: 2019
+  edition: 11
+  publisher: Cengage Learning
+  page-range: "65-67"
+
+CunninghamES:
+  type: book
+  author: ["William P. Cunningham", "Mary Ann Cunningham"]
+  title: "Environmental Science: A Global Concern"
+  date: 2018
+  edition: 14
+  publisher: McGraw-Hill Education
+  page-range: "75-77"
+
+ClaytonRadcliffeSustainability:
+  type: book
+  author: ["Tony Clayton", "Nicholas Radcliffe"]
+  title: "Sustainability: A Systems Approach"
+  date: 2020
+  edition: 2
+  publisher: Routledge
+  page-range: "112-114"
+
+SaezFC:
+  type: book
+  author: "Santiago Sáez"
+  title: "Finanzas Corporativas: Teoría y Práctica"
+  date: 2019
+  publisher: Ediciones Deusto
+  page-range: "112-114"
+
+KatesSustainability:
+  type: book
+  author: ["R. W. Kates", "T. M. Parris", "A. A. Leiserowitz"]
+  title: "Sustainability Science: A Multidisciplinary Approach"
+  date: 2019
+  page-range: 15
+
+SchroederWilhelmiSD:
+  type: book
+  author: ["P. Schroeder", "S. Wilhelmi"]
+  title: "Sustainable Development and the Future of Business: A Global Perspective"
+  date: 2020
+  page-range: 27
+
+## conceptual framework
+
+ChurchillIacobucciMarketingResearch:
+  type: book
+  author: ["Churchill, G. A.", "Iacobucci, D."]
+  title: "Marketing research: methodological foundations"
+  date: 2019
+  edition: 12
+  publisher: South-Western Cengage Learning
+
+AMA:
+  type: web
+  title: "Definition of Marketing"
+  url:
+    {
+      value: https://www.ama.org/the-definition-of-marketing-what-is-marketing/,
+      date: 2024,
+    }
+
+KotlerKellerMarketingManagement2022:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Marketing Management"
+  date: 2022
+  edition: 16
+
+KotlerKellerDireccionMarketing:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Dirección de Marketing"
+  date: 2019
+  edition: 16
+  page-range: 43
+
+KrugmanWellsEconomia2020:
+  type: book
+  author: ["Krugman, P.", "Wells, R."]
+  title: "Economía"
+  date: 2020
+  edition: 5
+  publisher: Editorial Pearson
+
+MankiwPrincipiosEconomia2021:
+  type: book
+  author: ["Mankiw, N. G."]
+  title: "Principios de Economía"
+  date: 2021
+  edition: 9
+  publisher: Cengage
+
+MankiwPrincipiosEconomia2014:
+  type: book
+  author: ["Mankiw, N. G."]
+  title: "Principios de economía"
+  date: 2014
+  edition: 7
+  publisher: Cengage Learning
+
+KotlerKellerDireccionMarketing2020:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Dirección de Marketing"
+  date: 2020
+  edition: 16
+  page-range: 185
+
+KotlerArmstrongPrincipiosMarketing:
+  type: book
+  author: ["Kotler, P.", "Armstrong, G."]
+  title: "Principios de marketing"
+  date: 2017
+  edition: 15
+  publisher: Pearson Educación
+
+KotlerKellerDireccionMarketing2018:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Dirección de Marketing"
+  date: 2018
+  edition: 16
+  page-range: 205
+
+KotlerKellerDireccionMarketingProducto:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Dirección de Marketing"
+  date: 2018
+  edition: 16
+  page-range: 231
+
+KotlerArmstrongMarketingIntroduction:
+  type: book
+  author: ["Kotler, P.", "Armstrong, G."]
+  title: "Marketing: An Introduction"
+  date: 2021
+  edition: 15
+  page-range: 325
+
+KotlerArmstrongPrincipiosMarketingPlaza:
+  type: book
+  author: ["Kotler, P.", "Armstrong, G."]
+  title: "Principios de marketing"
+  date: 2017
+  edition: 15
+  publisher: Pearson Educación
+
+KotlerArmstrongPrincipiosMarketingPoblacion:
+  type: book
+  author: ["Kotler, P.", "Armstrong, G."]
+  title: "Principios de marketing"
+  date: 2017
+  edition: 15
+  publisher: Pearson Educación
+
+HernandezMetodologiaInvestigacion:
+  type: book
+  author: ["Hernández, R.", "Fernández, C.", "Baptista, P."]
+  title: "Metodología de la Investigación"
+  date: 2020
+  edition: 6
+  page-range: 215
+
+CreswellDisenoInvestigacion:
+  type: book
+  author: ["Creswell, J. W."]
+  title: "Diseño de Investigación: Enfoques Cualitativos, Cuantitativos y de Métodos Mixtos"
+  date: 2014
+  edition: 4
+  publisher: Pearson
+
+ArtajayaMarketing4:
+  type: book
+  author: ["Artajaya, P. K. H."]
+  title: "Marketing 4.0: Hacia un marketing centrado en el ser humano"
+  date: 2017
+
+SapagPreparacionEvaluacionProyectos:
+  type: book
+  author: ["SAPAG CHAIN, N. S. C. R."]
+  title: "PREPARACIÓN Y EVALUACIÓN DE PROYECTOS"
+  date: 2020
+  edition: 6
+  publisher: Pablo E. Roig Vázquez
+
+LopezMetodosMuestreo:
+  type: book
+  author: ["López, M."]
+  title: "Métodos de muestreo: Teoría y práctica"
+  date: 2018
+  edition: 1
+  publisher: McGraw-Hill
+
+AgrestiStatisticalMethods:
+  type: book
+  author: ["Agresti, A."]
+  title: "Statistical Methods for the Social Sciences"
+  date: 2018
+  edition: 6
+  publisher: Pearson
+
+CochranSamplingTechniques:
+  type: book
+  author: ["Cochran, W. G."]
+  title: "Sampling Techniques"
+  date: 2007
+  edition: 3
+  publisher: Wiley
+
+LevinRubinStatisticsManagement:
+  type: book
+  author: ["Levin, R. I.", "Rubin, D. S."]
+  title: "Statistics for Management"
+  date: 2014
+  edition: 8
+  publisher: Pearson
+
+VanTeijlingenPilotStudies:
+  type: article
+  author: ["Van Teijlingen, E.", "Hundley, V."]
+  title: "The Importance of Pilot Studies"
+  date: 2001
+  publisher: University of Bournemouth
+
+HintonMcMurrayResearchMethods:
+  type: book
+  author: ["Hinton, P. R.", "McMurray, I."]
+  title: "Research Methods in Psychology"
+  date: 2021
+  edition: 2
+  page-range: 98
+
+KotlerKellerMarketingManagementNicho:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Marketing Management"
+  date: 2020
+  edition: 15
+  publisher: Pearson
+
+MintzbergStrategySafari:
+  type: book
+  author: ["Mintzberg, H.", "Ahlstrand, B.", "Lampel, J."]
+  title: "Strategy Safari: A Guided Tour Through The Wilds of Strategic Management"
+  date: 2021
+  edition: 6
+  publisher: Pearson
+
+BarneyHesterlyStrategicManagement:
+  type: book
+  author: ["Barney, J. B.", "Hesterly, W. S."]
+  title: "Strategic Management and Competitive Advantage: Concepts"
+  date: 2019
+  edition: 6
+  publisher: Pearson
+
+ArmstrongKotlerMarketingIntroduction:
+  type: book
+  author: ["Armstrong, G.", "Kotler, P."]
+  title: "Marketing: An Introduction"
+  date: 2019
+  edition: 17
+  publisher: Pearson
+
+KotlerKellerMarketingManagementMeta:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Marketing Management"
+  date: 2016
+  edition: 15
+  publisher: Pearson
+
+KotlerKellerMarketingManagementPosicionamiento:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Marketing Management"
+  date: 2016
+  edition: 15
+  publisher: Pearson
+
+KotlerKellerDireccionMarketingCadena:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Dirección de Marketing"
+  date: 2018
+  edition: 16
+  page-range: 45
+  publisher: Pearson
+
+PorterCompetitiveAdvantagePrimarias:
+  type: book
+  author: ["Porter, M. E."]
+  title: "Competitive Advantage: Creating and Sustaining Superior Performance"
+  date: 2020
+  edition: 1
+  publisher: Harvard Business Review Press
+
+PorterCompetitiveAdvantageApoyo:
+  type: book
+  author: ["Porter, M. E."]
+  title: "Competitive Advantage: Creating and Sustaining Superior Performance"
+  date: 2020
+  edition: 1
+  publisher: Harvard Business Review Press
+
+CossioRetailManagement:
+  type: book
+  author: ["Cossío, F. J."]
+  title: "Retail Management: Gestión de ventas al por menor"
+  date: 2021
+  page-range: 87
+
+MartinezPrincipiosQuimica:
+  type: book
+  author: ["Martínez, R."]
+  title: "Principios de Química y sus Aplicaciones"
+  date: 2021
+  edition: 2
+  page-range: 45
+
+GonzalezGestionProduccion:
+  type: book
+  author: ["González, M."]
+  title: "Gestión de la Producción y Operaciones"
+  date: 2022
+  edition: 1
+  page-range: 78
+
+RodriguezGestionCadenaSuministro:
+  type: book
+  author: ["Rodríguez, L."]
+  title: "Gestión de la Cadena de Suministro"
+  date: 2021
+  edition: 1
+  page-range: 102
+
+VargasMarketingDistribucion:
+  type: book
+  author: ["Vargas, J."]
+  title: "Marketing y Distribución"
+  date: 2020
+  edition: 1
+  page-range: 87
+
+RobbinsJudgeComportamientoOrganizacional:
+  type: book
+  author: ["Robbins, S. P.", "Judge, T. A."]
+  title: "Comportamiento Organizacional"
+  date: 2021
+  edition: 18
+  page-range: 56
+
+DaftOrganizationalTheory:
+  type: book
+  author: ["Daft, R. L."]
+  title: "Organizational Theory and Design"
+  date: 2020
+  edition: 13
+  page-range: 44
+
+KotlerKellerMarketingManagementParticipacion:
+  type: book
+  author: ["Kotler, P.", "Keller, K. L."]
+  title: "Marketing Management"
+  date: 2021
+  edition: 16
+  publisher: Pearson
+
+DickBasuCustomerLoyalty:
+  type: article
+  author: ["Dick, A. S.", "Basu, K."]
+  title: "Customer Loyalty: Toward an Integrated Conceptual Framework"
+  date: 2019
+  publisher: Journal of Retailing
+
+OliverSatisfaction:
+  type: article
+  author: ["Oliver, R. L."]
+  title: "A Cognitive Model of the Antecedents and Consequences of Satisfaction Decisions"
+  date: 2019
+  publisher: Journal of Retailing
+
+WysockiEffectiveProjectManagement:
+  type: book
+  author: ["Wysocki, R. K."]
+  title: "Effective Project Management: Traditional, Agile, Extreme"
+  date: 2020
+  publisher: Project Management Institute
+
+PorterCompetitiveStrategy:
+  type: book
+  author: ["Porter, M. E."]
+  title: "Competitive Strategy: Techniques for Analyzing Industries and Competitors"
+  date: 2020
+  edition: 1 (reimpresión)
+  page-range: 3-33, 23-45
+
+GhauriCateoraInternationalMarketing:
+  type: book
+  author: ["Ghauri, P.", "Cateora, P. R."]
+  title: "International Marketing"
+  date: 2020
+  edition: 4
+
+PicktonWrightMarketingStrategy:
+  type: book
+  author: ["Pickton, D. W.", "Wright, S."]
+  title: "Estrategia de Marketing"
+  date: 2016
+  edition: 2
+  publisher: Pearson
+
+ChernevStrategicMarketing:
+  type: book
+  author: ["Chernev, A."]
+  title: "Strategic Marketing Management"
+  date: 2019
+  publisher: Cerebellum Press
+
+RackhamDeVincentisSalesForce:
+  type: book
+  author: ["Rackham, N.", "DeVincentis, J."]
+  title: "Rethinking the Sales Force: Redefining Selling to Create and Capture Customer Value"
+  date: 2016
+  publisher: Harvard Business Review Press
+
+SalvatoreInternationalEconomics:
+  type: book
+  author: ["Salvatore, D."]
+  title: "International Economics"
+  date: 2021
+  edition: 11
+  page-range: 95, 135
+
+KrugmanObstfeldEconomiaInternacional:
+  type: book
+  author: ["Krugman, P.", "Obstfeld, M."]
+  title: "Economía Internacional"
+  date: 2020
+  edition: 11
+  page-range: 220, 205
+
+CavesJonesWorldTrade:
+  type: book
+  author: ["Caves, R. E.", "Jones, R. W."]
+  title: "World Trade and Payments: An Introduction"
+  date: 2019
+  edition: 13
+  page-range: 150
+
+WTOTradeFacilitation:
+  type: book
+  author: ["WTO (World Trade Organization)"]
+  title: "Trade Facilitation Agreement"
+  date: 2021
+  page-range: 72
+
+DeardorffInternationalTrade:
+  type: book
+  author: ["Deardorff, A. V."]
+  title: "International Trade: Theory and Policy"
+  date: 2020
+  edition: 6
+  page-range: 88
+
+CavesJonesWorldTradeBarriers:
+  type: book
+  author: ["Caves, R. E.", "Jones, R. W."]
+  title: "World Trade and Payments: An Introduction"
+  date: 2019
+  edition: 13
+  page-range: 170
+
+WTOWorldTradeReport:
+  type: book
+  author: ["WTO (World Trade Organization)"]
+  title: "World Trade Report"
+  date: 2020
+  page-range: 92
+
+RodriguezLogisticaComercio:
+  type: book
+  author: ["Rodríguez, A."]
+  title: "Logística y Comercio Internacional"
+  date: 2021
+  edition: 1
+  page-range: 102
+
+McGrawIntroductionEngineering:
+  type: book
+  author: ["McGraw, P."]
+  title: "Introduction to Engineering"
+  date: 2020
+  edition: 2
+  page-range: 15
+
+HeizerRenderOperationsManagement:
+  type: book
+  author: ["Heizer, J.", "Render, B."]
+  title: "Operations Management"
+  date: 2021
+  edition: 13
+  page-range: 7
+
+JestonNelisBusinessProcess:
+  type: book
+  author: ["Jeston, J.", "Nelis, J."]
+  title: "Business Process Management"
+  date: 2019
+  edition: 3
+  page-range: 42
+
+SlackBrandonJonesOperationsManagement:
+  type: book
+  author: ["Slack, N.", "Brandon-Jones, A."]
+  title: "Operations Management"
+  date: 2020
+  edition: 9
+  page-range: 160
+
+TowlerSinnottChemicalEngineering:
+  type: book
+  author: ["Towler, G.", "Sinnott, R. K."]
+  title: "Chemical Engineering Design: Principles, Practice and Economics of Plant and Process Design"
+  date: 2019
+  edition: 2
+  page-range: 102
+
+KiesoWeygandtWarfieldIntermediateAccounting:
+  type: book
+  author: ["Kieso, D. E.", "Weygandt, J. J.", "Warfield, T. D."]
+  title: "Intermediate Accounting"
+  date: 2020
+  edition: 16
+  page-range: 220, 120, 500
+
+WildShawFundamentalsAccounting:
+  type: book
+  author: ["Wild, J. J.", "Shaw, K. W."]
+  title: "Fundamentals of Financial Accounting"
+  date: 2021
+  edition: 8
+  page-range: 165
+
+BrighamEhrhardtFinancialManagement:
+  type: book
+  author: ["Brigham, E. F.", "Ehrhardt, M. C."]
+  title: "Financial Management: Theory and Practice"
+  date: 2019
+  edition: 15
+  page-range: 192, 481
+
+GarrisonNoreenBrewerManagerialAccounting:
+  type: book
+  author: ["Garrison, R. H.", "Noreen, E. W.", "Brewer, P. C."]
+  title: "Managerial Accounting"
+  date: 2020
+  edition: 16
+  page-range: 75, 92, 94, 116
+
+HorngrenSundemStrattonManagementAccounting:
+  type: book
+  author: ["Horngren, C. T.", "Sundem, G. L.", "Stratton, W. O."]
+  title: "Introduction to Management Accounting"
+  date: 2020
+  edition: 16
+  page-range: 230, 145
+
+AllenSantomeroFinancialInstitutions:
+  type: book
+  author: ["Allen, F.", "Santomero, A. M."]
+  title: "Financial Institutions"
+  date: 2021
+  edition: 2
+  page-range: 95
+
+ToderBousheyTaxesEconomy:
+  type: book
+  author: ["Toder, E.", "Boushey, H."]
+  title: "Taxes and the Economy: A Survey of the Evidence"
+  date: 2021
+  edition: 1
+  page-range: 88
+
+KeenLockwoodVAT:
+  type: book
+  author: ["Keen, M.", "Lockwood, B."]
+  title: "The Value Added Tax: Its Role in the European Union"
+  date: 2020
+  edition: 1
+  page-range: 78
+
+MunnsBjeirmiProjectManagement:
+  type: book
+  author: ["Munns, A. K.", "Bjeirmi, B. F."]
+  title: "Project Management: A Comprehensive Guide"
+  date: 2021
+  edition: 3
+  page-range: 310
+
+RossWesterfieldJaffeCorporateFinance:
+  type: book
+  author: ["Ross, S. A.", "Westerfield, R. W.", "Jaffe, J."]
+  title: "Corporate Finance"
+  date: 2019
+  edition: 12
+  page-range: 402, 347, 394
+
+MankiwPrinciplesEconomics:
+  type: book
+  author: ["Mankiw, N. G."]
+  title: "Principles of Economics"
+  date: 2020
+  edition: 9
+  page-range: 576
+
+GlassonTherivelChadwickEnvironmentalImpact:
+  type: book
+  author: ["Glasson, J.", "Therivel, R.", "Chadwick, A."]
+  title: "Introduction to Environmental Impact Assessment"
+  date: 2019
+  edition: 5
+  page-range: 68
+
+VanclaySocialImpact:
+  type: book
+  author: ["Vanclay, F."]
+  title: "Social Impact Assessment: An Introduction"
+  date: 2019
+  edition: 1
+  page-range: 37
+
+DaftOrganizationTheory:
+  type: book
+  author: ["Daft, R. L."]
+  title: "Organization Theory and Design"
+  date: 2021
+  edition: 13
+  page-range: 112
+
+GitmanZutterManagerialFinance:
+  type: book
+  author: ["Gitman, L. J.", "Zutter, C. J."]
+  title: "Principles of Managerial Finance"
+  date: 2020
+  edition: 14
+  page-range: 425
+
+BrealeyMyersAllenCorporateFinance:
+  type: book
+  author: ["Brealey, R. A.", "Myers, S. C.", "Allen, F."]
+  title: "Principles of Corporate Finance"
+  date: 2020
+  edition: 13
+  page-range: 234
+
+## referencial framework
+
+JovannySepulvedaFortalecimiento:
+  type: book
+  author: "Jovanny Sepúlveda"
+  title: "Fortalecimiento Empresarial: Investigación y Aplicación"
+  date: 2018
+
+RusAriasAnalysis:
+  type: book
+  author: "Rus Arias"
+  title: "Un análisis bibliométrico de los factores que influyen en el rendimiento"
+  date: 2020
+
+SnyderNicholsonEG:
+  type: book
+  author: ["H. Snyder", "J. Nicholson"]
+  title: "The Essential Guide to Business for Engineers and Architects"
+  date: 2019
+  publisher: Routledge
+
+KrugmanWellsEconomia:
+  type: book
+  author: ["Paul Krugman", "Robin Wells"]
+  title: "Economía"
+  date: 2020
+  edition: 5
+  publisher: Editorial Pearson
+
+MankiwEconomia:
+  type: book
+  author: "N. Gregory Mankiw"
+  title: "Principios de Economía"
+  date: 2021
+  edition: 9
+  publisher: Editorial Cengage
+
+MorrisSchindehutteMI:
+  type: book
+  author: ["Michael Morris", "Minet Schindehutte"]
+  title: "Managing Innovation and Entrepreneurship"
+  date: 2019
+  publisher: Routledge
+
+KotlerArmstrongMarketing:
+  type: book
+  author: ["Philip Kotler", "Gary Armstrong"]
+  title: "Fundamentos de Marketing"
+  date: 2020
+  edition: 8
+  publisher: Editorial Pearson
+
+BarneySM:
+  type: book
+  author: "Jay B. Barney"
+  title: "Strategic Management and Competitive Advantage: Concepts and Cases"
+  date: 2019
+  edition: 6
+  publisher: Pearson
+
+KotlerKellerMarketing:
+  type: book
+  author: ["Philip Kotler", "Kevin Lane Keller"]
+  title: "Marketing Management"
+  date: 2020
+  edition: 15
+  publisher: Pearson
+
+AbadClassification:
+  type: web
+  author: "J. C. Abad"
+  title: "Clasificación de los huevos incubables de las reproductoras"
+  date: 2019-08-29
+  publisher: AviNews
+  url:
+    {
+      value: https://avinews.com/clasificacion-de-los-huevos-incubables-de-las-reproductoras/,
+      date: 2024,
+    }
+
+GutierrezHuevoFertil:
+  type: web
+  author: "D. A. Gutiérrez Arenas"
+  title: "Huevo fértil o huevo para plato"
+  date: 2022-05-08
+  publisher: Universidad de Guanajuato
+  url:
+    {
+      value: https://www.ugto.mx/investigacionyposgrado/eugreka/index.php/contribuciones/423-huevo-fertil-o-huevo-para-plato,
+      date: 2024,
+    }
+
+VargasIncubation:
+  type: article
+  author:
+    ["J. S. Vargas Hidalgo", "D. A. Masaquiza Moposita", "N. R. Ortiz Naveda"]
+  title: "Parámetros productivos en la incubación de huevos considerados como no aptos procedentes de reproductoras pesadas"
+  date: 2021-07-01
+  journal: "Revista Arbitrada Interdisciplinaria Koinonía"
+  volume: 6
+  issue: 12
+  pages: "488-503"
+  url: { value: https://doi.org/10.35381/r.k.v6i12.1371, date: 2024 }
+
+CuellarSaenzIncubacion:
+  type: article
+  author: ["Cuéllar Sáenz, J. A."]
+  title: "Incubación: obtención de pollitas para puesta y de pollitos para carne"
+  date: 2021
+  publisher: Veterinaria Digital
+  url: "https://www.veterinariadigital.com/articulos/incubacion-en-gallinas-ponedoras/"
+
+TonaVoemesseIncubacionPollos:
+  type: article
+  author:
+    [
+      "Tona, K.",
+      "Voemesse, K.",
+      "N'nanlé, O.",
+      "Oke, O. E.",
+      "Kouame, Y. A. E.",
+      "Bilalissi, A.",
+      "Meteyake, H.",
+      "Oso, O. M.",
+    ]
+  title: "Condiciones de incubación de pollos: papel en el desarrollo embrionario, fisiología y adaptación al entorno posterior a la eclosión"
+  date: 2022
+  publisher: Frontiers in Physiology
+  volume: 13
+  page: 895854
+  url: "https://doi.org/10.3389/fphys.2022.895854"
+
+LightfootPulmonaryDisorders:
+  type: web
+  author: "T. L. Lightfoot"
+  title: "Trastornos pulmonares y de las vías respiratorias de las aves de compañía"
+  date: 2020-01-07
+  publisher: Manual de Veterinaria de MSD
+  url: "https://www.msdvetmanual.com/es/propietarios-de-aves/trastornos-y-enfermedades-de-las-aves/trastornos-pulmonares-y-de-las-v%C3%ADas-respiratorias-de-las-aves-de-compa%C3%B1%C3%ADa"
+
+GarciaOrtizGumboro:
+  type: web
+  author: "L. García Ortiz"
+  title: "Enfermedad de Gumboro en aves - Síntomas y tratamiento"
+  date: 2024-07-17
+  publisher: Expertoanimal.com
+  url: "https://www.expertoanimal.com/enfermedad-de-gumboro-en-aves-sintomas-y-tratamiento-25386.html"
+
+BesteirosMoquillo:
+  type: web
+  author: "M. Besteiros"
+  title: "Moquillo en aves (coriza infecciosa aviar) - Síntomas y tratamiento"
+  date: 2024-07-17
+  publisher: Expertoanimal.com
+  url: "https://www.expertoanimal.com/moquillo-en-aves-coriza-infecciosa-aviar-sintomas-y-tratamiento-24560.html"
+
+HoppesViralDiseases:
+  type: web
+  author: "S. M. Hoppes"
+  title: "Viral Diseases of Pet Birds"
+  date: 2021-09-14
+  publisher: Merck Veterinary Manual
+  url: "https://www.merckvetmanual.com/exotic-and-laboratory-animals/pet-birds/viral-diseases-of-pet-birds"
+
+HervertHernandezCereales:
+  type: article
+  author: "Hervert-Hernández, Deisy"
+  title: "El papel de los cereales en la nutrición y en la salud en el marco de una alimentación sostenible"
+  date: 2022
+  journal: "Nutrición Hospitalaria"
+  volume: 39
+  issue: "spe3"
+  pages: "52-55"
+  url: "https://dx.doi.org/10.20960/nh.04312"
+
+GonzalezHernandezCalcioFosforo:
+  type: web
+  author: "González Hernández, Á."
+  title: "Calcio y fósforo. Pruebas diagnósticas"
+  date: 2024
+  publisher: "Clínica Universidad de Navarra"
+  url: "https://www.cun.es/enfermedades-tratamientos/pruebas-diagnosticas/analisis-calcio-fosforo"
+
+CabreraDigestibilidadGrasas:
+  type: web
+  author: "Cabrera, P. W."
+  title: "Estrategias para mejorar la digestibilidad de las grasas - aviNews, la revista global de avicultura"
+  date: 2017-03-18
+  publisher: "AviNews, La Revista Global de Avicultura"
+  url: "https://avinews.com/estrategias-mejorar-la-digestibilidad-las-grasas/"
+
+CordeiroPremixVitaminico:
+  type: article
+  author: "Cordeiro da Silva, E. I."
+  title: "FORMULAÇÃO DE PREMIX VITAMÍNICO E MINERAL PARA NÃO RUMINANTES"
+  date: 2023
+  journal: "Revista Inovação: Gestão E Tecnologia No Agronegócio"
+  volume: 2
+  pages: "344-362"
+  url: "https://revistas.uceff.edu.br/inovacao/article/view/259"
+
+OrtegaCerillaAditivosNutraceuticos:
+  type: article
+  author:
+    [
+      "Ortega Cerilla, M. E.",
+      "Martínez Martínez, R.",
+      "Vicente Pérez, R.",
+      "García Flores, E. O.",
+      "Gómez Vázquez, A.",
+      "Álvarez Vázquez, P.",
+    ]
+  title: "Aditivos y nutraceúticos en nutrición y sanidad de rumiantes"
+  date: 2020
+  journal: "Investigación Y Ciencia"
+  volume: 29
+  issue: 82
+  pages: "86-95"
+  url: "https://www.redalyc.org/journal/674/67470553009/"
+
+## legal framework
+
+LawN843Bo:
+  type: legislation
+  title: "Ley 843 de Reforma Tributaria"
+  author: "Gobierno de Bolivia"
+
+LawN2060:
+  type: legislation
+  title: "Ley 2060 de Regulaciones Sanitarias y de Seguridad"
+
+DecretoSupremoN690:
+  type: legislation
+  title: "Decreto Supremo 690"
+  author: "Gobierno de Bolivia"
+
+DecretoSupremoN2060:
+  type: legislation
+  title: "Decreto Supremo 2060"
+  author: "Gobierno de Bolivia"
+
+DecretoSupremo4579:
+  type: legislation
+  title: "Decreto Supremo 4579, Ley 1391"
+  author: "Gobierno de Bolivia"
+
+LeyN1391:
+  type: legislation
+  title: "Código Sanitario"
+  author: "Gobierno de Bolivia"
+
+LeySanidadAgropecuaria:
+  type: legislation
+  title: "Ley 830 de Sanidad Agropecuaria e Inocuidad Alimentaria"
+  author: "Gobierno de Bolivia"
+
+NormativasSENASAG:
+  type: legislation
+  title: "Normativas del Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria (SENASAG)"
+  url: https://www.senasag.gob.bo/index.php/normativas-y-resoluciones
+  author: "Gobierno de Bolivia"
+
+OrdenanzasMunicipales:
+  type: legislation
+  title: "Ordenanzas Municipales de Santa Cruz de la Sierra"
+  author: "Gobierno de Bolivia"
+
+####################################################
+###################################### CHAPTER 3 ###
+####################################################
+AviDonLucas-Fb:
+  type: Web
+  title: Avícola Don Lucas --- Facebook
+  url: { value: https://www.facebook.com/avicoladonlucas/, date: 2024 }
+
+AviDonLucas-InfoCal:
+  type: web
+  title: Avícola Don Lucas --- INFOCAL Laboral
+  annote: Establecimiento avícola dedicado a la producción y comercialización de pollito BB y huevo apto para incubar.
+  affiliated:
+    - role: director
+      names: Henry Perales Cortez
+  url:
+    {
+      value: https://laboral.infocalscz.edu.bo/empresas/avicola-don-lucas,
+      date: 2024,
+    }
+
+AviDonLucas-Mis-Vis-PolCalPrezi:
+  type: web
+  title: Avícola Don Lucas --- Misión, Visión, Política de Calidad
+  author:
+    - Noelia Montes Alvarez
+  date: 2024-04-04
+  organization: Avícola Don Lucas
+  url:
+    {
+      value: https://prezi.com/p/dr2ju3gtawhg/granja-avicola-don-lucas/,
+      date: 2024,
+    }
+  publisher: Prezi
+
+AviDonLucas-Mis-VisPolCalPdf:
+  type: misc
+  title: Avícula Don Lucas --- Misión, Visión, Política de Calidad (PDF)
+  organization: Avícola Don Lucas
+
+####################### CHAPTER 4
+SamuelsonNordhaus-Economia:
+  type: book
+  author:
+    - Samuelson, P. A.
+    - Nordhaus, W. D.
+  title: "Economía. McGraw-Hill."
+  year: 2019
+
+Gonzalez-GestionProduccionOperaciones:
+  type: book
+  author:
+    - González, M.
+  title: "Gestión de la Producción y Operaciones"
+  year: 2022
+  edition: 1
+  page: 78
+
+HeizerRender-OperationsManagement:
+  type: book
+  author:
+    - Heizer, J.
+    - Render, B.
+  title: "Operations Management: Sustainability and Supply Chain Management"
+  year: 2018
+
+KrajewskiRitzmanMalhotra-OperationsManagement:
+  type: book
+  author:
+    - Krajewski, L. J.
+    - Ritzman, L. P.
+    - Malhotra, M. K.
+  title: "Operations Management: Processes and Supply Chains"
+  year: 2019
+
+AgenciaEspanola-AviProTHYMOVAC:
+  type: web
+  author: Agencia Española de Medicamentos y Productos Sanitarios
+  title: "AviPro THYMOVAC liofilizado para administración en agua de bebida"
+  year: 2024
+  publisher: Ministerio de Sanidad, Consumo y Bienestar Social
+  url: https://medicines.health.europa.eu/veterinary
+
+LaboratoriosHipra-AvisanTRT:
+  type: web
+  author: Laboratorios Hipra, S.A.
+  title: "Avisan TRT: Vacuna inactivada para rinotraqueítis en pavos y síndrome de cabeza hinchada"
+  year: 2023
+  publisher: Laboratorios Hipra
+  url: https://www.hipra.com
+
+AgenciaEspanola-CORIPRAVAC:
+  type: web
+  author: Agencia Española de Medicamentos y Productos Sanitarios
+  title: "CORIPRAVAC: Suspensión inyectable para aves"
+  year: 2023
+  publisher: Ministerio de Sanidad, Consumo y Bienestar Social
+  url: http://www.aemps.gob.es/
+
+LohmannAnimalHealth-Avipro431:
+  type: web
+  author: Lohmann Animal Health México, S.A. de C.V.
+  title: "Avipro 431 ND-IB-BD3-REO: Vacuna tetravalente contra las enfermedades de Newcastle, Gumboro, Bronquitis y Reovirus"
+  year: 2023
+  publisher: Lohmann Animal Health
+  url: https://lohmann-breeders.com/distributors/lohmann-avicola-de-mexico-sa-de-cv-2/
+
+LaboratoriosHipra-AVISANSECURE:
+  type: web
+  author: Laboratorios Hipra
+  title: "AVISAN SECURE: Vacuna inactivada, Salmonelosis aviar, en emulsión inyectable"
+  year: 2023
+  publisher: Laboratorios Hipra
+  url: https://www.hipra.com/
+
+CevaSaludAnimal-CEVACNEWL:
+  type: web
+  author: Ceva Salud Animal
+  title: "CEVAC® NEW L: Vacuna activa liofilizada contra la enfermedad de Newcastle"
+  year: 2024
+  publisher: Cevac Salud Animal
+  url: https://www.ceva.com.mx/Especies-y-Productos/Listado-de-Productos/Cevac-R-New-L
+
+CEVA-CEVACIBDL:
+  type: web
+  author: CEVA
+  title: "CEVAC® IBD L: Vacuna activa liofilizada contra la Infección de la Bolsa de Fabricio"
+  year: 2024
+  publisher: Ceva Perú
+  url: https://www.ceva.pe/Productos-Especies/Listado-de-productos/CEVAC-R-IBD-L
+
+CEVA-CEVACCORYMUNE7K:
+  type: web
+  author: CEVA
+  title: "CEVAC® CORYMUNE 7K / Listado de Productos / Especies y Productos / Ceva Mexico"
+  year: 2024
+  publisher: Ceva Mexico
+  url: https://www.ceva.com.mx/Especies-y-Productos/Listado-de-Productos/CEVAC-R-CORYMUNE-7K
+
+Quimtia-HepaInmunoBroiler:
+  type: web
+  author: Quimtia
+  title: "Hepa Inmuno Broiler (500 ML)"
+  year: 2021
+  publisher: Mundo Verde
+  url: https://mundoverde.com.do/product/hepa-inmuno-broiler-de-500-ml/?srsltid=AfmBOopzKe5Vo6gICA4AWEF0bhIAf9ub8tZWc1FH-HPEYdyeyd-UDZch
+
+Quimtia-HepavacIBH:
+  type: web
+  author: Quimtia
+  title: "Hepavac IBH (500 ML)"
+  year: 2021
+  publisher: Mundo Verde
+  url: https://mundoverde.com.do/product/hepavac-ibh-de-500-ml/?srsltid=AfmBOorlDiRERoDLcbupQ7uxkHZwnrhU6JSjghvB2gyz_nM_Hguzs4_y
+
+LaboratoriosHipra-HIPRAVIARCLONH120:
+  type: web
+  author: Laboratorios Hipra, S.A.
+  title: "HIPRAVIAR CLON/H120: Vacuna viva liofilizada para la prevención de la enfermedad de Newcastle y bronquitis infecciosa"
+  year: 2023
+  publisher: Laboratorios Hipra
+  url: https://www.hipra.com/
+
+AgenciaEspanola-HIPRAVIARSHS:
+  type: web
+  author: Agencia Española de Medicamentos y Productos Sanitarios
+  title: "HIPRAVIAR-SHS: Vacuna viva atenuada para la prevención de la Rinotraqueítis del Pavo y el Síndrome de la Cabeza Hinchada"
+  year: 2011
+  publisher: Ministerio de Sanidad, Consumo y Bienestar Social
+  url: http://www.aemps.gob.es/
+
+MSDSaludAnimal-LTIVAX:
+  type: web
+  author: MSD Salud Animal
+  title: "LT-IVAX: Vacuna como ayuda en la prevención de la laringotraqueítis infecciosa aviar"
+  year: 2024
+  publisher: MSD Salud Animal
+  url: https://www.msd-salud-animal.mx/productos/lt-ivax-aves/
+
+Zoetis-PoulvacMaternavacIBDREO:
+  type: web
+  author: Zoetis
+  title: "Poulvac Maternavac IBD REO"
+  year: 2024
+  publisher: Zoetis.com
+  url: https://ar.zoetis.com/products/aves/poulvac-maternavac-ibd-reo.aspx
+
+AgenciaEspanola-PoulvacTRT:
+  type: web
+  author: Agencia Española de Medicamentos y Productos Sanitarios
+  title: "Poulvac TRT, liofilizado para suspensión para nebulización, colirio o gotas nasales para pavos"
+  year: 2020
+  publisher: Ministerio de Sanidad, Consumo y Bienestar Social
+  url: http://www.aemps.gob.es/
+
+VAXXINOVABIOVET-VAXXONIBH120:
+  type: web
+  author: VAXXINOVA & BIOVET LTDA.
+  title: "VAXXON IB H120 (BIO BRONK VET H-120 ®)"
+  year: 2024
+  publisher: Edifarm Ecuador
+  url: https://gestion.edifarm.com.ec/edifarm_quickvet/pdfs/productos/VAXXON%20IB%20H120%20BIO%20BRONK%20VET%20H120-20211022-121354.pdf
+
+VAXXINOVABIOVET-VAXXONPOX:
+  type: web
+  author: VAXXINOVA & BIOVET LTDA.
+  title: "VAXXON POX (BOUBA DAS AVES - SUAVE): Vacuna viva contra la viruela de las aves"
+  year: 2024
+  publisher: Edifarm Ecuador
+  url: https://gestion.edifarm.com.ec/edifarm_quickvet/pdfs/productos/VAXXON%20POX%20BOUBA%20DAS%20AVES%20SUAVE-20211022-121604.pdf
+
+LaboratorioBioVet-VaxxonREOL:
+  type: web
+  author: Laboratorio Bio-Vet Ltda.
+  title: "Vaxxon REO L: Vacuna viva contra la artritis viral aviar"
+  year: 2022
+  publisher: Laboratorio Bio-Vet Ltda.
+  url: https://www.tadec.com.ec/backend/files/productos/PDF-productos-2024-07-11-22-02-13.pdf
+
+BoehringerIngelheim-BIORALH120:
+  type: web
+  author: Boehringer Ingelheim
+  title: "BIORAL-H120: Vacuna a virus vivo para la prevención de la bronquitis infecciosa en las aves"
+  year: 2019
+  publisher: Boehringer Ingelheim
+  url: https://www.boehringer-ingelheim.com/sa/salud-animal/productos/bioral-h120
+
+CEVA-POXIMUNEA:
+  type: web
+  author: CEVA
+  title: "POXIMUNE® AE"
+  year: 2024
+  publisher: Ceva Peru
+  url: https://www.ceva.pe/Productos-Especies/Listado-de-productos/POXIMUNE-R-AE
+
+Invetsa-VaxigenFluH5N8:
+  type: web
+  author: Invetsa
+  title: "Vaxigen Flu H5N8: Vacuna inactivada para uso veterinario en aves"
+  year: 2024
+  publisher: Engormix
+  url: https://www.engormix.com/invetsa/vaxigen-flu-h5n8-vacuna-inactivada-uso-veterinario-aves-sh13186_pr38334.htm
+
+VAXXINOVABIOVET-VAXXONCORYZAGEL:
+  type: web
+  author: VAXXINOVA & BIOVET LTDA.
+  title: "VAXXON CORYZA GEL"
+  year: 2024
+  publisher: Ediform Ecuador
+  url: https://gestion.edifarm.com.ec/edifarm_quickvet/pdfs/productos/VAXXON%20CORYZA%20GEL%20BIO%20KORIZA%20HIDROXIDO%20DE%20ALUMINIO-20211022-121318.pdf
+
+CEVA-CevacMASSL:
+  type: web
+  author: CEVA
+  title: "Cevac MASS L"
+  year: 2024
+  publisher: Ceva Argentina
+  url: https://www.ceva.com.ar/Especies-Productos/Listado-de-Productos/Cevac-MASS-L
+
+CEVA-CEVACGUMBOL:
+  type: web
+  author: CEVA
+  title: "CEVAC® GUMBO L"
+  year: 2024
+  publisher: Ceva Peru
+  url: https://www.ceva.pe/Productos-Especies/Listado-de-productos/CEVAC-R-GUMBO-L
+
+BIOZOO-BacterinaPasteurelosis:
+  type: web
+  author: BIOZOO
+  title: "Bacterina contra Pasteurelosis"
+  year: 2024
+  publisher: Biozoo.com.mx
+  url: https://biozoo.com.mx/mx/productos/bacterina-contra-pasteurelosis
+
+Aviagen-Ross308AP:
+  type: web
+  author: Aviagen
+  title: "Ross 308 AP - Objetivos de rendimiento - Reproductoras"
+  year: 2019
+  publisher: Aviagen Group
+  url: https://www.aviagen.com
+
+Cobb-Vantress-GuiaManejo:
+  type: web
+  author: Cobb-Vantress
+  title: "Guía de manejo para reproductoras Cobb"
+  year: 2020
+  publisher: Cobb-Vantress Inc.
+  url: https://www.cobb-vantress.com
+
+IBNORCA-312008-2003:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 312008:2003. Cereales - Maíz - Clasificación, requisitos y métodos de ensayo"
+  date: 2003-03-28
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-312008:2003-nid=875-3
+
+IBNORCA-32003-2005:
+  type: web
+  author: IBNORCA
+  title: "Norma n.°32003:2005. Ensayos microbiológicos - Recuento total de bacterias mesófilas viables"
+  date: 2005-09-09
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-32003:2005-nid=382-3
+
+IBNORCA-32005-2003:
+  type: web
+  author: IBNORCA
+  title: "Norma n.°32005:2003. Ensayos microbiológicos - Recuento de bacterias coliformes"
+  date: 2003
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-32005:2003-nid=384-3
+
+IBNORCA-659-2012:
+  type: web
+  author: IBNORCA
+  title: "Nota NB/ISO 659:2012. Semillas oleaginosas - Determinación del contenido de aceite"
+  date: 2021-10-07
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb/iso-659:2012-nid=951-3
+
+IBNORCA-35011-2018:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 35011:2018. Harina integral de soja - Requisitos"
+  date: 2022-02-21
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-35011:2018-nid=3452-3
+
+IBNORCA-35002-2014:
+  type: web
+  author: IBNORCA
+  title: "Norma NB 35002:2014. Harinas de oleaginosas - Determinación de proteína total - Método de Kjeldahl"
+  date: 2014
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-35002:2014-nid=2788-3
+
+IBNORCA-35008-2014:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 35008:2014. Harinas de soja - Determinación de la actividad de la ureasa"
+  date: 2014
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-35008:2014-nid=2794-3
+
+IBNORCA-312061-2013:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 312061:2013. Cereales - Sorgo - Determinación de micotoxinas - Aflatoxinas totales"
+  date: 2013-12-31
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-312061:2013-nid=916-3
+IBNORCA-34001-2024:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 34001:2024. Aceites y grasas –Aceite crudo de soja -Requisitos"
+  year: 2024
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb/nb-34001:2024-nid=3934
+
+IBNORCA-34003-2006:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 34003:2006. Aceites y grasas - Determinación del índice de refracción"
+  date: 2006-04-14
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb-34003:2006-nid=512-3
+IBNORCA-34004-2024:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 34004:2024. Aceites y grasas - Determinación de la acidez"
+  year: 2024
+  publisher: Ibnorca.org
+  url: https://web.ibnorca.org/tienda/catalogo/detalle-norma/nb/nb-34004:2024-nid=3909
+
+IBNORCA-34042-2024:
+  type: web
+  author: IBNORCA
+  title: "Norma n.° 34042:2024. Aceites y grasas - Determinación del contenido de sedimento"
+  year: 2024
+  publisher: Ibnorca.org
+  url: https://www.ibnorca.org/tienda/catalogo/detalle-norma/nb/nb-34042:2024-nid=3939
+
+Salvatierra-2024:
+  type: misc
+  author: Salvatierra, J. C.
+  title: "Comunicación personal"
+  date: 2024-09-23
+Vetanco-DetoxaPlus:
+  type: web
+  author: Vetanco
+  title: "Detoxa Plus - Vetanco"
+  year: 2024
+  publisher: Vetanco.com
+  url: https://www.vetanco.com/es/produto/detoxaplus/
+
+Vetanco-UniwallMos25:
+  type: web
+  author: Vetanco
+  title: "Uniwall Mos 25 - Vetanco"
+  year: 2024
+  publisher: Vetanco.com
+  url: https://www.vetanco.com/es/produto/uniwall-mos-25/
+
+Biomin-MycofixFocus:
+  type: web
+  author: Biomin
+  title: "Mycofix® Focus"
+  date: 2020-02-13
+
+Yessinergy-GlucanMos:
+  type: web
+  author: Yessinergy Agroindustrial
+  title: "Glucan Mos"
+  date: 2021-10-31
+  publisher: Yessinergy.com
+  url: https://yessinergy.com/es/
+
+Brinsa-SalBase:
+  type: web
+  author: Brinsa
+  title: "Ficha técnica de sal base para consumo animal"
+  date: 2022-12-20
+  publisher: Brinsa
+  url: https://www.brinsa.com.co
+# chapter 5
+# chapter 6
+# chapter 7
+# chapter 8
+# chapter 9
+# chapter 10
+# chapter 11
+# chapter 12
+# chapter 13
+# chapter 14
+
+# chapter 5
+# chapter 6
+# chapter 7
+# chapter 8
+# chapter 9
+# chapter 10
+# chapter 11
+# chapter 12
+# chapter 13
+# chapter 14
