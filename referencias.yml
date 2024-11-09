@@ -1472,6 +1472,71 @@ Brinsa-SalBase:
   publisher: Brinsa
   url: https://www.brinsa.com.co
 # chapter 5
+MicroftWindows:
+  type: web
+  title: Welcome to Windows
+  url: https://www.microsoft.com/en-us/windows/
+  date: 2024
+
+CasosDeUsoUMLGranada2010:
+  type: article
+  title: Casos de uso UML
+  author: Miguel Vega
+  date: 2010-10
+  location: España
+  publisher: Universidad de Granada
+  oragnization: Universidad de Granada
+  url: https://lsi2.ugr.es/~mvega/docis/casos%20de%20uso.pdf
+  language: es-ES
+
+Postgresql17:
+  type: web
+  title: "PostgreSQL: The World's Most Advanced Open Source Relational Database"
+  url: https://www.postgresql.org/
+  date: 2024
+
+TypeScriptLang:
+  type: web
+  title: TypeScript is JavaScript with syntax for types.
+  url: https://www.typescriptlang.org/
+  date: 2024
+
+UbuntuDesktop:
+  type: web
+  title: Ubuntu Desktop
+  url: https://ubuntu.com/desktop
+  date: 2024
+
+UbuntuServer:
+  type: web
+  title: Ubuntu Server
+  url: https://ubuntu.com/server
+  date: 2024
+
+JavaScript:
+  type: web
+  title: JavaScript
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  date: 2024
+
+ECMAScript:
+  type: web
+  title: ECMAScript
+  url: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+  date: 2024
+
+DotNet:
+  type: web
+  title: .NET | Build. Test. Deploy.
+  url: https://dotnet.microsoft.com/
+  date: 2024
+
+HTML:
+  type: web
+  title: HTML
+  url: https://developer.mozilla.org/en-US/docs/Web/HTML
+  date: 2024
+
 # chapter 6
 # chapter 7
 # chapter 8
