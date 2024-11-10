@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Cuentas de Clientes</title>
+</head>
+<body>
+    <h1>Gestión de Cuentas de Clientes</h1>
+    <form id="client-account-form">
+        <label for="account-client-id">ID del Cliente:</label>
+        <input type="text" id="account-client-id" name="account-client-id" required><br><br>
+        
+        <label for="account-id">ID de la Cuenta:</label>
+        <input type="text" id="account-id" name="account-id" required><br><br>
+        
+        <label for="account-balance">Saldo:</label>
+        <input type="number" id="account-balance" name="account-balance" required><br><br>
+        
+        <button type="submit">Registrar Cuenta</button>
+    </form>
+
+    <h2>Consulta de Estados de Cuenta de Clientes</h2>
+    <form id="account-statement-form">
+        <label for="statement-client-id">ID del Cliente:</label>
+        <input type="text" id="statement-client-id" name="statement-client-id" required><br><br>
+        
+        <button type="submit">Consultar Estado de Cuenta</button>
+    </form>
+</body>
+</html>

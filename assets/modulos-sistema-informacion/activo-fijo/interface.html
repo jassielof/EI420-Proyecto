@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Activos Fijos</title>
+</head>
+<body>
+    <h1>Gestión de Activos Fijos</h1>
+    <form id="fixed-asset-form">
+        <label for="asset-id">ID del Activo Fijo:</label>
+        <input type="text" id="asset-id" name="asset-id" required><br><br>
+        
+        <label for="asset-name">Nombre del Activo Fijo:</label>
+        <input type="text" id="asset-name" name="asset-name" required><br><br>
+        
+        <label for="asset-value">Valor del Activo Fijo:</label>
+        <input type="number" id="asset-value" name="asset-value" required><br><br>
+        
+        <label for="asset-location">Ubicación:</label>
+        <input type="text" id="asset-location" name="asset-location" required><br><br>
+        
+        <button type="submit">Registrar Activo Fijo</button>
+    </form>
+
+    <h2>Depreciación de Activos Fijos</h2>
+    <form id="depreciation-form">
+        <label for="depreciation-asset-id">ID del Activo Fijo:</label>
+        <input type="text" id="depreciation-asset-id" name="depreciation-asset-id" required><br><br>
+        
+        <label for="depreciation-amount">Monto de Depreciación:</label>
+        <input type="number" id="depreciation-amount" name="depreciation-amount" required><br><br>
+        
+        <label for="depreciation-date">Fecha de Depreciación:</label>
+        <input type="date" id="depreciation-date" name="depreciation-date" required><br><br>
+        
+        <button type="submit">Registrar Depreciación</button>
+    </form>
+</body>
+</html>

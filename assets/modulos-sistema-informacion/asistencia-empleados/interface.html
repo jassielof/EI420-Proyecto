@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Asistencia de Empleados</title>
+</head>
+<body>
+    <h1>Gestión de Asistencia de Empleados</h1>
+    <form id="attendance-form">
+        <label for="employee-id">ID del Empleado:</label>
+        <input type="text" id="employee-id" name="employee-id" required><br><br>
+        
+        <label for="attendance-date">Fecha de Asistencia:</label>
+        <input type="date" id="attendance-date" name="attendance-date" required><br><br>
+        
+        <label for="attendance-status">Estado:</label>
+        <select id="attendance-status" name="attendance-status" required>
+            <option value="Presente">Presente</option>
+            <option value="Ausente">Ausente</option>
+            <option value="Permiso">Permiso</option>
+        </select><br><br>
+        
+        <button type="submit">Registrar Asistencia</button>
+    </form>
+
+    <h2>Generación de Informes de Asistencia</h2>
+    <form id="attendance-report-form">
+        <label for="report-type">Tipo de Informe:</label>
+        <select id="report-type" name="report-type" required>
+            <option value="diario">Diario</option>
+            <option value="mensual">Mensual</option>
+            <option value="anual">Anual</option>
+        </select><br><br>
+        
+        <button type="submit">Generar Informe</button>
+    </form>
+</body>
+</html>

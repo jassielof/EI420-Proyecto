@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proveedores</title>
+</head>
+<body>
+    <h1>Gestión de Proveedores</h1>
+    <form id="provider-form">
+        <label for="provider-name">Nombre del Proveedor:</label>
+        <input type="text" id="provider-name" name="provider-name" required><br><br>
+        
+        <label for="provider-id">ID del Proveedor:</label>
+        <input type="text" id="provider-id" name="provider-id" required><br><br>
+        
+        <label for="provider-email">Correo Electrónico:</label>
+        <input type="email" id="provider-email" name="provider-email" required><br><br>
+        
+        <label for="provider-phone">Teléfono:</label>
+        <input type="text" id="provider-phone" name="provider-phone" required><br><br>
+        
+        <button type="submit">Registrar Proveedor</button>
+    </form>
+
+    <h2>Evaluación de Proveedores</h2>
+    <form id="evaluation-form">
+        <label for="evaluation-provider-id">ID del Proveedor:</label>
+        <input type="text" id="evaluation-provider-id" name="evaluation-provider-id" required><br><br>
+        
+        <label for="evaluation-date">Fecha de Evaluación:</label>
+        <input type="date" id="evaluation-date" name="evaluation-date" required><br><br>
+        
+        <label for="evaluation-score">Puntuación:</label>
+        <input type="number" id="evaluation-score" name="evaluation-score" min="1" max="10" required><br><br>
+        
+        <button type="submit">Registrar Evaluación</button>
+    </form>
+</body>
+</html>
