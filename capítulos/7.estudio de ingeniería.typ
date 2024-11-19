@@ -71,12 +71,13 @@
 == Sistema de Gestión de Calidad Total
 
 == Sistema de Información Administrativa
+
 Para el stack tecnológico se propone el uso de las siguientes tecnologías:
 - Sistema operativo: Ubuntu Desktop/Server 24
 - Base de datos: PostgreSQL 17
 - Lenguaje de Programación:
   - JavaScript/TypeScript para el sistema web nativo
-  - C\# (.NET 8.0) para el interacción con la base de datos
+  - C\# (.NET 8.0) para la interacción con la base de datos
 
 En cuanto a la arquitectura del sistema, se desarrollará una arquitectura de 3 capas:
 - Capa de presentación: Interfaz de usuario (UI) desarrollada con JavaScript/TypeScript
@@ -174,9 +175,11 @@ Se usará el formato para la descripción de los casos de uso detallado en la @t
 }
 
 === Módulo de Usuario
+
 El módulo de usuario es fundamental para la gestión del sistema de información administrativa. Este módulo permite a los administradores gestionar los usuarios del sistema, incluyendo la creación, modificación y eliminación de usuarios. Además, proporciona funcionalidades para la autenticación y autorización de usuarios, asegurando que solo los usuarios autorizados puedan acceder a ciertas funcionalidades del sistema.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de usuarios],
   nombre: "Gestión de usuarios",
@@ -224,10 +227,17 @@ El módulo de usuario es fundamental para la gestión del sistema de informació
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-29-32.png"),
+  caption: [Interfaz de usuario para la gestión de usuarios],
+)
+
 === Módulo de Empleado
+
 El módulo de empleado es esencial para la gestión de los recursos humanos dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la información de los empleados, incluyendo la creación, modificación y eliminación de registros de empleados. Además, proporciona funcionalidades para la gestión de asistencia, permisos y evaluaciones de desempeño.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de empleados],
   nombre: "Gestión de empleados",
@@ -280,10 +290,17 @@ El módulo de empleado es esencial para la gestión de los recursos humanos dent
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-30-35.png"),
+  caption: [Interfaz de usuario para la gestión de empleados],
+)
+
 === Módulo de Proveedor
+
 El módulo de proveedor es crucial para la gestión de las relaciones con los proveedores dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la información de los proveedores, incluyendo la creación, modificación y eliminación de registros de proveedores. Además, proporciona funcionalidades para la gestión de contratos, evaluaciones de desempeño y comunicación con los proveedores.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de proveedores],
   nombre: "Gestión de proveedores",
@@ -336,8 +353,15 @@ El módulo de proveedor es crucial para la gestión de las relaciones con los pr
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-31-20.png"),
+  caption: [Interfaz de usuario para la gestión de proveedores],
+)
+
 === Módulo de Productos
+
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de productos],
   nombre: "Gestión de productos",
@@ -390,10 +414,17 @@ El módulo de proveedor es crucial para la gestión de las relaciones con los pr
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-31-57.png"),
+  caption: [Interfaz de usuario para la gestión de productos],
+)
+
 === Módulo de Orden de Pedido
+
 El módulo de orden de pedido es esencial para la gestión de las órdenes de pedido dentro del sistema de información administrativa. Este módulo permite a los administradores y usuarios gestionar la creación, modificación y seguimiento de órdenes de pedido. Además, proporciona funcionalidades para la gestión del estado de las órdenes y la comunicación con los proveedores.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de órdenes de pedido],
   nombre: "Gestión de órdenes de pedido",
@@ -443,10 +474,17 @@ El módulo de orden de pedido es esencial para la gestión de las órdenes de pe
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-32-41.png"),
+  caption: [Interfaz de usuario para la gestión de órdenes de pedido],
+)
+
 === Módulo de Nota de Recepción de Pedido
+
 El módulo de nota de recepción de pedido es esencial para la gestión de la recepción de pedidos dentro del sistema de información administrativa. Este módulo permite a los administradores y usuarios gestionar la creación, modificación y seguimiento de notas de recepción de pedidos. Además, proporciona funcionalidades para la verificación de los productos recibidos y la actualización del inventario.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de notas de recepción de pedido],
   nombre: "Gestión de notas de recepción de pedido",
@@ -499,8 +537,15 @@ El módulo de nota de recepción de pedido es esencial para la gestión de la re
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-33-20.png"),
+  caption: [Interfaz de usuario para la gestión de notas de recepción de pedido],
+)
+
 === Módulo de Cuenta con Proveedor
+
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de cuentas con proveedores],
   nombre: "Gestión de cuentas con proveedores",
@@ -553,10 +598,17 @@ El módulo de nota de recepción de pedido es esencial para la gestión de la re
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-34-04.png"),
+  caption: [Interfaz de usuario para la gestión de cuentas con proveedores],
+)
+
 === Módulo de Pago a Proveedor
+
 El módulo de pago a proveedor es esencial para la gestión de los pagos a los proveedores dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de pagos a proveedores. Además, proporciona funcionalidades para la gestión de facturas, comprobantes de pago y estados de cuenta.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de pagos a proveedores],
   nombre: "Gestión de pagos a proveedores",
@@ -603,10 +655,19 @@ El módulo de pago a proveedor es esencial para la gestión de los pagos a los p
   curso-alternos: ([3.1. El administrador actualiza el estado del pago],),
 )
 
+==== Interfaz
+
+#figure(
+  image("assets/2024-11-18-11-34-38.png"),
+  caption: [Interfaz de usuario para la gestión de pagos a proveedores],
+)
+
 === Módulo de Contabilidad
+
 El módulo de contabilidad es esencial para la gestión financiera dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la contabilidad general, incluyendo la creación, modificación y seguimiento de transacciones contables. Además, proporciona funcionalidades para la generación de informes financieros, balances y estados de resultados.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de transacciones contables],
   nombre: "Gestión de transacciones contables",
@@ -659,10 +720,17 @@ El módulo de contabilidad es esencial para la gestión financiera dentro del si
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-35-04.png"),
+  caption: [Interfaz de usuario para la gestión de transacciones contables],
+)
+
 === Módulo de Inventario
+
 El módulo de inventario es esencial para la gestión de los productos y materiales dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de inventarios. Además, proporciona funcionalidades para la actualización de existencias, control de stock y generación de informes de inventario.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de inventarios],
   nombre: "Gestión de inventarios",
@@ -715,10 +783,17 @@ El módulo de inventario es esencial para la gestión de los productos y materia
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-35-35.png"),
+  caption: [Interfaz de usuario para la gestión de inventarios],
+)
+
 === Módulo de Activo Fijo
+
 El módulo de activo fijo es esencial para la gestión de los activos fijos dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de activos fijos. Además, proporciona funcionalidades para la depreciación, mantenimiento y generación de informes de activos fijos.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de activos fijos],
   nombre: "Gestión de activos fijos",
@@ -771,10 +846,17 @@ El módulo de activo fijo es esencial para la gestión de los activos fijos dent
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-10-19-28-47.png"),
+  caption: [Interfaz de usuario del módulo de activo fijo],
+)
+
 === Módulo de Caja
+
 El módulo de caja es esencial para la gestión de las transacciones de efectivo dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de transacciones de caja. Además, proporciona funcionalidades para la conciliación de caja, generación de informes de caja y control de flujo de efectivo.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de transacciones de caja],
   nombre: "Gestión de transacciones de caja",
@@ -827,10 +909,17 @@ El módulo de caja es esencial para la gestión de las transacciones de efectivo
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-36-02.png"),
+  caption: [Interfaz de usuario para la gestión de transacciones de caja],
+)
+
 === Módulo de Banco
+
 El módulo de banco es esencial para la gestión de las transacciones bancarias dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de transacciones bancarias. Además, proporciona funcionalidades para la conciliación bancaria, generación de informes bancarios y control de saldos.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de transacciones bancarias],
   nombre: "Gestión de transacciones bancarias",
@@ -883,10 +972,17 @@ El módulo de banco es esencial para la gestión de las transacciones bancarias 
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-36-36.png"),
+  caption: [Interfaz de usuario para la gestión de transacciones bancarias],
+)
+
 === Módulo de Caja Chica
+
 El módulo de caja chica es esencial para la gestión de los fondos de caja chica dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de transacciones de caja chica. Además, proporciona funcionalidades para la conciliación de caja chica, generación de informes y control de gastos menores.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de transacciones de caja chica],
   nombre: "Gestión de transacciones de caja chica",
@@ -939,10 +1035,17 @@ El módulo de caja chica es esencial para la gestión de los fondos de caja chic
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-37-59.png"),
+  caption: [Interfaz de usuario para la gestión de transacciones de caja chica],
+)
+
 === Módulo de Cliente
+
 El módulo de cliente es esencial para la gestión de la información de los clientes dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de registros de clientes. Además, proporciona funcionalidades para la gestión de contactos, historial de compras y generación de informes de clientes.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de clientes],
   nombre: "Gestión de clientes",
@@ -991,10 +1094,17 @@ El módulo de cliente es esencial para la gestión de la información de los cli
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-38-30.png"),
+  caption: [Interfaz de usuario para la gestión de clientes],
+)
+
 === Módulo de Cuenta de Cliente
+
 El módulo de cuenta de cliente es esencial para la gestión de las cuentas y transacciones financieras de los clientes dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de cuentas de clientes. Además, proporciona funcionalidades para la gestión de saldos, estados de cuenta y generación de informes financieros de clientes.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de cuentas de clientes],
   nombre: "Gestión de cuentas de clientes",
@@ -1043,10 +1153,17 @@ El módulo de cuenta de cliente es esencial para la gestión de las cuentas y tr
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-39-17.png"),
+  caption: [Interfaz de usuario para la gestión de cuentas de clientes],
+)
+
 === Módulo de Pago Cliente
+
 El módulo de pago cliente es esencial para la gestión de los pagos realizados por los clientes dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de pagos de clientes. Además, proporciona funcionalidades para la verificación de pagos, generación de recibos y actualización de saldos de cuentas de clientes.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de pagos de clientes],
   nombre: "Gestión de pagos de clientes",
@@ -1095,10 +1212,17 @@ El módulo de pago cliente es esencial para la gestión de los pagos realizados 
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-41-12.png"),
+  caption: [Interfaz de usuario para la gestión de pagos de clientes],
+)
+
 === Módulo de Facturación
+
 El módulo de facturación es esencial para la gestión de las facturas dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de facturas. Además, proporciona funcionalidades para la generación de facturas, envío de facturas a clientes y generación de informes de facturación.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de facturación],
   nombre: "Gestión de facturación",
@@ -1151,10 +1275,17 @@ El módulo de facturación es esencial para la gestión de las facturas dentro d
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-42-42.png"),
+  caption: [Interfaz de usuario para la gestión de facturación],
+)
+
 === Módulo de Nota de Entrega
+
 El módulo de nota de entrega es esencial para la gestión de las notas de entrega dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de notas de entrega. Además, proporciona funcionalidades para la generación de notas de entrega, envío de notas a clientes y actualización del estado de entrega.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de notas de entrega],
   nombre: "Gestión de notas de entrega",
@@ -1201,12 +1332,19 @@ El módulo de nota de entrega es esencial para la gestión de las notas de entre
   curso-alternos: ([3.1. El administrador actualiza el estado de la nota de entrega],),
 )
 
-===== Interfaz
+==== Interfaz
+
+#figure(
+  image("assets/2024-11-18-11-43-17.png"),
+  caption: [Interfaz de usuario para la gestión de notas de entrega],
+)
 
 === Módulo de Precio de Producto
+
 El módulo de precio de producto es esencial para la gestión de los precios de los productos dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de los precios de los productos. Además, proporciona funcionalidades para la actualización de precios, generación de informes de precios y control de descuentos y promociones.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de precios de productos],
   nombre: "Gestión de precios de productos",
@@ -1259,10 +1397,17 @@ El módulo de precio de producto es esencial para la gestión de los precios de 
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-43-38.png"),
+  caption: [Interfaz de usuario para la gestión de precios de productos],
+)
+
 === Módulo de Sucursales
+
 El módulo de sucursales es esencial para la gestión de las diferentes sucursales de la empresa dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de las sucursales. Además, proporciona funcionalidades para la actualización de información de las sucursales, generación de informes y control de inventarios por sucursal.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de sucursales],
   nombre: "Gestión de sucursales",
@@ -1315,10 +1460,17 @@ El módulo de sucursales es esencial para la gestión de las diferentes sucursal
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-44-04.png"),
+  caption: [Interfaz de usuario para la gestión de sucursales],
+)
+
 === Módulo de Cambios o Devoluciones
+
 El módulo de cambios o devoluciones es esencial para la gestión de las solicitudes de cambios o devoluciones de productos dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de solicitudes de cambios o devoluciones. Además, proporciona funcionalidades para la verificación de productos devueltos, actualización de inventarios y generación de informes de cambios o devoluciones.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de cambios o devoluciones],
   nombre: "Gestión de cambios o devoluciones",
@@ -1367,10 +1519,17 @@ El módulo de cambios o devoluciones es esencial para la gestión de las solicit
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-44-46.png"),
+  caption: [Interfaz de usuario para la gestión de cambios o devoluciones],
+)
+
 === Módulo de Impuestos
+
 El módulo de impuestos es esencial para la gestión de los impuestos dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de los impuestos aplicables a productos y servicios. Además, proporciona funcionalidades para la actualización de tasas impositivas, generación de informes de impuestos y control de pagos de impuestos.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de impuestos],
   nombre: "Gestión de impuestos",
@@ -1423,10 +1582,17 @@ El módulo de impuestos es esencial para la gestión de los impuestos dentro del
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-45-31.png"),
+  caption: [Interfaz de usuario para la gestión de impuestos],
+)
+
 === Módulo de Asistencia de Empleados
+
 El módulo de asistencia de empleados es esencial para la gestión de la asistencia de los empleados dentro del sistema de información administrativa. Este módulo permite a los administradores gestionar la creación, modificación y seguimiento de los registros de asistencia de los empleados. Además, proporciona funcionalidades para la generación de informes de asistencia, control de ausencias y permisos.
 
 ==== Casos de Uso Detallado
+
 #caso-de-uso-detallado(
   caption: [Gestión de asistencia de empleados],
   nombre: "Gestión de asistencia de empleados",
@@ -1479,7 +1645,72 @@ El módulo de asistencia de empleados es esencial para la gestión de la asisten
 
 ==== Interfaz
 
+#figure(
+  image("assets/2024-11-18-11-46-22.png"),
+  caption: [Interfaz de usuario para la gestión de asistencia de empleados],
+)
+
 === Diagrama de Entidad-Relación
+El diagrama de entidad-relación (ERD) es una representación gráfica de las entidades y sus relaciones dentro del sistema de información administrativa. A continuación, se presenta un ejemplo de un ERD para el sistema de información administrativa que incluye algunas de las entidades y relaciones más importantes.
+
+#figure(
+  image("assets/erd.svg"),
+  caption: [Diagrama de entidad-relación para el sistema de información administrativa],
+)
+
+
 === Diagrama de Clases
+
+El diagrama de clases es una representación gráfica de las clases y sus relaciones dentro del sistema de información administrativa. A continuación, se presenta un ejemplo de un diagrama de clases para el sistema de información administrativa que incluye algunas de las clases y relaciones más importantes.
+
+#figure(
+  image("assets/clases.png"),
+  caption: [Diagrama de clases para el sistema de información administrativa],
+)
+
+*Cliente*:
+- *Atributos*: cliente_id, nombre, correo, teléfono
+- *Métodos*: realizarOrden(), realizarPago()
+- *Relaciones*: Cliente realiza Orden, Pago
+
+*Producto*:
+- *Atributos*: producto_id, nombre, precio, stock
+- *Métodos*: actualizarPrecio(), actualizarStock()
+- *Relaciones*: Producto pertenece a Inventario, Orden
+
+*Orden*:
+- *Atributos*: orden_id, fecha, estado
+- *Métodos*: crearOrden(), modificarOrden(), eliminarOrden()
+- *Relaciones*: Orden contiene Producto, Cliente
+
+*Factura*:
+- *Atributos*: factura_id, fecha, monto
+- *Métodos*: generarFactura()
+- *Relaciones*: Factura pertenece a Orden
+
+*Pago*:
+- *Atributos*: pago_id, fecha, monto
+- *Métodos*: registrarPago()
+- *Relaciones*: Pago pertenece a Cliente, Factura
+
+*Inventario*:
+- *Atributos*: inventario_id, ubicación
+- *Métodos*: actualizarInventario()
+- *Relaciones*: Inventario contiene Producto
+
+*Sucursal*:
+- *Atributos*: sucursal_id, nombre, dirección, teléfono
+- *Métodos*: actualizarInformacion()
+- *Relaciones*: Sucursal tiene Inventario
+
+*Impuesto*:
+- *Atributos*: impuesto_id, nombre, tasa
+- *Métodos*: actualizarTasa()
+- *Relaciones*: Impuesto aplica a Producto
+
+*Asistencia*:
+- *Atributos*: asistencia_id, fecha, estado
+- *Métodos*: registrarAsistencia()
+- *Relaciones*: Asistencia pertenece a Empleado
 
 == Cronograma de Implementación

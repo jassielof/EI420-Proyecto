@@ -1,0 +1,124 @@
+classDiagram
+    class Usuario {
+        +usuario_id: int
+        +nombre: string
+        +correo: string
+        +contraseña: string
+        +iniciarSesion()
+        +cerrarSesion()
+    }
+
+    class Empleado {
+        +empleado_id: int
+        +nombre: string
+        +correo: string
+        +teléfono: string
+        +posición: string
+        +registrarAsistencia()
+    }
+
+    class Proveedor {
+        +proveedor_id: int
+        +nombre: string
+        +correo: string
+        +teléfono: string
+        +suministrarProducto()
+    }
+
+    class Cliente {
+        +cliente_id: int
+        +nombre: string
+        +correo: string
+        +teléfono: string
+        +realizarOrden()
+        +realizarPago()
+    }
+
+    class Producto {
+        +producto_id: int
+        +nombre: string
+        +precio: float
+        +stock: int
+        +actualizarPrecio()
+        +actualizarStock()
+    }
+
+    class Orden {
+        +orden_id: int
+        +fecha: date
+        +estado: string
+        +crearOrden()
+        +modificarOrden()
+        +eliminarOrden()
+    }
+
+    class Factura {
+        +factura_id: int
+        +fecha: date
+        +monto: float
+        +generarFactura()
+    }
+
+    class Pago {
+        +pago_id: int
+        +fecha: date
+        +monto: float
+        +registrarPago()
+    }
+
+    class Inventario {
+        +inventario_id: int
+        +ubicación: string
+        +actualizarInventario()
+    }
+
+    class Sucursal {
+        +sucursal_id: int
+        +nombre: string
+        +dirección: string
+        +teléfono: string
+        +actualizarInformacion()
+    }
+
+    class Impuesto {
+        +impuesto_id: int
+        +nombre: string
+        +tasa: float
+        +actualizarTasa()
+    }
+
+    class Asistencia {
+        +asistencia_id: int
+        +fecha: date
+        +estado: string
+        +registrarAsistencia()
+    }
+
+    %% Relaciones
+    Usuario --> Empleado: gestiona
+    Usuario --> Proveedor: gestiona
+    Usuario --> Cliente: gestiona
+    Usuario --> Producto: gestiona
+    Usuario --> Orden: gestiona
+    Usuario --> Factura: gestiona
+    Usuario --> Pago: gestiona
+    Usuario --> Inventario: gestiona
+    Usuario --> Sucursal: gestiona
+    Usuario --> Impuesto: gestiona
+    Usuario --> Asistencia: gestiona
+
+    Empleado --> Asistencia: tiene
+    Proveedor --> Producto: suministra
+    Cliente --> Orden: realiza
+    Cliente --> Pago: realiza
+    Producto --> Inventario: pertenece
+    Producto --> Orden: pertenece
+    Producto --> Impuesto: aplica
+    Orden --> Producto: contiene
+    Orden --> Cliente: pertenece
+    Orden --> Factura: genera
+    Factura --> Pago: relacionado
+    Pago --> Cliente: pertenece
+    Pago --> Factura: pertenece
+    Inventario --> Producto: contiene
+    Sucursal --> Inventario: tiene

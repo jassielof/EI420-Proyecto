@@ -1,0 +1,103 @@
+erDiagram
+    USUARIO {
+        int usuario_id PK
+        string nombre
+        string correo
+        string contrasena
+    }
+
+    EMPLEADO {
+        int empleado_id PK
+        string nombre
+        string correo
+        string telefono
+        string posicion
+    }
+
+    PROVEEDOR {
+        int proveedor_id PK
+        string nombre
+        string correo
+        string telefono
+    }
+
+    CLIENTE {
+        int cliente_id PK
+        string nombre
+        string correo
+        string telefono
+    }
+
+    PRODUCTO {
+        int producto_id PK
+        string nombre
+        float precio
+        int stock
+    }
+
+    ORDEN {
+        int orden_id PK
+        date fecha
+        string estado
+    }
+
+    FACTURA {
+        int factura_id PK
+        date fecha
+        float monto
+    }
+
+    PAGO {
+        int pago_id PK
+        date fecha
+        float monto
+    }
+
+    INVENTARIO {
+        int inventario_id PK
+        string ubicacion
+    }
+
+    SUCURSAL {
+        int sucursal_id PK
+        string nombre
+        string direccion
+        string telefono
+    }
+
+    IMPUESTO {
+        int impuesto_id PK
+        string nombre
+        float tasa
+    }
+
+    ASISTENCIA {
+        int asistencia_id PK
+        date fecha
+        string estado
+    }
+
+    %% Relaciones con Usuario (gestión)
+    USUARIO ||--o{ EMPLEADO : gestiona
+    USUARIO ||--o{ PROVEEDOR : gestiona
+    USUARIO ||--o{ CLIENTE : gestiona
+    USUARIO ||--o{ PRODUCTO : gestiona
+    USUARIO ||--o{ ORDEN : gestiona
+    USUARIO ||--o{ FACTURA : gestiona
+    USUARIO ||--o{ PAGO : gestiona
+    USUARIO ||--o{ INVENTARIO : gestiona
+    USUARIO ||--o{ SUCURSAL : gestiona
+    USUARIO ||--o{ IMPUESTO : gestiona
+    USUARIO ||--o{ ASISTENCIA : gestiona
+
+    %% Otras relaciones
+    EMPLEADO ||--o{ ASISTENCIA : tiene
+    PROVEEDOR ||--o{ PRODUCTO : suministra
+    CLIENTE ||--o{ ORDEN : realiza
+    CLIENTE ||--o{ PAGO : realiza
+    PRODUCTO }|--|| INVENTARIO : pertenece
+    ORDEN ||--o{ PRODUCTO : contiene
+    ORDEN ||--|| FACTURA : genera
+    FACTURA ||--o{ PAGO : tiene
+    INVENTARIO }|--|| SUCURSAL : pertenece
+    PRODUCTO }o--|| IMPUESTO : tiene
