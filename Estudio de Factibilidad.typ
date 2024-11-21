@@ -11,7 +11,7 @@
       align: (right, left),
       gutter: 1em,
       [Farid Baddour Omar#super[1]], [2021111423],
-      [Ruth Karina Chavez Carbajal#super[2]], [2021117367],
+      [Ruth Karina Chavez Carbajal#super[3]], [2021117367],
       [Javier Saldias Chavez#super[2]], [2018117700],
       [Luis Enrique Franco Egüez#super[5]], [2021113035],
       [Jassiel Ovando Franco#super[4]], [2021117600],
@@ -61,7 +61,7 @@
   #show: anexos.with()
   
   #include "anexos/1.instrumentos de recolección.typ"
-  // #include "anexos/2.propios de la investigación.typ"
+  #include "anexos/2.propios de la investigación.typ"
   // #include "anexos/3.cálculos-tablas-cotizaciones.typ"
   // #include "anexos/4.cv.typ"
 ]
