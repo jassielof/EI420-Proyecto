@@ -34,11 +34,16 @@
 #[
   #show: contenido-principal.with()
   
-  #include "capítulos/1.introducción.typ"
-  #include "capítulos/2.marco teórico.typ"
-  #include "capítulos/3.diagnóstico interno de la empresa.typ"
-  #include "capítulos/4.estudio de la materia prima e insumos.typ"
-  #include "capítulos/5.estudio de mercado.typ"
+  = Introducción 
+  = Marco Teórico
+  = Diagnóstico Interno de la Empresa
+  = Estudio de la Materia Prima e Insumos
+  = Estudio de Mercado
+  // #include "capítulos/1.introducción.typ"
+  // #include "capítulos/2.marco teórico.typ"
+  // #include "capítulos/3.diagnóstico interno de la empresa.typ"
+  // #include "capítulos/4.estudio de la materia prima e insumos.typ"
+  // #include "capítulos/5.estudio de mercado.typ"
   #include "capítulos/6.localización y tamaño.typ"
   #include "capítulos/7.estudio de ingeniería.typ"
   #include "capítulos/8.inversiones.typ"
@@ -52,7 +57,7 @@
 
 #bibliography(
   "referencias.yml",
-  full: true,
+  full: false,
   title: [Bibliografía y Referencias],
   style: "apa",
 )
@@ -60,7 +65,7 @@
 #[
   #show: anexos.with()
   
-  #include "anexos/1.instrumentos de recolección.typ"
+  // #include "anexos/1.instrumentos de recolección.typ"
   #include "anexos/2.propios de la investigación.typ"
   // #include "anexos/3.cálculos-tablas-cotizaciones.typ"
   // #include "anexos/4.cv.typ"

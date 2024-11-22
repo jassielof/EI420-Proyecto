@@ -2337,32 +2337,32 @@ Api.
 
 #box(image("media/image37.png"))
 
-===== Balance de Masa de Recría y Vacunas para pollitos bebés reproductores
-<balance-de-masa-de-recría-y-vacunas-para-pollitos-bebés-reproductores>
-===== Balance de Masa de Recría y consumo de agua de los pollitos bebés reproductores
-<balance-de-masa-de-recría-y-consumo-de-agua-de-los-pollitos-bebés-reproductores>
-==== ...
-<section-7>
-=== Balance de Energía
-<balance-de-energía>
-==== Energía Eléctrica
-<energía-eléctrica>
-==== Combustibles
-<combustibles>
-==== Agua
-<agua>
-=== Vehículos
-<vehículos>
-=== Uniformes y Equipos de Protección Personal
-<uniformes-y-equipos-de-protección-personal>
-=== Material de Escritorio
-<material-de-escritorio>
-=== Material de Limpieza
-<material-de-limpieza>
-=== Telecomunicaciones
-<telecomunicaciones>
-== Sistema de Gestión de Calidad Total
-<sistema-de-gestión-de-calidad-total>
+// ===== Balance de Masa de Recría y Vacunas para pollitos bebés reproductores
+// <balance-de-masa-de-recría-y-vacunas-para-pollitos-bebés-reproductores>
+// ===== Balance de Masa de Recría y consumo de agua de los pollitos bebés reproductores
+// <balance-de-masa-de-recría-y-consumo-de-agua-de-los-pollitos-bebés-reproductores>
+// ==== ...
+// <section-7>
+// === Balance de Energía
+// <balance-de-energía>
+// ==== Energía Eléctrica
+// <energía-eléctrica>
+// ==== Combustibles
+// <combustibles>
+// ==== Agua
+// <agua>
+// === Vehículos
+// <vehículos>
+// === Uniformes y Equipos de Protección Personal
+// <uniformes-y-equipos-de-protección-personal>
+// === Material de Escritorio
+// <material-de-escritorio>
+// === Material de Limpieza
+// <material-de-limpieza>
+// === Telecomunicaciones
+// <telecomunicaciones>
+// == Sistema de Gestión de Calidad Total
+// <sistema-de-gestión-de-calidad-total>
 
 == Sistema de Información Administrativo
 
