@@ -12,8 +12,8 @@ La microlocalización del proyecto, que implica la selección del lugar para la 
 
 La aplicación del modelo en cada una de sus etapas lleva a desarrollar la secuencia de cálculo:
 
--	Factores objetivos: Precio del terreno, costo de la construcción y costo de la adecuación.
--	Factores Subjetivos: Imagen de la zona, seguridad de la zona, cercanía a los clientes y por último el factor impositivo.
+-	*Factores objetivos*: Precio del terreno, costo de la construcción y costo de la adecuación.
+-	*Factores Subjetivos*: Imagen de la zona, seguridad de la zona, cercanía a los clientes y por último el factor impositivo.
 
 Etapas del método de Brown y Gibson:
 
@@ -71,8 +71,6 @@ Son aquellos que se miden cualitativamente, entre los cuales se consideran los s
 #image("assets/2024-11-21-09-29-17.png")
 
 ==== Selección de la macrolocalización
-
-
 *Peso*: indica la importancia que tiene cada factor en la estructura de costos en la empresa la suma de todos los pesos debe dar 1 o 100%, la calificación se da 1 a 10 al mejor puntaje.
 
 #image("assets/2024-11-21-09-30-10.png")
