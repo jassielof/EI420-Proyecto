@@ -181,20 +181,21 @@ AMA:
       date: 2024,
     }
 
-KotlerKellerMarketingManagement2022:
+MarketingManagement16thEd:
   type: book
   author: ["Kotler, P.", "Keller, K. L."]
   title: "Marketing Management"
   date: 2022
+  publisher: Pearson
   edition: 16
 
-KotlerKellerDireccionMarketing:
+MarketingAnIntroduction15thEd:
   type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Dirección de Marketing"
-  date: 2019
-  edition: 16
-  page-range: 43
+  author: ["Armstrong, G.", "Kotler, P."]
+  title: "Marketing: An Introduction"
+  date: 2022
+  publisher: Pearson
+  edition: 15
 
 KrugmanWellsEconomia2020:
   type: book
@@ -211,70 +212,6 @@ MankiwPrincipiosEconomia2021:
   date: 2021
   edition: 9
   publisher: Cengage
-
-MankiwPrincipiosEconomia2014:
-  type: book
-  author: ["Mankiw, N. G."]
-  title: "Principios de economía"
-  date: 2014
-  edition: 7
-  publisher: Cengage Learning
-
-KotlerKellerDireccionMarketing2020:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Dirección de Marketing"
-  date: 2020
-  edition: 16
-  page-range: 185
-
-KotlerArmstrongPrincipiosMarketing:
-  type: book
-  author: ["Kotler, P.", "Armstrong, G."]
-  title: "Principios de marketing"
-  date: 2017
-  edition: 15
-  publisher: Pearson Educación
-
-KotlerKellerDireccionMarketing2018:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Dirección de Marketing"
-  date: 2018
-  edition: 16
-  page-range: 205
-
-KotlerKellerDireccionMarketingProducto:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Dirección de Marketing"
-  date: 2018
-  edition: 16
-  page-range: 231
-
-KotlerArmstrongMarketingIntroduction:
-  type: book
-  author: ["Kotler, P.", "Armstrong, G."]
-  title: "Marketing: An Introduction"
-  date: 2021
-  edition: 15
-  page-range: 325
-
-KotlerArmstrongPrincipiosMarketingPlaza:
-  type: book
-  author: ["Kotler, P.", "Armstrong, G."]
-  title: "Principios de marketing"
-  date: 2017
-  edition: 15
-  publisher: Pearson Educación
-
-KotlerArmstrongPrincipiosMarketingPoblacion:
-  type: book
-  author: ["Kotler, P.", "Armstrong, G."]
-  title: "Principios de marketing"
-  date: 2017
-  edition: 15
-  publisher: Pearson Educación
 
 HernandezMetodologiaInvestigacion:
   type: book
@@ -353,14 +290,6 @@ HintonMcMurrayResearchMethods:
   edition: 2
   page-range: 98
 
-KotlerKellerMarketingManagementNicho:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Marketing Management"
-  date: 2020
-  edition: 15
-  publisher: Pearson
-
 MintzbergStrategySafari:
   type: book
   author: ["Mintzberg, H.", "Ahlstrand, B.", "Lampel, J."]
@@ -375,39 +304,6 @@ BarneyHesterlyStrategicManagement:
   title: "Strategic Management and Competitive Advantage: Concepts"
   date: 2019
   edition: 6
-  publisher: Pearson
-
-ArmstrongKotlerMarketingIntroduction:
-  type: book
-  author: ["Armstrong, G.", "Kotler, P."]
-  title: "Marketing: An Introduction"
-  date: 2019
-  edition: 17
-  publisher: Pearson
-
-KotlerKellerMarketingManagementMeta:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Marketing Management"
-  date: 2016
-  edition: 15
-  publisher: Pearson
-
-KotlerKellerMarketingManagementPosicionamiento:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Marketing Management"
-  date: 2016
-  edition: 15
-  publisher: Pearson
-
-KotlerKellerDireccionMarketingCadena:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Dirección de Marketing"
-  date: 2018
-  edition: 16
-  page-range: 45
   publisher: Pearson
 
 PorterCompetitiveAdvantagePrimarias:
@@ -480,14 +376,6 @@ DaftOrganizationalTheory:
   date: 2020
   edition: 13
   page-range: 44
-
-KotlerKellerMarketingManagementParticipacion:
-  type: book
-  author: ["Kotler, P.", "Keller, K. L."]
-  title: "Marketing Management"
-  date: 2021
-  edition: 16
-  publisher: Pearson
 
 DickBasuCustomerLoyalty:
   type: article
@@ -585,14 +473,6 @@ DeardorffInternationalTrade:
   date: 2020
   edition: 6
   page-range: 88
-
-CavesJonesWorldTradeBarriers:
-  type: book
-  author: ["Caves, R. E.", "Jones, R. W."]
-  title: "World Trade and Payments: An Introduction"
-  date: 2019
-  edition: 13
-  page-range: 170
 
 WTOWorldTradeReport:
   type: book
@@ -753,14 +633,6 @@ VanclaySocialImpact:
   edition: 1
   page-range: 37
 
-DaftOrganizationTheory:
-  type: book
-  author: ["Daft, R. L."]
-  title: "Organization Theory and Design"
-  date: 2021
-  edition: 13
-  page-range: 112
-
 GitmanZutterManagerialFinance:
   type: book
   author: ["Gitman, L. J.", "Zutter, C. J."]
@@ -835,14 +707,6 @@ BarneySM:
   title: "Strategic Management and Competitive Advantage: Concepts and Cases"
   date: 2019
   edition: 6
-  publisher: Pearson
-
-KotlerKellerMarketing:
-  type: book
-  author: ["Philip Kotler", "Kevin Lane Keller"]
-  title: "Marketing Management"
-  date: 2020
-  edition: 15
   publisher: Pearson
 
 AbadClassification:
@@ -1536,7 +1400,6 @@ HTML:
   title: HTML
   url: https://developer.mozilla.org/en-US/docs/Web/HTML
   date: 2024
-
 # chapter 6
 # chapter 7
 # chapter 8

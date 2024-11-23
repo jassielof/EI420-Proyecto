@@ -39,11 +39,11 @@
   = Diagnóstico Interno de la Empresa
   = Estudio de la Materia Prima e Insumos
   = Estudio de Mercado
-  // #include "capítulos/1.introducción.typ"
-  // #include "capítulos/2.marco teórico.typ"
-  // #include "capítulos/3.diagnóstico interno de la empresa.typ"
-  // #include "capítulos/4.estudio de la materia prima e insumos.typ"
-  // #include "capítulos/5.estudio de mercado.typ"
+  #include "capítulos/1.introducción.typ"
+  #include "capítulos/2.marco teórico.typ"
+  #include "capítulos/3.diagnóstico interno de la empresa.typ"
+  #include "capítulos/4.estudio de la materia prima e insumos.typ"
+  #include "capítulos/5.estudio de mercado.typ"
   #include "capítulos/6.localización y tamaño.typ"
   #include "capítulos/7.estudio de ingeniería.typ"
   #include "capítulos/8.inversiones.typ"

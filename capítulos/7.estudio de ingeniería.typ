@@ -13,28 +13,53 @@ se consideró un escenario utópico en el mercado internacional para
 realizar el plan de ventas y con esto poder desarrollar el Plan y
 Programa de Producción de los Huevos Api.
 
-Tabla 7.1.1 Plan de Ventas de huevos Api para exportación
-
 #figure(
+  caption: [Plan de Ventas de huevos Api para exportación],
   align(center)[#table(
-    columns: (11.76%, 20.24%, 19.65%, 21.65%, 26.71%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Huevos
-      API];],
-      table.cell(align: center)[#strong[Plan de ventas
-      Anual];], table.cell(align: center)[#strong[Plan de ventas
-      Mensual];], table.cell(align: center)[#strong[Plan de ventas
-      Semanal];], table.cell(align: center)[#strong[Plan de ventas
-      Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[28800], table.cell(align: center)[2400], table.cell(align: center)[600], table.cell(align: center)[86],
-      table.cell(align: center)[2], table.cell(align: center)[57600], table.cell(align: center)[4800], table.cell(align: center)[1200], table.cell(align: center)[172],
-      table.cell(align: center)[3], table.cell(align: center)[86400], table.cell(align: center)[7200], table.cell(align: center)[1800], table.cell(align: center)[258],
-      table.cell(align: center)[4], table.cell(align: center)[115200], table.cell(align: center)[9600], table.cell(align: center)[2400], table.cell(align: center)[343],
-      table.cell(align: center)[5], table.cell(align: center)[144000], table.cell(align: center)[12000], table.cell(align: center)[3000], table.cell(align: center)[429],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (11.76%, 20.24%, 19.65%, 21.65%, 26.71%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Huevos
+            API];],
+        table.cell(align: center)[#strong[Plan de ventas
+            Anual];],
+        table.cell(align: center)[#strong[Plan de ventas
+            Mensual];],
+        table.cell(align: center)[#strong[Plan de ventas
+            Semanal];],
+        table.cell(align: center)[#strong[Plan de ventas
+            Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[28800],
+        table.cell(align: center)[2400],
+        table.cell(align: center)[600],
+        table.cell(align: center)[86],
+        table.cell(align: center)[2],
+        table.cell(align: center)[57600],
+        table.cell(align: center)[4800],
+        table.cell(align: center)[1200],
+        table.cell(align: center)[172],
+        table.cell(align: center)[3],
+        table.cell(align: center)[86400],
+        table.cell(align: center)[7200],
+        table.cell(align: center)[1800],
+        table.cell(align: center)[258],
+        table.cell(align: center)[4],
+        table.cell(align: center)[115200],
+        table.cell(align: center)[9600],
+        table.cell(align: center)[2400],
+        table.cell(align: center)[343],
+        table.cell(align: center)[5],
+        table.cell(align: center)[144000],
+        table.cell(align: center)[12000],
+        table.cell(align: center)[3000],
+        table.cell(align: center)[429],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Entonces para realizar el Plan y Programa de producción de huevos Api se
 tomó en cuenta el plan de ventas que debemos cumplir y además un dato
@@ -43,53 +68,103 @@ clasificados como huevos Api, lo que quiere decir que el 97,5% de los
 huevos producidos son Api, entonces para cumplir con el plan de ventas
 habrá que producir una mayor cantidad de huevos Api.
 
-Tabla 7.1.2. Producción de huevos Api para exportación
-
 #figure(
+  caption: [Producción de huevos Api para exportación],
   align(center)[#table(
-    columns: (25.1%, 17.71%, 19.87%, 19.11%, 18.22%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Huevos
-      API];],
-      table.cell(align: center)[#strong[Producción
-      Anual];], table.cell(align: center)[#strong[Producción
-      Mensual];], table.cell(align: center)[#strong[Producción
-      Semanal];], table.cell(align: center)[#strong[Producción Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[29539], table.cell(align: center)[2462], table.cell(align: center)[616], table.cell(align: center)[89],
-      table.cell(align: center)[2], table.cell(align: center)[59077], table.cell(align: center)[4924], table.cell(align: center)[1231], table.cell(align: center)[177],
-      table.cell(align: center)[3], table.cell(align: center)[88616], table.cell(align: center)[7385], table.cell(align: center)[1847], table.cell(align: center)[265],
-      table.cell(align: center)[4], table.cell(align: center)[118154], table.cell(align: center)[9847], table.cell(align: center)[2462], table.cell(align: center)[352],
-      table.cell(align: center)[5], table.cell(align: center)[147693], table.cell(align: center)[12308], table.cell(align: center)[3077], table.cell(align: center)[440],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (25.1%, 17.71%, 19.87%, 19.11%, 18.22%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Huevos
+            API];],
+        table.cell(align: center)[#strong[Producción
+            Anual];],
+        table.cell(align: center)[#strong[Producción
+            Mensual];],
+        table.cell(align: center)[#strong[Producción
+            Semanal];],
+        table.cell(align: center)[#strong[Producción Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[29539],
+        table.cell(align: center)[2462],
+        table.cell(align: center)[616],
+        table.cell(align: center)[89],
+        table.cell(align: center)[2],
+        table.cell(align: center)[59077],
+        table.cell(align: center)[4924],
+        table.cell(align: center)[1231],
+        table.cell(align: center)[177],
+        table.cell(align: center)[3],
+        table.cell(align: center)[88616],
+        table.cell(align: center)[7385],
+        table.cell(align: center)[1847],
+        table.cell(align: center)[265],
+        table.cell(align: center)[4],
+        table.cell(align: center)[118154],
+        table.cell(align: center)[9847],
+        table.cell(align: center)[2462],
+        table.cell(align: center)[352],
+        table.cell(align: center)[5],
+        table.cell(align: center)[147693],
+        table.cell(align: center)[12308],
+        table.cell(align: center)[3077],
+        table.cell(align: center)[440],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Ahora tomando en cuenta que un peso óptimo del huevo API para
 exportación es de 50 gr, realizamos la siguiente tabla con las toneladas
 producidas de huevos API.
 
-Tabla 7.1.3. Producción de huevos Api para exportación en Kg
-
 #figure(
+  caption: [Producción de huevos Api para exportación en Kg],
   align(center)[#table(
-    columns: (25.1%, 17.71%, 19.87%, 19.11%, 18.22%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Huevos
-      API];],
-      table.cell(align: center)[#strong[Kg
-      Anual];], table.cell(align: center)[#strong[Kg
-      Mensual];], table.cell(align: center)[#strong[Kg
-      Semanal];], table.cell(align: center)[#strong[Kg Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[1476,95], table.cell(align: center)[123,1], table.cell(align: center)[30,8], table.cell(align: center)[4,45],
-      table.cell(align: center)[2], table.cell(align: center)[2953,85], table.cell(align: center)[246,2], table.cell(align: center)[61,55], table.cell(align: center)[8,85],
-      table.cell(align: center)[3], table.cell(align: center)[4430,8], table.cell(align: center)[369,25], table.cell(align: center)[92,35], table.cell(align: center)[13,25],
-      table.cell(align: center)[4], table.cell(align: center)[5907,7], table.cell(align: center)[492,35], table.cell(align: center)[123,1], table.cell(align: center)[17,6],
-      table.cell(align: center)[5], table.cell(align: center)[7384,65], table.cell(align: center)[615,4], table.cell(align: center)[153,85], table.cell(align: center)[22],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (25.1%, 17.71%, 19.87%, 19.11%, 18.22%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Huevos
+            API];],
+        table.cell(align: center)[#strong[Kg
+            Anual];],
+        table.cell(align: center)[#strong[Kg
+            Mensual];],
+        table.cell(align: center)[#strong[Kg
+            Semanal];],
+        table.cell(align: center)[#strong[Kg Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[1476,95],
+        table.cell(align: center)[123,1],
+        table.cell(align: center)[30,8],
+        table.cell(align: center)[4,45],
+        table.cell(align: center)[2],
+        table.cell(align: center)[2953,85],
+        table.cell(align: center)[246,2],
+        table.cell(align: center)[61,55],
+        table.cell(align: center)[8,85],
+        table.cell(align: center)[3],
+        table.cell(align: center)[4430,8],
+        table.cell(align: center)[369,25],
+        table.cell(align: center)[92,35],
+        table.cell(align: center)[13,25],
+        table.cell(align: center)[4],
+        table.cell(align: center)[5907,7],
+        table.cell(align: center)[492,35],
+        table.cell(align: center)[123,1],
+        table.cell(align: center)[17,6],
+        table.cell(align: center)[5],
+        table.cell(align: center)[7384,65],
+        table.cell(align: center)[615,4],
+        table.cell(align: center)[153,85],
+        table.cell(align: center)[22],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Ahora, se cuenta con la producción diaria de huevos Api durante el mes
 de octubre, donde prácticamente en su totalidad es para la incubación,
@@ -97,136 +172,210 @@ además también se tiene la cantidad de gallos y gallinas que realizaron
 esa producción en octubre y la cantidad de pollitos que estaban en los
 galpones de recría también en el mes de octubre.
 
-Tabla 7.1.4. Producción de huevos Api total en el mes de Octubre
+#figure(
+  caption: [Producción de huevos Api total en el mes de Octubre],
+  align(center)[#table(
+      columns: (22.78%, 39.18%, 38.04%),
+      align: (auto, auto, auto),
+      table.header(
+        table.cell(align: center)[#strong[FECHA];],
+        table.cell(align: center)[#strong[API
+            DÍA];],
+        table.cell(align: center)[#strong[SEMANAL API];],
+        table.cell(align: center)[01/10/2024],
+        table.cell(align: center)[129.038],
+        table.cell(align: center, rowspan: 6)[775.007],
+        table.cell(align: center)[02/10/2024],
+        table.cell(align: center)[129.606],
+        table.cell(align: center)[03/10/2024],
+        table.cell(align: center)[129.925],
+        table.cell(align: center)[04/10/2024],
+        table.cell(align: center)[127.487],
+        table.cell(align: center)[05/10/2024],
+        table.cell(align: center)[128.746],
+        table.cell(align: center)[06/10/2024],
+        table.cell(align: center)[130.205],
+        table.cell(align: center)[07/10/2024],
+        table.cell(align: center)[129.307],
+        table.cell(align: center, rowspan: 7)[880.372],
+        table.cell(align: center)[08/10/2024],
+        table.cell(align: center)[125.909],
+        table.cell(align: center)[09/10/2024],
+        table.cell(align: center)[125.942],
+        table.cell(align: center)[10/10/2024],
+        table.cell(align: center)[123.845],
+        table.cell(align: center)[11/10/2024],
+        table.cell(align: center)[122.980],
+        table.cell(align: center)[12/10/2024],
+        table.cell(align: center)[125.185],
+        table.cell(align: center)[13/10/2024],
+        table.cell(align: center)[127.204],
+        table.cell(align: center)[14/10/2024],
+        table.cell(align: center)[128.588],
+        table.cell(align: center, rowspan: 7)[903.976],
+        table.cell(align: center)[15/10/2024],
+        table.cell(align: center)[127.730],
+        table.cell(align: center)[16/10/2024],
+        table.cell(align: center)[128.928],
+        table.cell(align: center)[17/10/2024],
+        table.cell(align: center)[128.504],
+        table.cell(align: center)[18/10/2024],
+        table.cell(align: center)[129.193],
+        table.cell(align: center)[19/10/2024],
+        table.cell(align: center)[131.678],
+        table.cell(align: center)[20/10/2024],
+        table.cell(align: center)[129.355],
+        table.cell(align: center)[21/10/2024],
+        table.cell(align: center)[130.008],
+        table.cell(align: center, rowspan: 7)[911.761],
+        table.cell(align: center)[22/10/2024],
+        table.cell(align: center)[130.484],
+        table.cell(align: center)[23/10/2024],
+        table.cell(align: center)[130.280],
+        table.cell(align: center)[24/10/2024],
+        table.cell(align: center)[131.906],
+        table.cell(align: center)[25/10/2024],
+        table.cell(align: center)[130.005],
+        table.cell(align: center)[26/10/2024],
+        table.cell(align: center)[130.484],
+        table.cell(align: center)[27/10/2024],
+        table.cell(align: center)[128.594],
+        table.cell(align: center)[28/10/2024],
+        table.cell(align: center)[128.937],
+        table.cell(align: center, rowspan: 4)[523.393],
+        table.cell(align: center)[29/10/2024],
+        table.cell(align: center)[131.531],
+        table.cell(align: center)[30/10/2024],
+        table.cell(align: center)[131.495],
+        table.cell(align: center)[31/10/2024],
+        table.cell(align: center)[131.430],
+        table.cell(align: center)[#strong[TOTAL];],
+        table.cell(align: center)[#strong[3.994.509];],
+        [],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 #figure(
+  caption: [Cantidad de Aves reproductoras en los galpones de reproducción],
   align(center)[#table(
-    columns: (22.78%, 39.18%, 38.04%),
-    align: (auto,auto,auto,),
-    table.header(table.cell(align: center)[#strong[FECHA];], table.cell(align: center)[#strong[API
-      DÍA];], table.cell(align: center)[#strong[SEMANAL API];],
-      table.cell(align: center)[01/10/2024], table.cell(align: center)[129.038], table.cell(align: center, rowspan: 6)[775.007],
-      table.cell(align: center)[02/10/2024], table.cell(align: center)[129.606],
-      table.cell(align: center)[03/10/2024], table.cell(align: center)[129.925],
-      table.cell(align: center)[04/10/2024], table.cell(align: center)[127.487],
-      table.cell(align: center)[05/10/2024], table.cell(align: center)[128.746],
-      table.cell(align: center)[06/10/2024], table.cell(align: center)[130.205],
-      table.cell(align: center)[07/10/2024], table.cell(align: center)[129.307], table.cell(align: center, rowspan: 7)[880.372],
-      table.cell(align: center)[08/10/2024], table.cell(align: center)[125.909],
-      table.cell(align: center)[09/10/2024], table.cell(align: center)[125.942],
-      table.cell(align: center)[10/10/2024], table.cell(align: center)[123.845],
-      table.cell(align: center)[11/10/2024], table.cell(align: center)[122.980],
-      table.cell(align: center)[12/10/2024], table.cell(align: center)[125.185],
-      table.cell(align: center)[13/10/2024], table.cell(align: center)[127.204],
-      table.cell(align: center)[14/10/2024], table.cell(align: center)[128.588], table.cell(align: center, rowspan: 7)[903.976],
-      table.cell(align: center)[15/10/2024], table.cell(align: center)[127.730],
-      table.cell(align: center)[16/10/2024], table.cell(align: center)[128.928],
-      table.cell(align: center)[17/10/2024], table.cell(align: center)[128.504],
-      table.cell(align: center)[18/10/2024], table.cell(align: center)[129.193],
-      table.cell(align: center)[19/10/2024], table.cell(align: center)[131.678],
-      table.cell(align: center)[20/10/2024], table.cell(align: center)[129.355],
-      table.cell(align: center)[21/10/2024], table.cell(align: center)[130.008], table.cell(align: center, rowspan: 7)[911.761],
-      table.cell(align: center)[22/10/2024], table.cell(align: center)[130.484],
-      table.cell(align: center)[23/10/2024], table.cell(align: center)[130.280],
-      table.cell(align: center)[24/10/2024], table.cell(align: center)[131.906],
-      table.cell(align: center)[25/10/2024], table.cell(align: center)[130.005],
-      table.cell(align: center)[26/10/2024], table.cell(align: center)[130.484],
-      table.cell(align: center)[27/10/2024], table.cell(align: center)[128.594],
-      table.cell(align: center)[28/10/2024], table.cell(align: center)[128.937], table.cell(align: center, rowspan: 4)[523.393],
-      table.cell(align: center)[29/10/2024], table.cell(align: center)[131.531],
-      table.cell(align: center)[30/10/2024], table.cell(align: center)[131.495],
-      table.cell(align: center)[31/10/2024], table.cell(align: center)[131.430],
-      table.cell(align: center)[#strong[TOTAL];], table.cell(align: center)[#strong[3.994.509];], [],),
-    table.hline(),
-  )]
-  , kind: table
-  )
-
-Tabla 7.1.5. Cantidad de Aves reproductoras en los galpones de
-reproducción
+      columns: (38.57%, 61.43%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center, colspan: 2)[#strong[CANTIDAD
+            APROXIMADA DE AVES EN PRODUCCIÓN];],
+        table.cell(align: center)[#strong[SEXO];],
+        table.cell(align: center)[#strong[EN
+            TOTAL];],
+        table.cell(align: center)[#strong[HEMBRAS];],
+        table.cell(align: center)[176.540],
+        table.cell(align: center)[#strong[MACHOS];],
+        table.cell(align: center)[18.669],
+        table.cell(align: center)[#strong[TOTAL];],
+        table.cell(align: center)[195.209],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 #figure(
+  caption: [Cantidad de Pollitos en los galpones de recría],
   align(center)[#table(
-    columns: (38.57%, 61.43%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center, colspan: 2)[#strong[CANTIDAD
-      APROXIMADA DE AVES EN PRODUCCIÓN];],
-      table.cell(align: center)[#strong[SEXO];], table.cell(align: center)[#strong[EN
-      TOTAL];],
-      table.cell(align: center)[#strong[HEMBRAS];], table.cell(align: center)[176.540],
-      table.cell(align: center)[#strong[MACHOS];], table.cell(align: center)[18.669],
-      table.cell(align: center)[#strong[TOTAL];], table.cell(align: center)[195.209],),
-    table.hline(),
-  )]
-  , kind: table
-  )
-
-Tabla 7.1.6. Cantidad de Pollitos en los galpones de recría
-
-#figure(
-  align(center)[#table(
-    columns: (60.2%, 39.8%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center, colspan: 2)[#strong[CANTIDAD
-      APROXIMADA DE POLLITOS EN RECRÍA];],
-      table.cell(align: center)[#strong[SEXO];], table.cell(align: center)[#strong[EN
-      TOTAL];],
-      table.cell(align: center)[#strong[HEMBRAS];], table.cell(align: center)[84405],
-      table.cell(align: center)[#strong[MACHOS];], table.cell(align: center)[8907],
-      table.cell(align: center)[#strong[TOTAL];], table.cell(align: center)[93.312],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (60.2%, 39.8%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center, colspan: 2)[#strong[CANTIDAD
+            APROXIMADA DE POLLITOS EN RECRÍA];],
+        table.cell(align: center)[#strong[SEXO];],
+        table.cell(align: center)[#strong[EN
+            TOTAL];],
+        table.cell(align: center)[#strong[HEMBRAS];],
+        table.cell(align: center)[84405],
+        table.cell(align: center)[#strong[MACHOS];],
+        table.cell(align: center)[8907],
+        table.cell(align: center)[#strong[TOTAL];],
+        table.cell(align: center)[93.312],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Entonces con esta información y con la cantidad de huevos que
 necesitamos producir para exportar podemos calcular la cantidad de
 gallos y gallinas necesaria para realizar la producción de huevos Api
 que son para exportar.
 
-Tabla 7.1.7. Cantidad de Gallos y Gallinas necesarios para producción de
-huevos Api que serán exportados
+#figure(
+  caption: [Cantidad de Gallos y Gallinas necesarios para producción de huevos Api que serán exportados],
+  align(center)[#table(
+      columns: (18.62%, 40.41%, 40.97%),
+      align: (auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, rowspan: 2)[#strong[Cantidad
+            de Gallos Productores Necesarios para la
+            producción];],
+        table.cell(align: center, rowspan: 2)[#strong[Cantidad
+            de Gallinas Productores Necesarias para la producción];],
+
+        table.cell(align: center)[1],
+        table.cell(align: center)[13],
+        table.cell(align: center)[122],
+        table.cell(align: center)[2],
+        table.cell(align: center)[26],
+        table.cell(align: center)[243],
+        table.cell(align: center)[3],
+        table.cell(align: center)[39],
+        table.cell(align: center)[364],
+        table.cell(align: center)[4],
+        table.cell(align: center)[51],
+        table.cell(align: center)[483],
+        table.cell(align: center)[5],
+        table.cell(align: center)[64],
+        table.cell(align: center)[603],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 #figure(
+  caption: [Cantidad de Pollitos machos y hembras en los galpones de recría],
   align(center)[#table(
-    columns: (18.62%, 40.41%, 40.97%),
-    align: (auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, rowspan: 2)[#strong[Cantidad
-      de Gallos Productores Necesarios para la
-      producción];], table.cell(align: center, rowspan: 2)[#strong[Cantidad
-      de Gallinas Productores Necesarias para la producción];],
-      
-      table.cell(align: center)[1], table.cell(align: center)[13], table.cell(align: center)[122],
-      table.cell(align: center)[2], table.cell(align: center)[26], table.cell(align: center)[243],
-      table.cell(align: center)[3], table.cell(align: center)[39], table.cell(align: center)[364],
-      table.cell(align: center)[4], table.cell(align: center)[51], table.cell(align: center)[483],
-      table.cell(align: center)[5], table.cell(align: center)[64], table.cell(align: center)[603],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (18.62%, 40.41%, 40.97%),
+      align: (auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, rowspan: 2)[#strong[Cantidad
+            de Pollitos machos en los galpones de
+            Recría];],
+        table.cell(align: center, rowspan: 2)[#strong[Cantidad
+            de Pollitos hembra en los galpones de Recría];],
 
-Tabla 7.1.8. Cantidad de Pollitos machos y hembras en los galpones de
-recría
-
-#figure(
-  align(center)[#table(
-    columns: (18.62%, 40.41%, 40.97%),
-    align: (auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, rowspan: 2)[#strong[Cantidad
-      de Pollitos machos en los galpones de
-      Recría];], table.cell(align: center, rowspan: 2)[#strong[Cantidad
-      de Pollitos hembra en los galpones de Recría];],
-      
-      table.cell(align: center)[1], table.cell(align: center)[7], table.cell(align: center)[59],
-      table.cell(align: center)[2], table.cell(align: center)[13], table.cell(align: center)[117],
-      table.cell(align: center)[3], table.cell(align: center)[19], table.cell(align: center)[175],
-      table.cell(align: center)[4], table.cell(align: center)[25], table.cell(align: center)[231],
-      table.cell(align: center)[5], table.cell(align: center)[31], table.cell(align: center)[289],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+        table.cell(align: center)[1],
+        table.cell(align: center)[7],
+        table.cell(align: center)[59],
+        table.cell(align: center)[2],
+        table.cell(align: center)[13],
+        table.cell(align: center)[117],
+        table.cell(align: center)[3],
+        table.cell(align: center)[19],
+        table.cell(align: center)[175],
+        table.cell(align: center)[4],
+        table.cell(align: center)[25],
+        table.cell(align: center)[231],
+        table.cell(align: center)[5],
+        table.cell(align: center)[31],
+        table.cell(align: center)[289],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 También se realizaron tablas con la producción de alimento balanceado
 tanto para galpones de Recría como para los galpones de Producción.
@@ -235,28 +384,52 @@ En el caso del alimento balanceado para los galpones de Recría sólo se
 tomó en cuenta la cantidad de alimento balanceado necesario para la
 cantidad de pollitos en recría necesarios para la producción.
 
-Tabla 7.1.9. Cantidad de alimento balanceado para Pollitos machos y
-hembras en los galpones de recría
-
 #figure(
+  caption: [Cantidad de alimento balanceado para Pollitos machos y hembras en los galpones de recría],
   align(center)[#table(
-    columns: (12.48%, 12.48%, 27.09%, 27.47%, 20.47%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Alimento
-      Balanceado para galpones de Recría];],
-      table.cell(align: center)[#strong[Kg
-      Anual];], table.cell(align: center)[#strong[Kg
-      Mensual];], table.cell(align: center)[#strong[Kg
-      Semanal];], table.cell(align: center)[#strong[Kg Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[1203,125], table.cell(align: center)[100,2604167], table.cell(align: center)[25,06510417], table.cell(align: center)[3,580729167],
-      table.cell(align: center)[2], table.cell(align: center)[2369,791667], table.cell(align: center)[197,4826389], table.cell(align: center)[49,37065972], table.cell(align: center)[7,052951389],
-      table.cell(align: center)[3], table.cell(align: center)[3536,458333], table.cell(align: center)[294,7048611], table.cell(align: center)[73,67621528], table.cell(align: center)[10,52517361],
-      table.cell(align: center)[4], table.cell(align: center)[4666,666667], table.cell(align: center)[388,8888889], table.cell(align: center)[97,22222222], table.cell(align: center)[13,88888889],
-      table.cell(align: center)[5], table.cell(align: center)[5833,333333], table.cell(align: center)[486,1111111], table.cell(align: center)[121,5277778], table.cell(align: center)[17,36111111],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (12.48%, 15%, 27.09%, 27.47%, 20.47%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Alimento
+            Balanceado para galpones de Recría];],
+        table.cell(align: center)[#strong[Kg
+            Anual];],
+        table.cell(align: center)[#strong[Kg
+            Mensual];],
+        table.cell(align: center)[#strong[Kg
+            Semanal];],
+        table.cell(align: center)[#strong[Kg Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[1203,125],
+        table.cell(align: center)[100,2604167],
+        table.cell(align: center)[25,06510417],
+        table.cell(align: center)[3,580729167],
+        table.cell(align: center)[2],
+        table.cell(align: center)[2369,791667],
+        table.cell(align: center)[197,4826389],
+        table.cell(align: center)[49,37065972],
+        table.cell(align: center)[7,052951389],
+        table.cell(align: center)[3],
+        table.cell(align: center)[3536,458333],
+        table.cell(align: center)[294,7048611],
+        table.cell(align: center)[73,67621528],
+        table.cell(align: center)[10,52517361],
+        table.cell(align: center)[4],
+        table.cell(align: center)[4666,666667],
+        table.cell(align: center)[388,8888889],
+        table.cell(align: center)[97,22222222],
+        table.cell(align: center)[13,88888889],
+        table.cell(align: center)[5],
+        table.cell(align: center)[5833,333333],
+        table.cell(align: center)[486,1111111],
+        table.cell(align: center)[121,5277778],
+        table.cell(align: center)[17,36111111],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Lo mismo en el caso del alimento balanceado para los galpones de
 producción se tomó en cuenta la cantidad de alimento balanceado
@@ -264,51 +437,99 @@ necesario para la cantidad de gallos y gallinas necesarios para la
 producción. Pero en este caso lo dividimos en dos tablas, una para
 gallos y una para gallinas.
 
-Tabla 7.1.10. Cantidad de alimento balanceado para los Gallos
-Reproductores en los galpones de producción
+#figure(
+  caption: [Cantidad de alimento balanceado para los Gallos Reproductores en los galpones de producción],
+  align(center)[#table(
+      columns: (12.48%, 15%, 27.09%, 27.47%, 20.47%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Alimento
+            Balanceado para Gallos en galpones de Producción];],
+        table.cell(align: center)[#strong[Kg
+            Anual];],
+        table.cell(align: center)[#strong[Kg
+            Mensual];],
+        table.cell(align: center)[#strong[Kg
+            Semanal];],
+        table.cell(align: center)[#strong[Kg Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[652,7784027],
+        table.cell(align: center)[54,39820022],
+        table.cell(align: center)[13,59955006],
+        table.cell(align: center)[1,942792865],
+        table.cell(align: center)[2],
+        table.cell(align: center)[1305,556805],
+        table.cell(align: center)[108,7964004],
+        table.cell(align: center)[27,19910011],
+        table.cell(align: center)[3,88558573],
+        table.cell(align: center)[3],
+        table.cell(align: center)[1958,335208],
+        table.cell(align: center)[163,1946007],
+        table.cell(align: center)[40,79865017],
+        table.cell(align: center)[5,828378596],
+        table.cell(align: center)[4],
+        table.cell(align: center)[2560,899888],
+        table.cell(align: center)[213,408324],
+        table.cell(align: center)[53,35208099],
+        table.cell(align: center)[7,621725856],
+        table.cell(align: center)[5],
+        table.cell(align: center)[3213,67829],
+        table.cell(align: center)[267,8065242],
+        table.cell(align: center)[66,95163105],
+        table.cell(align: center)[9,564518721],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 #figure(
+  caption: [Cantidad de alimento balanceado para las Gallinas Reproductoras en los galpones de producción],
   align(center)[#table(
-    columns: (12.48%, 12.48%, 27.09%, 27.47%, 20.47%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Alimento
-      Balanceado para Gallos en galpones de Producción];],
-      table.cell(align: center)[#strong[Kg
-      Anual];], table.cell(align: center)[#strong[Kg
-      Mensual];], table.cell(align: center)[#strong[Kg
-      Semanal];], table.cell(align: center)[#strong[Kg Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[652,7784027], table.cell(align: center)[54,39820022], table.cell(align: center)[13,59955006], table.cell(align: center)[1,942792865],
-      table.cell(align: center)[2], table.cell(align: center)[1305,556805], table.cell(align: center)[108,7964004], table.cell(align: center)[27,19910011], table.cell(align: center)[3,88558573],
-      table.cell(align: center)[3], table.cell(align: center)[1958,335208], table.cell(align: center)[163,1946007], table.cell(align: center)[40,79865017], table.cell(align: center)[5,828378596],
-      table.cell(align: center)[4], table.cell(align: center)[2560,899888], table.cell(align: center)[213,408324], table.cell(align: center)[53,35208099], table.cell(align: center)[7,621725856],
-      table.cell(align: center)[5], table.cell(align: center)[3213,67829], table.cell(align: center)[267,8065242], table.cell(align: center)[66,95163105], table.cell(align: center)[9,564518721],),
-    table.hline(),
-  )]
-  , kind: table
-  )
-
-Tabla 7.1.11. Cantidad de alimento balanceado para los Gallinas
-Reproductores en los galpones de producción
-
-#figure(
-  align(center)[#table(
-    columns: (12.48%, 12.48%, 27.09%, 27.47%, 20.47%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Alimento
-      Balanceado para Gallinas en galpones de Producción];],
-      table.cell(align: center)[#strong[Kg
-      Anual];], table.cell(align: center)[#strong[Kg
-      Mensual];], table.cell(align: center)[#strong[Kg
-      Semanal];], table.cell(align: center)[#strong[Kg Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[8088,156339], table.cell(align: center)[674,0130282], table.cell(align: center)[168,5032571], table.cell(align: center)[24,07189386],
-      table.cell(align: center)[2], table.cell(align: center)[16110,01631], table.cell(align: center)[1342,501359], table.cell(align: center)[335,6253399], table.cell(align: center)[47,94647712],
-      table.cell(align: center)[3], table.cell(align: center)[24131,87629], table.cell(align: center)[2010,989691], table.cell(align: center)[502,7474227], table.cell(align: center)[71,82106038],
-      table.cell(align: center)[4], table.cell(align: center)[32021,14354], table.cell(align: center)[2668,428628], table.cell(align: center)[667,107157], table.cell(align: center)[95,30102243],
-      table.cell(align: center)[5], table.cell(align: center)[39976,70715], table.cell(align: center)[3331,392262], table.cell(align: center)[832,8480656], table.cell(align: center)[118,9782951],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (12.48%, 15%, 27.09%, 27.47%, 20.47%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Alimento
+            Balanceado para Gallinas en galpones de Producción];],
+        table.cell(align: center)[#strong[Kg
+            Anual];],
+        table.cell(align: center)[#strong[Kg
+            Mensual];],
+        table.cell(align: center)[#strong[Kg
+            Semanal];],
+        table.cell(align: center)[#strong[Kg Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[8088,156339],
+        table.cell(align: center)[674,0130282],
+        table.cell(align: center)[168,5032571],
+        table.cell(align: center)[24,07189386],
+        table.cell(align: center)[2],
+        table.cell(align: center)[16110,01631],
+        table.cell(align: center)[1342,501359],
+        table.cell(align: center)[335,6253399],
+        table.cell(align: center)[47,94647712],
+        table.cell(align: center)[3],
+        table.cell(align: center)[24131,87629],
+        table.cell(align: center)[2010,989691],
+        table.cell(align: center)[502,7474227],
+        table.cell(align: center)[71,82106038],
+        table.cell(align: center)[4],
+        table.cell(align: center)[32021,14354],
+        table.cell(align: center)[2668,428628],
+        table.cell(align: center)[667,107157],
+        table.cell(align: center)[95,30102243],
+        table.cell(align: center)[5],
+        table.cell(align: center)[39976,70715],
+        table.cell(align: center)[3331,392262],
+        table.cell(align: center)[832,8480656],
+        table.cell(align: center)[118,9782951],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Por otro lado, también se estimó la cantidad de consumo de agua pero de
 la misma manera se tomó en cuenta la cantidad de consumo de agua de los
@@ -316,49 +537,100 @@ gallos y gallinas necesarios para la producción. Se hicieron dos tablas,
 una para el consumo de agua en los galpones de recría y otra para el
 consumo de agua en los galpones de producción.
 
-Tabla 7.1.12. Cantidad de agua consumida en los galpones de producción
+#figure(
+  caption: [Cantidad de agua consumida en los galpones de producción],
+  align(center)[#table(
+      columns: (20%, 20%, 20%, 20%, 20%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Consumo
+            de agua en galpones de Producción];],
+        table.cell(align: center)[#strong[m3
+            Anual];],
+        table.cell(align: center)[#strong[m3
+            Mensual];],
+        table.cell(align: center)[#strong[m3
+            Semanal];],
+        table.cell(align: center)[#strong[m3 Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[1,1246],
+        table.cell(align: center)[0,0937],
+        table.cell(align: center)[0,0234],
+        table.cell(align: center)[0,0033],
+        table.cell(align: center)[2],
+        table.cell(align: center)[2,2409],
+        table.cell(align: center)[0,1867],
+        table.cell(align: center)[0,0467],
+        table.cell(align: center)[0,0067],
+        table.cell(align: center)[3],
+        table.cell(align: center)[3,3572],
+        table.cell(align: center)[0,2798],
+        table.cell(align: center)[0,0699],
+        table.cell(align: center)[0,0100],
+        table.cell(align: center)[4],
+        table.cell(align: center)[4,4486],
+        table.cell(align: center)[0,3707],
+        table.cell(align: center)[0,0927],
+        table.cell(align: center)[0,0132],
+        table.cell(align: center)[5],
+        table.cell(align: center)[5,5565],
+        table.cell(align: center)[0,4630],
+        table.cell(align: center)[0,1158],
+        table.cell(align: center)[0,0165],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
+
 
 #figure(
+  caption: [Cantidad de agua consumida en los galpones de recría],
   align(center)[#table(
-    columns: (20%, 20%, 20%, 20%, 20%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Consumo
-      de agua en galpones de Producción];],
-      table.cell(align: center)[#strong[m3
-      Anual];], table.cell(align: center)[#strong[m3
-      Mensual];], table.cell(align: center)[#strong[m3
-      Semanal];], table.cell(align: center)[#strong[m3 Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[1,1246], table.cell(align: center)[0,0937], table.cell(align: center)[0,0234], table.cell(align: center)[0,0033],
-      table.cell(align: center)[2], table.cell(align: center)[2,2409], table.cell(align: center)[0,1867], table.cell(align: center)[0,0467], table.cell(align: center)[0,0067],
-      table.cell(align: center)[3], table.cell(align: center)[3,3572], table.cell(align: center)[0,2798], table.cell(align: center)[0,0699], table.cell(align: center)[0,0100],
-      table.cell(align: center)[4], table.cell(align: center)[4,4486], table.cell(align: center)[0,3707], table.cell(align: center)[0,0927], table.cell(align: center)[0,0132],
-      table.cell(align: center)[5], table.cell(align: center)[5,5565], table.cell(align: center)[0,4630], table.cell(align: center)[0,1158], table.cell(align: center)[0,0165],),
-    table.hline(),
-  )]
-  , kind: table
-  )
-
-Tabla 7.1.13. Cantidad de agua consumida en los galpones de recría
-
-#figure(
-  align(center)[#table(
-    columns: (20%, 20%, 20%, 20%, 20%),
-    align: (auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 4)[#strong[Consumo
-      de agua en galpones de Recría];],
-      table.cell(align: center)[#strong[m3
-      Anual];], table.cell(align: center)[#strong[m3
-      Mensual];], table.cell(align: center)[#strong[m3
-      Semanal];], table.cell(align: center)[#strong[m3 Diaria];],
-      table.cell(align: center)[1], table.cell(align: center)[0,3243], table.cell(align: center)[0,0270], table.cell(align: center)[0,0068], table.cell(align: center)[0,0010],
-      table.cell(align: center)[2], table.cell(align: center)[0,6388], table.cell(align: center)[0,0532], table.cell(align: center)[0,0133], table.cell(align: center)[0,0019],
-      table.cell(align: center)[3], table.cell(align: center)[0,9533], table.cell(align: center)[0,0794], table.cell(align: center)[0,0199], table.cell(align: center)[0,0028],
-      table.cell(align: center)[4], table.cell(align: center)[1,2579], table.cell(align: center)[0,1048], table.cell(align: center)[0,0262], table.cell(align: center)[0,0037],
-      table.cell(align: center)[5], table.cell(align: center)[1,5724], table.cell(align: center)[0,1310], table.cell(align: center)[0,0328], table.cell(align: center)[0,0047],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (20%, 20%, 20%, 20%, 20%),
+      align: (auto, auto, auto, auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center, colspan: 4)[#strong[Consumo
+            de agua en galpones de Recría];],
+        table.cell(align: center)[#strong[m3
+            Anual];],
+        table.cell(align: center)[#strong[m3
+            Mensual];],
+        table.cell(align: center)[#strong[m3
+            Semanal];],
+        table.cell(align: center)[#strong[m3 Diaria];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[0,3243],
+        table.cell(align: center)[0,0270],
+        table.cell(align: center)[0,0068],
+        table.cell(align: center)[0,0010],
+        table.cell(align: center)[2],
+        table.cell(align: center)[0,6388],
+        table.cell(align: center)[0,0532],
+        table.cell(align: center)[0,0133],
+        table.cell(align: center)[0,0019],
+        table.cell(align: center)[3],
+        table.cell(align: center)[0,9533],
+        table.cell(align: center)[0,0794],
+        table.cell(align: center)[0,0199],
+        table.cell(align: center)[0,0028],
+        table.cell(align: center)[4],
+        table.cell(align: center)[1,2579],
+        table.cell(align: center)[0,1048],
+        table.cell(align: center)[0,0262],
+        table.cell(align: center)[0,0037],
+        table.cell(align: center)[5],
+        table.cell(align: center)[1,5724],
+        table.cell(align: center)[0,1310],
+        table.cell(align: center)[0,0328],
+        table.cell(align: center)[0,0047],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Por último, también se estimó la cantidad de aplicación de vacunas, pero
 de la misma manera se tomó en cuenta la cantidad de vacunas necesarias
@@ -366,70 +638,38 @@ para colocar a los gallos y gallinas para la producción. Se hicieron dos
 tablas, una para la aplicación de vacunas en los galpones de recría y
 otra para la aplicación de vacunas en los galpones de producción.
 
-Tabla 7.1.14. Cantidad anual de consumo de vacunas en los galpones de
-recría
+#figure(
+  caption: [Cantidad anual de consumo de vacunas en los galpones de recría],
+  image("assets/2024-11-22-15-13-37.png"),
+  kind: table,
+)
+
 
 #figure(
+  caption: [Cantidad anual de consumo de vacunas en los galpones de producción],
   align(center)[#table(
-    columns: (7.76%, 18.7%, 7.76%, 9.7%, 7.76%, 7.76%, 7.76%, 9.54%, 7.76%, 7.76%, 7.76%),
-    align: (auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center, colspan: 10)[#strong[Consumo
-      de Vacunas por Dosis al año en galpones de Recría];],
-      table.cell(align: center)[#strong[VECTORMUNE HVT + ILT +
-      RISPENS];], table.cell(align: center)[#strong[VURELA];], table.cell(align: center)[#strong[COCCIDIOSIS
-      EVALON];], table.cell(align: center)[#strong[HIPRAVIAR
-      SHS];], table.cell(align: center)[#strong[AVIPRO SALMONELLA
-      VAC-E];], table.cell(align: center)[#strong[VAXXON IB
-      H-120];], table.cell(align: center)[#strong[VAXXON
-      ND-HB1];], table.cell(align: center)[#strong[CEVAC GUMBO -
-      L];], table.cell(align: center)[#strong[BIOPASTEURELA
-      OLEOSA];], table.cell(align: center)[#strong[VAXXON POX P];],
-      table.cell(align: center)[1], table.cell(align: center)[66,00], table.cell(align: center)[66,00], table.cell(align: center)[66,00], table.cell(align: center)[66,00], table.cell(align: center)[132,00], table.cell(align: center)[792,00], table.cell(align: center)[792,00], table.cell(align: center)[132,00], table.cell(align: center)[792,00], table.cell(align: center)[132,00],
-      table.cell(align: center)[2], table.cell(align: center)[130,00], table.cell(align: center)[130,00], table.cell(align: center)[130,00], table.cell(align: center)[130,00], table.cell(align: center)[260,00], table.cell(align: center)[1560,00], table.cell(align: center)[1560,00], table.cell(align: center)[260,00], table.cell(align: center)[1560,00], table.cell(align: center)[260,00],
-      table.cell(align: center)[3], table.cell(align: center)[194,00], table.cell(align: center)[194,00], table.cell(align: center)[194,00], table.cell(align: center)[194,00], table.cell(align: center)[388,00], table.cell(align: center)[2328,00], table.cell(align: center)[2328,00], table.cell(align: center)[388,00], table.cell(align: center)[2328,00], table.cell(align: center)[388,00],
-      table.cell(align: center)[4], table.cell(align: center)[256,00], table.cell(align: center)[256,00], table.cell(align: center)[256,00], table.cell(align: center)[256,00], table.cell(align: center)[512,00], table.cell(align: center)[3072,00], table.cell(align: center)[3072,00], table.cell(align: center)[512,00], table.cell(align: center)[3072,00], table.cell(align: center)[512,00],
-      table.cell(align: center)[5], table.cell(align: center)[320,00], table.cell(align: center)[320,00], table.cell(align: center)[320,00], table.cell(align: center)[320,00], table.cell(align: center)[640,00], table.cell(align: center)[3840,00], table.cell(align: center)[3840,00], table.cell(align: center)[640,00], table.cell(align: center)[3840,00], table.cell(align: center)[640,00],
-      table.cell(align: center)[#strong[AÑO];], table.cell(align: center)[#strong[CEVAC
-      GUMBO - L + NC LA SOTA + BRON 120 - L
-      (H120)];], table.cell(align: center)[#strong[POULVAC
-      TRT];], table.cell(align: center)[#strong[HEPAINMUNO BROILER (CEPA
-      4 Y 8 )];], table.cell(align: center)[#strong[CEVAC IBD
-      L];], table.cell(align: center)[#strong[ARTRITIS
-      VIRAL];], table.cell(align: center)[#strong[BIORAL
-      H120];], table.cell(align: center)[#strong[CEVAC IBD L + CEVAC NC
-      LA SOTA];], table.cell(align: center)[#strong[AVIPRO
-      THYMOVAC];], table.cell(align: center)[#strong[AVISAN SECURE
-      (SE)];], table.cell(align: center)[#strong[AVIPRO 431
-      (NC,BI,IBD,REO)];],
-      table.cell(align: center)[1], table.cell(align: center)[66,00], table.cell(align: center)[66,00], table.cell(align: center)[792,00], table.cell(align: center)[132,00], table.cell(align: center)[66,00], table.cell(align: center)[132,00], table.cell(align: center)[792,00], table.cell(align: center)[132,00], table.cell(align: center)[66,00], table.cell(align: center)[66,00],
-      table.cell(align: center)[2], table.cell(align: center)[130,00], table.cell(align: center)[130,00], table.cell(align: center)[1560,00], table.cell(align: center)[260,00], table.cell(align: center)[130,00], table.cell(align: center)[260,00], table.cell(align: center)[1560,00], table.cell(align: center)[260,00], table.cell(align: center)[130,00], table.cell(align: center)[130,00],
-      table.cell(align: center)[3], table.cell(align: center)[194,00], table.cell(align: center)[194,00], table.cell(align: center)[2328,00], table.cell(align: center)[388,00], table.cell(align: center)[194,00], table.cell(align: center)[388,00], table.cell(align: center)[2328,00], table.cell(align: center)[388,00], table.cell(align: center)[194,00], table.cell(align: center)[194,00],
-      table.cell(align: center)[4], table.cell(align: center)[256,00], table.cell(align: center)[256,00], table.cell(align: center)[3072,00], table.cell(align: center)[512,00], table.cell(align: center)[256,00], table.cell(align: center)[512,00], table.cell(align: center)[3072,00], table.cell(align: center)[512,00], table.cell(align: center)[256,00], table.cell(align: center)[256,00],
-      table.cell(align: center)[5], table.cell(align: center)[320,00], table.cell(align: center)[320,00], table.cell(align: center)[3840,00], table.cell(align: center)[640,00], table.cell(align: center)[320,00], table.cell(align: center)[640,00], table.cell(align: center)[3840,00], table.cell(align: center)[640,00], table.cell(align: center)[320,00], table.cell(align: center)[320,00],),
-    table.hline(),
-  )]
-  , kind: table
-  )
-
-Tabla 7.1.15. Cantidad anual de consumo de vacunas en los galpones de
-producción
-
-#figure(
-  align(center)[#table(
-    columns: (22%, 78%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center, rowspan: 2)[#strong[Año];], table.cell(align: center)[#strong[Consumo
-      de Vacunas por Dosis al Año en galpones de Producción];],
-      table.cell(align: center)[#strong[BRONQUITIS H-120];],
-      table.cell(align: center)[1], table.cell(align: center)[405,00],
-      table.cell(align: center)[2], table.cell(align: center)[807,00],
-      table.cell(align: center)[3], table.cell(align: center)[1209,00],
-      table.cell(align: center)[4], table.cell(align: center)[1602,00],
-      table.cell(align: center)[5], table.cell(align: center)[2001,00],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (22%, 78%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center, rowspan: 2)[#strong[Año];],
+        table.cell(align: center)[#strong[Consumo
+            de Vacunas por Dosis al Año en galpones de Producción];],
+        table.cell(align: center)[#strong[BRONQUITIS H-120];],
+        table.cell(align: center)[1],
+        table.cell(align: center)[405,00],
+        table.cell(align: center)[2],
+        table.cell(align: center)[807,00],
+        table.cell(align: center)[3],
+        table.cell(align: center)[1209,00],
+        table.cell(align: center)[4],
+        table.cell(align: center)[1602,00],
+        table.cell(align: center)[5],
+        table.cell(align: center)[2001,00],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 == Selección de la Tecnología
 <selección-de-la-tecnología>
@@ -440,30 +680,32 @@ el segundo, el valor económico. A cada factor se le asignó un porcentaje
 según la importancia de este en las actividades en la empresa.
 
 === Maquinaria empleada para el proceso de producción de huevos API
-<maquinaria-empleada-para-el-proceso-de-producción-de-huevos-api>
-==== SISTEMA DE INSTAL. ALIMENTACION Y BEBEDEROS
-<sistema-de-instal.-alimentacion-y-bebederos>
-===== Análisis técnico- económico 
-<análisis-técnico--económico>
+==== SISTEMA DE INSTAL. ALIMENTACIÓN Y BEBEDEROS
+===== Análisis técnico-económico
 #figure(
+  caption: [Análisis técnico-económico],
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -471,24 +713,30 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.1. Clasificación y características técnicas
 
-#box(image("media/image96.png"))
+#figure(
+  image("media/image96.png"),
+  caption: [Clasificación y características técnicas],
+  kind: table,
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.2. Clasificación del precio y puntaje económico
-
-#box(image("media/image28.png"))
-
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  image("media/image28.png"),
+  kind: table,
+)
 ===== Selección de máquina
 <selección-de-máquina>
-=====  Tabla 7.2.3. Selección de máquina
-<tabla-7.2.3.-selección-de-máquina>
-#box(image("media/image115.png"))
+#figure(
+  caption: [Selección de máquina],
+  image("media/image115.png"),
+  kind: table,
+)
 
 Como se puede observar la alternativa ofertada por Big Dutchman es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -497,27 +745,32 @@ razonable.
 
 ==== SISTEMA DE INSTAL. BEBEDEROS DE NIPLES FOGER
 <sistema-de-instal.-bebederos-de-niples-foger>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-1>
 #figure(
+  caption: [Análisis técnico-económico de los bebederos de niples Foger],
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-1>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -525,24 +778,28 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.4. Clasificación y características técnicas
-
-#box(image("media/image35.png"))
+#figure(
+  caption: [Clasificación y características técnicas],
+  image("media/image35.png"),
+  kind: table,
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-1>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.5. Clasificación del precio y puntaje económico
-
-#box(image("media/image12.png"))
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  image("media/image12.png"),
+  kind: table,
+)
 
 ===== Selección de máquina
-<selección-de-máquina-1>
-=====  Tabla 7.2.6. Selección de máquina
-<tabla-7.2.6.-selección-de-máquina>
-#box(image("media/image63.png"))
+#figure(
+  caption: [Selección de máquina],
+  image("media/image63.png"),
+)
 
 Como se puede observar la alternativa ofertada por Lubing Systems es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -551,27 +808,31 @@ razonable.
 
 ==== CINTA TRANSPORTADORA
 <cinta-transportadora>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-2>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-2>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -579,24 +840,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.7. Clasificación y características técnicas
 
-#box(image("media/image3.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image3.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-2>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.8. Clasificación del precio y puntaje económico
 
-#box(image("media/image66.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image66.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-2>
-=====  Tabla 7.2.9. Selección de máquina
-<tabla-7.2.9.-selección-de-máquina>
-#box(image("media/image32.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image32.png"),
+)
 
 Como se puede observar la alternativa ofertada por Jansen Poultry
 Equipment es la que obtuvo mayor puntuación, polar lo tanto esta es la
@@ -605,27 +878,31 @@ con un precio razonable.
 
 ==== CARROS TRANSPORTADORES DE HUEVOS
 <carros-transportadores-de-huevos>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-3>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-3>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -633,53 +910,67 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.10. Clasificación y características técnicas
 
-#box(image("media/image4.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image4.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-3>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.11. Clasificación del precio y puntaje económico
 
-#box(image("media/image90.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image90.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-3>
-=====  Tabla 7.2.12. Selección de máquina
-<tabla-7.2.12.-selección-de-máquina>
-#box(image("media/image16.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image16.png"),
+)
 
 Como se puede observar la alternativa ofrecida por Big Butchman es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
 tomará debido a que posee las características necesarias y con un precio
 razonable.
 
-==== SISTEMA DE INSTAL. VENTILACION EXTRACTORES - ENDURA
-<sistema-de-instal.-ventilacion-extractores---endura>
-===== Análisis técnico- económico 
-<análisis-técnico--económico-4>
+==== SISTEMA DE INSTAL. VENTILACIÓN EXTRACTORES-ENDURA
+===== Análisis técnico-económico
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-4>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -687,24 +978,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.13. Clasificación y características técnicas
 
-#box(image("media/image72.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image72.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-4>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.14. Clasificación del precio y puntaje económico
 
-#box(image("media/image85.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image85.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-4>
-=====  Tabla 7.2.15. Selección de máquina
-<tabla-7.2.15.-selección-de-máquina>
-#box(image("media/image46.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image46.png"),
+)
 
 Como se puede observar la alternativa ofertada por Endura es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
@@ -713,27 +1016,31 @@ razonable.
 
 ==== MESAS PARRILLA P/LAVADO Y SECADO DE HUEVO
 <mesas-parrilla-plavado-y-secado-de-huevo>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-5>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-5>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -741,24 +1048,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.16. Clasificación y características técnicas
 
-#box(image("media/image50.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image50.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-5>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.17. Clasificación del precio y puntaje económico
 
-#box(image("media/image18.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image18.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-5>
-=====  Tabla 7.2.18. Selección de máquina
-<tabla-7.2.18.-selección-de-máquina>
-#box(image("media/image11.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image11.png"),
+)
 
 Como se puede observar la alternativa ofertada por Sanovo Washers es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -767,27 +1086,31 @@ razonable.
 
 ==== SISTEMA DE INSTAL. CALEFACCIONES
 <sistema-de-instal.-calefacciones>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-6>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-6>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -795,53 +1118,69 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.19. Clasificación y características técnicas
 
-#box(image("media/image39.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image39.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-6>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.20. Clasificación del precio y puntaje económico
 
-#box(image("media/image102.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image102.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-6>
-=====  Tabla 7.2.21. Selección de máquina
-<tabla-7.2.21.-selección-de-máquina>
-#box(image("media/image103.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image103.png"),
+)
 
 Como se puede observar la alternativa ofertada por Big Dutchman es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
 tomará debido a que posee las características necesarias y con un precio
 razonable.
 
-====  SISTEMA DE INSTAL. ENFRIAMIENTO Y NEBULIZACIÓN
+==== SISTEMA DE INSTAL. ENFRIAMIENTO Y NEBULIZACIÓN
 <sistema-de-instal.-enfriamiento-y-nebulización>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-7>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-7>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -849,53 +1188,69 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.22. Clasificación y características técnicas
 
-#box(image("media/image98.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image98.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-7>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.23. Clasificación del precio y puntaje económico
 
-#box(image("media/image106.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image106.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-7>
-=====  Tabla 7.2.24. Selección de máquina
-<tabla-7.2.24.-selección-de-máquina>
-#box(image("media/image79.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image79.png"),
+)
 
 Como se puede observar la alternativa ofertada por MeeFog Systems es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
 tomará debido a que posee las características necesarias y con un precio
 razonable.
 
-====  INSTALACIÓN SISTEMA DE PANELES EVAPORATIVOS
+==== INSTALACIÓN SISTEMA DE PANELES EVAPORATIVOS
 <instalación-sistema-de-paneles-evaporativos>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-8>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-8>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -903,53 +1258,69 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.25. Clasificación y características técnicas
 
-#box(image("media/image33.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image33.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-8>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.26. Clasificación del precio y puntaje económico
 
-#box(image("media/image70.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image70.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-8>
-===== Tabla 7.2.27. Selección de máquina
-<tabla-7.2.27.-selección-de-máquina>
-#box(image("media/image107.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image107.png"),
+)
 
 Como se puede observar la alternativa ofertada por Munters CELdek es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
 tomará debido a que posee las características necesarias y con un precio
 razonable.
 
-====  INSTALACION DE SILOS DE CAP. 20 TN.
+==== INSTALACION DE SILOS DE CAP. 20 TN.
 <instalacion-de-silos-de-cap.-20-tn.>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-9>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-9>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -957,24 +1328,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.28. Clasificación y características técnicas
 
-#box(image("media/image100.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image100.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-9>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.29. Clasificación del precio y puntaje económico
 
-#box(image("media/image87.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image87.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-9>
-===== Tabla 7.2.30. Selección de máquina
-<tabla-7.2.30.-selección-de-máquina>
-#box(image("media/image19.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image19.png"),
+)
 
 Como se puede observar la alternativa ofertada por Munters CELdek es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -983,27 +1366,31 @@ razonable.
 
 ==== SISTEMAS DE NIDOS AUTOMÁTICOS
 <sistemas-de-nidos-automáticos>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-10>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-10>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1011,24 +1398,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.31. Clasificación y características técnicas
 
-#box(image("media/image99.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image99.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-10>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.32. Clasificación del precio y puntaje económico
 
-#box(image("media/image45.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image45.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-10>
-===== Tabla 7.2.33. Selección de máquina
-<tabla-7.2.33.-selección-de-máquina>
-#box(image("media/image17.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image17.png"),
+)
 
 Como se puede observar la alternativa ofertada por Jansen Poultry es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1037,27 +1436,31 @@ razonable.
 
 ==== BALANZA DIGITAL FERTON DE 100 KG
 <balanza-digital-ferton-de-100-kg>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-11>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-11>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1065,24 +1468,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.34. Clasificación y características técnicas
 
-#box(image("media/image49.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image49.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-11>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.35. Clasificación del precio y puntaje económico
 
-#box(image("media/image43.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image43.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-11>
-===== Tabla 7.2.36. Selección de máquina
-<tabla-7.2.36.-selección-de-máquina>
-#box(image("media/image6.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image6.png"),
+)
 
 Como se puede observar la alternativa ofertada por Ferton es la que
 obtuvo mayor puntuación, por lo tanto esta es la opción que se tomará
@@ -1091,27 +1506,31 @@ razonable.
 
 ==== TANQUE DE AGUA DE 160LTS. PARA DESINFECCION DE HUEVO
 <tanque-de-agua-de-160lts.-para-desinfeccion-de-huevo>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-12>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-12>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1119,24 +1538,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.37. Clasificación y características técnicas
 
-#box(image("media/image59.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image59.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-12>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.38. Clasificación del precio y puntaje económico
 
-#box(image("media/image91.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image91.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-12>
-===== Tabla 7.2.39. Selección de máquina
-<tabla-7.2.39.-selección-de-máquina>
-#box(image("media/image9.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image9.png"),
+)
 
 Como se puede observar la alternativa ofertada por Aquaplas es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
@@ -1145,27 +1576,31 @@ razonable.
 
 ==== SELECCIONADORA DE HUEVOS
 <seleccionadora-de-huevos>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-13>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-13>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1173,24 +1608,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.40. Clasificación y características técnicas
 
-#box(image("media/image61.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image61.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-13>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.41. Clasificación del precio y puntaje económico
 
-#box(image("media/image97.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image97.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-13>
-===== Tabla 7.2.42. Selección de máquina
-<tabla-7.2.42.-selección-de-máquina>
-#box(image("media/image52.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image52.png"),
+)
 
 Como se puede observar la alternativa ofertada por Sanovo OptiGrader es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1199,27 +1646,31 @@ razonable.
 
 ==== MANEJADO DE AIRE PARA SALA FRÍA DE HUEVO
 <manejado-de-aire-para-sala-fría-de-huevo>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-14>
 #figure(
   align(center)[#table(
-    columns: (56.62%, 43.38%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[30%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[70%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.62%, 43.38%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[30%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[70%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-14>
 Las ponderaciones de las características de la máquina fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1227,24 +1678,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.43. Clasificación y características técnicas
 
-#box(image("media/image30.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image30.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-14>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.44. Clasificación del precio y puntaje económico
 
-#box(image("media/image29.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image29.png"),
+)
 
 ===== Selección de máquina
 <selección-de-máquina-14>
-===== Tabla 7.2.45. Selección de máquina
-<tabla-7.2.45.-selección-de-máquina>
-#box(image("media/image40.png"))
+
+
+#figure(
+  caption: [Selección de máquina],
+  kind: table,
+  image("media/image40.png"),
+)
 
 Como se puede observar la alternativa ofertada por Big Dutchman
 AirMaster es la que obtuvo mayor puntuación, polar lo tanto esta es la
@@ -1255,27 +1718,31 @@ Equipos de Oficina
 
 ==== ESCRITORIO
 <escritorio>
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-15>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-15>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1283,24 +1750,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.46. Clasificación y características técnicas
 
-#box(image("media/image22.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image22.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-15>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.47. Clasificación del precio y puntaje económico
 
-#box(image("media/image77.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image77.png"),
+)
 <section>
 ===== Selección de equipo
 <selección-de-equipo>
-===== Tabla 7.2.48. Selección del equipo 
-<tabla-7.2.48.-selección-del-equipo>
-#box(image("media/image88.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image88.png"),
+)
 
 Como se puede observar la alternativa ofertada por Staples es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
@@ -1309,27 +1788,31 @@ razonable.
 
 SILLA DE OFICINA
 
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-16>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-16>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1337,24 +1820,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.49. Clasificación y características técnicas
 
-#box(image("media/image111.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image111.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-16>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.50. Clasificación del precio y puntaje económico
 
-#box(image("media/image78.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image78.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-1>
-===== Tabla 7.2.51. Selección del equipo 
-<tabla-7.2.51.-selección-del-equipo>
-#box(image("media/image73.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image73.png"),
+)
 
 Como se puede observar la alternativa ofertada por Staples Hyken es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1363,27 +1858,31 @@ razonable.
 
 AIRE ACONDICIONADO
 
-===== Análisis técnico- económico 
+===== Análisis técnico-económico
 <análisis-técnico--económico-17>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-17>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1391,24 +1890,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.52. Clasificación y características técnicas
 
-#box(image("media/image92.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image92.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-17>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.53. Clasificación del precio y puntaje económico
 
-#box(image("media/image14.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image14.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-2>
-===== Tabla 7.2.54. Selección del equipo 
-<tabla-7.2.54.-selección-del-equipo>
-#box(image("media/image62.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image62.png"),
+)
 
 Como se puede observar la alternativa ofertada por White Westinghouse es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1419,23 +1930,27 @@ razonable.
 <cpu-de-escritorio>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-18>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1443,24 +1958,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.55. Clasificación y características técnicas
 
-#box(image("media/image25.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image25.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-18>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.56. Clasificación del precio y puntaje económico
 
-#box(image("media/image109.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image109.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-3>
-===== Tabla 7.2.57. Selección del equipo 
-<tabla-7.2.57.-selección-del-equipo>
-#box(image("media/image15.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image15.png"),
+)
 
 Como se puede observar la alternativa ofertada por Cooler Master HAF es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1471,23 +1998,27 @@ razonable.
 <televisor-lg-43>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-19>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1495,24 +2026,35 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.58. Clasificación y características técnicas
 
-#box(image("media/image82.png"))
 
-===== 
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image82.png"),
+)
+
+=====
 <section-1>
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-19>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.59. Clasificación del precio y puntaje económico
 
-#box(image("media/image112.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image112.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-4>
-Tabla 7.2.60. Selección del equipo #box(image("media/image93.png"))
+#figure(
+  caption: [],
+  image("media/image93.png"),
+)
 <tabla-7.2.60.-selección-del-equipo>
 Como se puede observar la alternativa ofertada por LG (43UP7500PSF) es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1523,23 +2065,27 @@ razonable.
 <monitor-samsumg-22>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-20>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1547,24 +2093,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.61. Clasificación y características técnicas
 
-#box(image("media/image34.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image34.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-20>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.62. Clasificación del precio y puntaje económico
 
-#box(image("media/image5.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image5.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-5>
-===== Tabla 7.2.63. Selección del equipo 
-<tabla-7.2.63.-selección-del-equipo>
-#box(image("media/image58.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image58.png"),
+)
 
 Como se puede observar la alternativa ofertada por LG (22MK430H) es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1575,23 +2133,27 @@ razonable.
 <proyector-epson>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-21>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1599,24 +2161,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.64. Clasificación y características técnicas
 
-#box(image("media/image42.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image42.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-21>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.65. Clasificación del precio y puntaje económico
 
-#box(image("media/image81.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image81.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-6>
-===== Tabla 7.2.66. Selección del equipo 
-<tabla-7.2.66.-selección-del-equipo>
-#box(image("media/image36.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image36.png"),
+)
 
 Como se puede observar la alternativa ofertada por BenQ MX550 es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
@@ -1627,23 +2201,27 @@ razonable.
 <central-telefono-linea-fija>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-22>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1651,51 +2229,67 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.67. Clasificación y características técnicas
 
-#box(image("media/image53.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image53.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-22>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.68. Clasificación del precio y puntaje económico
 
-#box(image("media/image54.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image54.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-7>
-===== Tabla 7.2.69. Selección del equipo 
-<tabla-7.2.69.-selección-del-equipo>
-#box(image("media/image1.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image1.png"),
+)
 
 Como se puede observar la alternativa ofertada por Panasonic KY-HTS32 es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
 tomará debido a que posee las características necesarias y con un precio
 razonable.
 
-=====  SISTEMA BIOMÉTRICO
+===== SISTEMA BIOMÉTRICO
 <sistema-biométrico>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-23>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1703,50 +2297,67 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.70. Clasificación y características técnicas
 
-#box(image("media/image60.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image60.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-23>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.71. Clasificación del precio y puntaje económico \
-#box(image("media/image38.png"))
+
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image38.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-8>
-===== Tabla 7.2.72. Selección del equipo
-<tabla-7.2.72.-selección-del-equipo>
-#box(image("media/image24.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image24.png"),
+)
 
 Como se puede observar la alternativa ofertada por ZKTeco K30 es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
 debido a que posee las características necesarias y con un precio
 razonable.
 
-=====  SISTEMA ALARMA 
+===== SISTEMA ALARMA
 <sistema-alarma>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-24>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1754,23 +2365,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.73. Clasificación y características técnicas
 
-#box(image("media/image95.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image95.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-24>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.74. Clasificación del precio y puntaje económico \
-#box(image("media/image41.png"))
+
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image41.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-9>
-===== Tabla 7.2.75. Selección del equipo
-<tabla-7.2.75.-selección-del-equipo>
-#box(image("media/image23.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image23.png"),
+)
 
 Como se puede observar la alternativa ofertada por Paradox EVO192 es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1781,23 +2405,27 @@ razonable.
 <impresora-canon>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-25>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1805,51 +2433,67 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.76. Clasificación y características técnicas
 
-#box(image("media/image27.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image27.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-25>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.77. Clasificación del precio y puntaje económico
 
-#box(image("media/image47.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image47.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-10>
-===== Tabla 7.2.78. Selección del equipo
-<tabla-7.2.78.-selección-del-equipo>
-#box(image("media/image8.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image8.png"),
+)
 
 Como se puede observar la alternativa ofertada por HP LaserJet Pro
 MFPM428fdw es la que obtuvo mayor puntuación, polar lo tanto esta es la
 opción que se tomará debido a que posee las características necesarias y
 con un precio razonable.
 
-=====  COCINA ELECTRICA EMPOTRADA
+===== COCINA ELECTRICA EMPOTRADA
 <cocina-electrica-empotrada>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-26>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1857,24 +2501,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.79. Clasificación y características técnicas
 
-#box(image("media/image104.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image104.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-26>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.80. Clasificación del precio y puntaje económico
 
-#box(image("media/image2.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image2.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-11>
-===== Tabla 7.2.81. Selección del equipo
-<tabla-7.2.81.-selección-del-equipo>
-#box(image("media/image94.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image94.png"),
+)
 
 Como se puede observar la alternativa ofertada por Teka TZ6415 es la que
 obtuvo mayor puntuación, polar lo tanto esta es la opción que se tomará
@@ -1885,23 +2541,27 @@ razonable.
 <cafetera-eléctrica>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-27>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1909,24 +2569,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.82. Clasificación y características técnicas
 
-#box(image("media/image67.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image67.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-27>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.83. Clasificación del precio y puntaje económico
 
-#box(image("media/image108.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image108.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-12>
-===== Tabla 7.2.84. Selección del equipo
-<tabla-7.2.84.-selección-del-equipo>
-#box(image("media/image51.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image51.png"),
+)
 
 Como se puede observar la alternativa ofertada por Melitta AromaFresh es
 la que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1937,23 +2609,27 @@ razonable.
 <contador-de-billetes>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-28>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -1961,24 +2637,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.85. Clasificación y características técnicas
 
-#box(image("media/image65.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image65.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-28>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.86. Clasificación del precio y puntaje económico
 
-#box(image("media/image69.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image69.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-13>
-===== Tabla 7.2.87. Selección del equipo
-<tabla-7.2.87.-selección-del-equipo>
-#box(image("media/image75.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image75.png"),
+)
 
 Como se puede observar la alternativa ofertada por G-Star GS-510 es la
 que obtuvo mayor puntuación, polar lo tanto esta es la opción que se
@@ -1989,23 +2677,27 @@ razonable.
 <refrigerador>
 #figure(
   align(center)[#table(
-    columns: (56.74%, 43.26%),
-    align: (auto,auto,),
-    table.header(table.cell(align: center)[Propuesta económica será
-      del], table.cell(align: center)[50%],
-      table.cell(align: center)[Propuesta técnica será
-      del], table.cell(align: center)[50%],),
-    table.hline(),
-  )]
-  , kind: table
-  )
+      columns: (56.74%, 43.26%),
+      align: (auto, auto),
+      table.header(
+        table.cell(align: center)[Propuesta económica será
+          del],
+        table.cell(align: center)[50%],
+        table.cell(align: center)[Propuesta técnica será
+          del],
+        table.cell(align: center)[50%],
+      ),
+      table.hline(),
+    )],
+  kind: table,
+)
 
 Al momento de la selección de la maquinaria adecuada para el desarrollo,
 en este caso se asignó un factor técnico mayor al económico debido a que
 las características que tenga la máquina son más importantes que el
 precio.
 
-===== Clasificación y características técnicas 
+===== Clasificación y características técnicas
 <clasificación-y-características-técnicas-29>
 Las ponderaciones de las características del equipo fueron asignadas
 según la importancia y la influencia de estas al momento del desarrollo.
@@ -2013,24 +2705,36 @@ A continuación, se presentarán los datos técnicos de la máquina, que se
 tomaron en cuenta para elegir cuál será la que finalmente se acomodará
 mejor a las expectativas requeridas.
 
-Tabla 7.2.88. Clasificación y características técnicas
 
-#box(image("media/image7.png"))
+
+#figure(
+  caption: [Clasificación y características técnicas],
+  kind: table,
+  image("media/image7.png"),
+)
 
 ===== Clasificación del precio y cálculo del puntaje económico
 <clasificación-del-precio-y-cálculo-del-puntaje-económico-29>
 A continuación, se mostrará una tabla con los precios de cada
 alternativa expresados en dólares americanos:
 
-Tabla 7.2.89. Clasificación del precio y puntaje económico
 
-#box(image("media/image56.png"))
+
+#figure(
+  caption: [Clasificación del precio y puntaje económico],
+  kind: table,
+  image("media/image56.png"),
+)
 
 ===== Selección de equipo
 <selección-de-equipo-14>
-===== Tabla 7.2.90. Selección del equipo
-<tabla-7.2.90.-selección-del-equipo>
-#box(image("media/image83.png"))
+
+
+#figure(
+  caption: [Selección del equipo],
+  kind: table,
+  image("media/image83.png"),
+)
 
 Como se puede observar la alternativa ofertada por White-Westinghouse
 WWTRQ821KW es la que obtuvo mayor puntuación, polar lo tanto esta es la
@@ -2057,9 +2761,13 @@ actividades, desde la entrada, representada por el pedido del cliente,
 pasando por los procesos principales, hasta llegar a la salida, que
 corresponde a la entrega al cliente.
 
-#box(image("media/image86.png"))
 
-==== Diagrama de flujo de los procesos 
+#figure(
+  caption: [Mapa de procesos de producción],
+  image("media/image86.png"),
+)
+
+==== Diagrama de flujo de los procesos
 <diagrama-de-flujo-de-los-procesos>
 Estos diagramas permitirán identificar y comprender con mayor precisión
 las actividades involucradas en cada etapa clave del proceso productivo,
@@ -2067,20 +2775,23 @@ proporcionando una representación visual más clara y detallada que
 facilita el análisis y la comunicación entre los distintos actores
 involucrados.
 
-===== Recepción de pollitos bebés reproductores, Cría y Recría
-<recepción-de-pollitos-bebés-reproductores-cría-y-recría>
-#box(image("media/image68.png"))
+#figure(
+  caption: [Recepción de pollitos bebés reproductores, Cría y Recría],
+  image("media/image68.png"),
+)
 
-===== Producción
-<producción>
-#box(image("media/image10.png"))
+#figure(
+  caption: [Producción],
+  image("media/image10.png"),
+)
 
-===== Clasificación y Almacenaje
 <clasificación-y-almacenaje>
-#box(image("media/image20.png"))
+#figure(
+  caption: [Clasificación y Almacenaje],
+  image("media/image20.png"),
+)
 
 ==== Diagrama de flujo de los subprocesos
-<diagrama-de-flujo-de-los-subprocesos>
 Por último, los diagramas de flujo de los subprocesos permitirán
 profundizar aún más en el análisis del proceso productivo, detallando
 cada una de las actividades específicas que componen los procesos
@@ -2088,221 +2799,316 @@ principales. Estos diagramas proporcionarán una visión granular de las
 tareas individuales, los roles responsables, las dependencias entre
 actividades y los puntos críticos de cada subproceso.
 
-===== Logística y transporte de pollitos bebés reproductores
-<logística-y-transporte-de-pollitos-bebés-reproductores>
-#box(image("media/image119.jpg"))
+#figure(
+  caption: [Logística y transporte de pollitos bebés reproductores],
+  image("media/image119.jpg"),
+)
 
-===== Recepción de pollito bebés reproductores
-<recepción-de-pollito-bebés-reproductores>
-#box(image("media/image120.jpg"))
+#figure(
+  caption: [Recepción de pollito bebés reproductores],
+  image("media/image120.jpg"),
+)
 
-===== Aplicación de vacuna
-<aplicación-de-vacuna>
-#box(image("media/image124.jpg"))
+#figure(
+  caption: [Aplicación de vacuna],
+  image("media/image124.jpg"),
+)
 
-===== Selección de aves
-<selección-de-aves>
-#box(image("media/image105.jpg"))
-<section-2>
-#box(image("media/image105.jpg"))
+#figure(
+  caption: [Selección de aves],
+  image("media/image105.jpg"),
+)
 
-===== : Pesaje de pollitos, incremento y distribución de alimento
-<pesaje-de-pollitos-incremento-y-distribución-de-alimento>
-#box(image("media/image126.jpg"))
+#figure(
+  caption: [Pesaje de pollitos, incremento y distribución de alimento],
+  image("media/image126.jpg"),
+)
 
-===== Traslado de machos a galpones de producción
-<traslado-de-machos-a-galpones-de-producción>
-#box(image("media/image76.jpg"))
+#figure(
+  caption: [Traslado de machos a galpones de producción],
+  image("media/image76.jpg"),
+)
 
-=====  Traslado de hembras a galpones de producción
-<traslado-de-hembras-a-galpones-de-producción>
-#box(image("media/image44.jpg"))
+#figure(
+  caption: [Traslado de hembras a galpones de producción],
+  image("media/image44.jpg"),
+)
 
-===== Recría en producción
-<recría-en-producción>
-#box(image("media/image125.jpg"))
+#figure(
+  caption: [Recría en producción],
+  image("media/image125.jpg"),
+)
 
-===== Pesaje de aves, incremento y distribución de alimento
-<pesaje-de-aves-incremento-y-distribución-de-alimento>
-#box(image("media/image117.jpg"))
+#figure(
+  caption: [Pesaje de aves, incremento y distribución de alimento],
+  image("media/image117.jpg"),
+)
 
-===== Selección de gallos por peso
-<selección-de-gallos-por-peso>
-#box(image("media/image116.jpg"))
+#figure(
+  caption: [Selección de gallos por peso],
+  image("media/image116.jpg"),
+)
 
-===== Manejo de gallinas (Descarte)
-<manejo-de-gallinas-descarte>
-#box(image("media/image26.jpg"))
+#figure(
+  caption: [Manejo de gallinas (Descarte)],
+  image("media/image26.jpg"),
+)
 
-===== Intercambio de gallinas
-<intercambio-de-gallinas>
-#box(image("media/image101.jpg"))
+#figure(
+  caption: [Intercambio de gallinas],
+  image("media/image101.jpg"),
+)
 
-===== Manejo e intercambio de gallos
-<manejo-e-intercambio-de-gallos>
-#box(image("media/image64.jpg"))
+#figure(
+  caption: [Manejo e intercambio de gallos],
+  image("media/image64.jpg"),
+)
 
-===== Colecta y selección diaria de huevos
-<colecta-y-selección-diaria-de-huevos>
-#box(image("media/image84.jpg"))
+#figure(
+  caption: [Colecta y selección diaria de huevos],
+  image("media/image84.jpg"),
+)
 
-===== Desinfección de huevo API – Por fumigación (En Seco)
-<desinfección-de-huevo-api-por-fumigación-en-seco>
-#box(image("media/image57.jpg"))
+#figure(
+  caption: [Desinfección de huevo API – Por fumigación (En Seco)],
+  image("media/image57.jpg"),
+)
 
-===== Desinfección de huevo API – Por Aspersión (Húmedo) 
-<desinfección-de-huevo-api-por-aspersión-húmedo>
-#box(image("media/image114.jpg"))
+#figure(
+  caption: [Desinfección de huevo API – Por Aspersión (Húmedo)],
+  image("media/image114.jpg"),
+)
 
-===== Distribución de alimento
-<distribución-de-alimento>
-#box(image("media/image123.jpg"))
+#figure(
+  caption: [Distribución de alimento],
+  image("media/image123.jpg"),
+)
 
-===== Transporte de huevo
-<transporte-de-huevo>
-#box(image("media/image122.jpg"))
+#figure(
+  caption: [Transporte de huevo],
+  image("media/image122.jpg"),
+)
 
-===== Transporte de chala
-<transporte-de-chala>
-#box(image("media/image121.jpg"))
+#figure(
+  caption: [Transporte de chala],
+  image("media/image121.jpg"),
+)
 
-===== Despacho de gallos y gallinas
-<despacho-de-gallos-y-gallinas>
-#box(image("media/image118.jpg"))Recepción de huevo de producción en sala fría
-#box(image("media/image127.jpg"))
+#figure(
+  caption: [Despacho de gallos y gallinas],
+  image("media/image118.jpg"),
+)
 
-===== Clasificación de huevos Api
-<clasificación-de-huevos-api>
-#box(image("media/image113.jpg"))
+#figure(
+  caption: [Recepción de huevo de producción en sala fría],
+  image("media/image127.jpg"),
+)
+
+#figure(
+  caption: [Clasificación de huevos Api],
+  image("media/image113.jpg"),
+)
+
+==== Distribución en Planta
+<distribución-en-planta>
+La distribución en planta de la granja avícola destinada a la producción
+de huevos Api (aptos para incubación) ha sido diseñada siguiendo la
+metodología SLP (Systematic Layout Planning). Este método fue
+seleccionado por su enfoque integral, que permite organizar los espacios
+considerando aspectos críticos como las interacciones entre áreas, la
+secuencia de actividades, y las necesidades espaciales de cada sector. A
+continuación, se describen los pasos seguidos para aplicar esta
+metodología:
+
+===== Análisis Producto-Cantidad
+
+En el proyecto, la producción se enfoca en huevos aptos para la
+incubación. Esto implica que los galpones de producción y recría poseen
+mayor prioridad en cuanto a espacio debido a la necesidad de albergar un
+número considerable de aves. Asimismo, el acopio de alimentos tiene
+dimensiones significativas para garantizar un suministro constante y
+adecuado, mientras que la sala fría y la sala de clasificación requieren
+espacios proporcionados a su capacidad operativa diaria.
+
+===== Análisis del Recorrido de los Productos
+
+El recorrido de los huevos comienza en los galpones de producción, pasa
+por la sala de clasificación y termina en la sala fría de almacenaje.
+Esta secuencia define la proximidad entre dichas áreas, optimizando el
+transporte interno y reduciendo tiempos y costos operativos. De manera
+similar, los insumos como el alimento son almacenados cerca de los
+galpones de producción y recría para facilitar su distribución.
+
+===== Análisis de las Relaciones entre Actividades
+
+Se han considerado las relaciones funcionales entre las diferentes áreas
+para asegurar un flujo continuo y eficiente. Por ejemplo, los galpones
+de producción se encuentran próximos a los galpones de recría para
+facilitar la transición de las aves. La sala de clasificación se conecta
+directamente con los galpones de producción y la sala fría, mientras que
+el acopio de alimento está estratégicamente ubicado entre los galpones
+para reducir el esfuerzo logístico.
+
+===== Desarrollo del Diagrama Relacional de Actividades
+
+En este caso, el diagrama relacional no fue necesario debido a que las
+actividades y su secuencia ya están definidas por los requerimientos del
+proceso productivo. La línea de trabajo entre los galpones, la sala de
+clasificación y el área de almacenamiento sigue un flujo lógico y lineal
+que no permite alternativas significativas en la disposición.
+
+===== Análisis de Necesidades y Disponibilidad de Espacios
+
+La distribución se realizó considerando las dimensiones del terreno
+disponible y los requerimientos específicos de cada área. Se evaluaron
+las dimensiones de los galpones, la capacidad de almacenamiento
+necesaria para el acopio de alimento, y el tamaño de las salas de
+clasificación y almacenamiento en frío, ajustándose para asegurar un
+equilibrio entre funcionalidad y eficiencia.
+
+===== Desarrollo del Diagrama Relacional de Espacios
+
+Debido a que se contaba con datos precisos sobre las dimensiones y
+requerimientos de cada área, el diagrama relacional de espacios no fue
+imprescindible. La distribución se diseñó directamente para que las
+áreas tuvieran tamaños proporcionales a sus actividades, manteniendo
+distancias mínimas entre sectores relacionados.
+
+===== Selección de la Mejor Distribución
+
+El plano final refleja una disposición que prioriza la proximidad
+funcional y la reducción de distancias. Además, se incluyeron áreas
+adicionales, como espacios para oficinas y almacenamiento futuro,
+previendo necesidades de expansión y mejora operativa a largo plazo.
+
+Esta distribución garantiza un flujo eficiente de materiales y
+actividades, maximizando la productividad y facilitando la gestión
+operativa de la granja avícola.
+
+#figure(image("media/image88.png"), caption: [Plano de Distribución e instalación de Galpones])
+
+#figure(image("media/image112.png"), caption: [Diagrama de recorrido])
 
 === Proceso Administrativo
-<proceso-administrativo>
-Logistica y transporte de pollitos bebe
 
-#box(image("media/image21.png"))
+#figure(
+  caption: [Logística y transporte de pollitos bebe],
+  image("media/image21.png"),
+)
 
-Recepción de pollitos bebe
-
-#box(image("media/image89.png"))
+#figure(
+  caption: [Recepción de pollitos bebe],
+  image("media/image89.png"),
+)
 
 == Cuantificación de los Recursos de la Producción
-<cuantificación-de-los-recursos-de-la-producción>
-Para el plan de producción, hay que tener muchas cosas.
-
-Como la cantidad varia, los recursos de la produccion deben
-
-Tiempo promedio
-
-Sum tiempo usado
-
-Entre repeticiones
 
 === Diseño de la Línea de Producción Balanceada
-<diseño-de-la-línea-de-producción-balanceada>
-==== 1. Tiempo Estándar
-<tiempo-estándar>
-==== El tiempo estándar es el tiempo promedio que un operario necesita para realizar una tarea, considerando el uso de maquinaria, pausas y tolerancias.
-<el-tiempo-estándar-es-el-tiempo-promedio-que-un-operario-necesita-para-realizar-una-tarea-considerando-el-uso-de-maquinaria-pausas-y-tolerancias.>
-==== Procesos principales:
-<procesos-principales>
-==== Recepción de huevos: 5 minutos por lote (100 unidades).
-<recepción-de-huevos-5-minutos-por-lote-100-unidades.>
-==== Clasificación por tamaño: 8 minutos por lote.
-<clasificación-por-tamaño-8-minutos-por-lote.>
-==== Limpieza y desinfección: 12 minutos por lote.
-<limpieza-y-desinfección-12-minutos-por-lote.>
-==== Empaque: 10 minutos por lote.
-<empaque-10-minutos-por-lote.>
-==== Almacenamiento: 6 minutos por lote.
-<almacenamiento-6-minutos-por-lote.>
-==== 2. Tiempo Promedio Disponibilidad de Operarios y Maquinaria
-<tiempo-promedio-disponibilidad-de-operarios-y-maquinaria>
-==== Tiempo diario disponible del operador y maquinaria: 8 horas (480 minutos).
-<tiempo-diario-disponible-del-operador-y-maquinaria-8-horas-480-minutos.>
-==== 3. Número de Puestos de Trabajo en Jornada Normal
-<número-de-puestos-de-trabajo-en-jornada-normal>
-==== Según los tiempos descritos:
-<según-los-tiempos-descritos>
-==== Recepción: 5 operarios.
-<recepción-5-operarios.>
-==== Clasificación: 8 operarios.
-<clasificación-8-operarios.>
-==== Limpieza: 12 operarios.
-<limpieza-12-operarios.>
-==== Empaque: 10 operarios.
-<empaque-10-operarios.>
-==== Almacenamiento: 6 operarios.
-<almacenamiento-6-operarios.>
-==== Total: 41 operarios en jornada normal.
-<total-41-operarios-en-jornada-normal.>
-==== 4. Número de Horas Extras
-<número-de-horas-extras>
-==== Si la demanda excede la capacidad estándar, se considerará un turno extra de 2 horas por día para cubrir lotes adicionales (150 unidades más).
-<si-la-demanda-excede-la-capacidad-estándar-se-considerará-un-turno-extra-de-2-horas-por-día-para-cubrir-lotes-adicionales-150-unidades-más.>
-==== Recepción: 2 horas.
-<recepción-2-horas.>
-==== Clasificación: 2 horas.
-<clasificación-2-horas.>
-==== Limpieza: 3 horas.
-<limpieza-3-horas.>
-==== Empaque: 3 horas.
-<empaque-3-horas.>
-==== Almacenamiento: 2 horas.
-<almacenamiento-2-horas.>
-==== Máximo de 4 horas extras semanales por operario según normativa.
-<máximo-de-4-horas-extras-semanales-por-operario-según-normativa.>
-==== Tabla Diseño de linea producción balanceada
-<tabla-diseño-de-linea-producción-balanceada>
-#box(image("media/image80.png"))
-<section-4>
-==== 5. Cantidad de Maquinaria
+
+1. *Tiempo Estándar*
+
+El tiempo estándar es el tiempo promedio que un operario necesita para realizar una tarea, considerando el uso de maquinaria, pausas y tolerancias.
+
+*Procesos principales:*
+
+- Recepción de huevos: 5 minutos por lote (100 unidades).
+- Clasificación por tamaño: 8 minutos por lote.
+- Limpieza y desinfección: 12 minutos por lote.
+- Empaque: 10 minutos por lote.
+- Almacenamiento: 6 minutos por lote.
+
+2. *Tiempo Promedio Disponibilidad de Operarios y Maquinaria*
+
+- Tiempo diario disponible del operador y maquinaria: 8 horas (480 minutos).
+
+3. *Número de Puestos de Trabajo en Jornada Normal*
+
+Según los tiempos descritos:
+
+- Recepción: 5 operarios.
+- Clasificación: 8 operarios.
+- Limpieza: 12 operarios.
+- Empaque: 10 operarios.
+- Almacenamiento: 6 operarios.
+
+*Total:* 41 operarios en jornada normal.
+
+4. *Número de Horas Extras*
+
+Si la demanda excede la capacidad estándar, se considerará un turno extra de 2 horas por día para cubrir lotes adicionales (150 unidades más).
+
+- Recepción: 2 horas.
+- Clasificación: 2 horas.
+- Limpieza: 3 horas.
+- Empaque: 3 horas.
+- Almacenamiento: 2 horas.
+
+*Máximo de 4 horas extras semanales por operario según normativa.*
+
+#figure(
+  caption: [Tabla Diseño de linea producción balanceada],
+  image("media/image80.png"),
+)
+
+5. *Cantidad de Maquinaria*
 <cantidad-de-maquinaria>
-==== Clasificación automática de huevos: 1 máquina.
+- Clasificación automática de huevos: 1 máquina.
 <clasificación-automática-de-huevos-1-máquina.>
-==== Lavadora y desinfectadora: 1 máquina.
+- Lavadora y desinfectadora: 1 máquina.
 <lavadora-y-desinfectadora-1-máquina.>
-==== Empacadora: 1 máquina semiautomática.
+- Empacadora: 1 máquina semiautomática.
 <empacadora-1-máquina-semiautomática.>
-==== Cinta transportadora para traslado interno: 2 unidades.
+- Cinta transportadora para traslado interno: 2 unidades.
 <cinta-transportadora-para-traslado-interno-2-unidades.>
-==== 6. Cantidad de Equipos
+
+6. *Cantidad de Equipos*
 <cantidad-de-equipos>
-==== Balanzas digitales: 2 unidades.
+- Balanzas digitales: 2 unidades.
 <balanzas-digitales-2-unidades.>
-==== Compresores para limpieza: 1 unidad.
+- Compresores para limpieza: 1 unidad.
 <compresores-para-limpieza-1-unidad.>
-==== Escáneres de calidad (opcional): 1 unidad.
+- Escáneres de calidad (opcional): 1 unidad.
 <escáneres-de-calidad-opcional-1-unidad.>
-==== 7. Medios de Transporte
+
+7. *Medios de Transporte*
 <medios-de-transporte>
-==== Camiones refrigerados: 2 unidades (para distribución).
+- Camiones refrigerados: 2 unidades (para distribución).
 <camiones-refrigerados-2-unidades-para-distribución.>
-==== Montacargas: 1 unidad (para almacén).
+- Montacargas: 1 unidad (para almacén).
 <montacargas-1-unidad-para-almacén.>
-==== 8. Muebles y Enseres
+
+8. *Muebles y Enseres*
 <muebles-y-enseres>
-==== Mesas de acero inoxidable: 4 unidades.
+- Mesas de acero inoxidable: 4 unidades.
 <mesas-de-acero-inoxidable-4-unidades.>
-==== Estanterías para almacenamiento: 6 unidades.
+- Estanterías para almacenamiento: 6 unidades.
 <estanterías-para-almacenamiento-6-unidades.>
-==== Sillas ergonómicas para operarios: 10 unidades.
+- Sillas ergonómicas para operarios: 10 unidades.
 <sillas-ergonómicas-para-operarios-10-unidades.>
-==== 9. Equipos Informáticos
+
+9. *Equipos Informáticos*
 <equipos-informáticos>
-==== Computadoras para gestión: 2 unidades.
+- Computadoras para gestión: 2 unidades.
 <computadoras-para-gestión-2-unidades.>
-==== Sistema ERP: 1 software (control de inventarios y distribución).
+- Sistema ERP: 1 software (control de inventarios y distribución).
 <sistema-erp-1-software-control-de-inventarios-y-distribución.>
-==== Lectores de códigos de barras: 2 unidades.
+- Lectores de códigos de barras: 2 unidades.
 <lectores-de-códigos-de-barras-2-unidades.>
-==== 10. Herramientas
+
+10. *Herramientas*
 <herramientas>
-==== Juegos de herramientas de mantenimiento: 2 kits completos.
+- Juegos de herramientas de mantenimiento: 2 kits completos.
 <juegos-de-herramientas-de-mantenimiento-2-kits-completos.>
-==== Productos de limpieza industrial: Según normativa sanitaria.
+- Productos de limpieza industrial: Según normativa sanitaria.
 <productos-de-limpieza-industrial-según-normativa-sanitaria.>
-==== 11. Construcciones
+
+11. *Construcciones*
 <construcciones>
+- Área de recepción: 20 m².
+- Zona de clasificación y limpieza: 50 m².
+- Zona de empaque: 30 m².
+- Almacén refrigerado: 40 m².
+- Oficinas administrativas: 20 m².
 === Materia Prima e Insumos
 <materia-prima-e-insumos>
 ==== Balance de Masa
@@ -2313,56 +3119,209 @@ deseamos obtener y mediante esta información calculamos la cantidad de
 materia prima e insumos necesaria para llegar a esa cantidad de huevos
 Api.
 
-===== Balance de Masa Materia Prima
-<balance-de-masa-materia-prima>
-#box(image("media/image48.png"))
+#figure(
+  caption: [Balance de Masa Materia Prima],
+  image("media/image48.png"),
+)
 
-===== Balance de Masa de Alimento balanceado para gallos y gallinas reproductores
-<balance-de-masa-de-alimento-balanceado-para-gallos-y-gallinas-reproductores>
-#box(image("media/image74.png"))
+#figure(
+  caption: [Balance de Masa de Alimento balanceado para gallos y gallinas reproductores],
+  image("media/image74.png"),
+)
 
-#box(image("media/image31.png"))
+#figure(
+  caption: [Balance de Masa de Alimento balanceado para gallos y gallinas reproductores],
+  image("media/image31.png"),
+)
 
-===== Balance de Masa de Vacunas para gallos y gallinas reproductores
-<balance-de-masa-de-vacunas-para-gallos-y-gallinas-reproductores>
-#box(image("media/image13.png"))
+#figure(
+  caption: [Balance de Masa de Vacunas para gallos y gallinas reproductores],
+  image("media/image13.png"),
+)
 
-===== Balance de Masa de consumo de Agua de los gallos y gallinas reproductores
-<balance-de-masa-de-consumo-de-agua-de-los-gallos-y-gallinas-reproductores>
-#box(image("media/image71.png"))
+#figure(
+  caption: [Balance de Masa de consumo de Agua de los gallos y gallinas reproductores],
+  image("media/image71.png"),
+)
 
-===== Balance de Masa de Recría y Alimento balanceado para pollitos bebés reproductores
-<balance-de-masa-de-recría-y-alimento-balanceado-para-pollitos-bebés-reproductores>
-#box(image("media/image55.png"))
+#figure(
+  caption: [Balance de Masa de Recría y Alimento balanceado para pollitos bebés reproductores],
+  image("media/image55.png"),
+)
 
-#box(image("media/image37.png"))
+#figure(
+  caption: [Balance de Masa de Recría y Alimento balanceado para pollitos bebés reproductores],
+  image("media/image37.png"),
+)
 
-// ===== Balance de Masa de Recría y Vacunas para pollitos bebés reproductores
-// <balance-de-masa-de-recría-y-vacunas-para-pollitos-bebés-reproductores>
-// ===== Balance de Masa de Recría y consumo de agua de los pollitos bebés reproductores
-// <balance-de-masa-de-recría-y-consumo-de-agua-de-los-pollitos-bebés-reproductores>
-// ==== ...
-// <section-7>
-// === Balance de Energía
-// <balance-de-energía>
-// ==== Energía Eléctrica
-// <energía-eléctrica>
-// ==== Combustibles
-// <combustibles>
-// ==== Agua
-// <agua>
-// === Vehículos
-// <vehículos>
-// === Uniformes y Equipos de Protección Personal
-// <uniformes-y-equipos-de-protección-personal>
-// === Material de Escritorio
-// <material-de-escritorio>
-// === Material de Limpieza
-// <material-de-limpieza>
-// === Telecomunicaciones
-// <telecomunicaciones>
-// == Sistema de Gestión de Calidad Total
-// <sistema-de-gestión-de-calidad-total>
+#figure(
+  caption: [Balance de Masa de Recría y Vacunas para pollitos bebés reproductores],
+  image("assets/2024-11-23-17-43-33.png"),
+)
+
+#figure(
+  image("assets/2024-11-23-17-43-50.png"),
+  caption: [Balance de Masa de Recría y Vacunas para pollitos bebés reproductores],
+)
+
+#figure(
+  caption: [Balance de Masa de Recría y consumo de agua de los pollitos bebés reproductores],
+  image("assets/2024-11-23-17-44-17.png"),
+)
+
+== Cálculo Luminotécnico y de Potencia de Planta
+El método de lúmenes es una técnica sencilla para calcular la cantidad de luminarias necesarias en un espacio
+
+*Parámetros*:
+
+1. Nivel de iluminación (lux): Cantidad de luz deseada por metro cuadrado, según el tipo de espacio (oficinas: 300-500 lux).
+2. Área (m²): Superficie total a iluminar.
+3. Flujo luminoso por luminaria (lm): Lúmenes emitidos por cada luminaria.
+○ Ejemplo: Una luminaria fluorescente de 4x18W genera aproximadamente 5,400 lúmenes.
+4. Coeficiente de utilización (CU): Depende de la distribución de luz y reflexión del espacio (techo, paredes, suelo). Usualmente entre 0.5 y 0.8.
+5. Factor de mantenimiento (FM): Ajusta por depreciación de luz debido a suciedad o envejecimiento. Usualmente 0.7 a 0.8.
+
+#figure(
+  caption:[Método de lúmenes],image("assets/2024-11-23-17-46-32.png"),kind:table
+)
+
+#figure(
+  caption:[Cálculo de lúmenes],image("assets/2024-11-23-17-47-38.png"),kind:table
+)
+
+#figure(
+  caption: [Vehículos y uso de combustible],image("assets/2024-11-23-17-48-04.png"),kind:table
+)
+
+Los cuidados y mantenimiento que debe recibir un vehículo de trabajo por kilometraje son esenciales para asegurar su rendimiento, durabilidad y eficiencia. Estos cuidados varían según el tipo de vehículo y las recomendaciones del fabricante. A continuación, se proporciona una guía general basada en el kilometraje:
+
+*Cada 10,000 km o 6 meses (lo que ocurra primero)*
+
+1. *Cambio de aceite y filtro de aceite*:
+   - El aceite se debe cambiar regularmente para mantener el motor bien lubricado y evitar el desgaste excesivo de las piezas.
+2. *Revisión de frenos*:
+   - Comprobar las pastillas y discos de freno, asegurándose de que estén en buen estado.
+3. *Inspección de filtros*:
+   - Filtro de aire: reemplazar si está muy sucio o dañado.
+   - Filtro de combustible: revisar y reemplazar si es necesario.
+4. *Revisión de neumáticos*:
+   - Comprobar la presión y el desgaste de los neumáticos. Asegurarse de que la alineación y el balanceo estén correctos.
+5. *Comprobación de los líquidos*:
+   - Revisar los niveles de líquido de frenos, refrigerante, líquido de transmisión y dirección asistida.
+6. *Revisión de las luces*:
+   - Asegurarse de que todas las luces (faros, luces traseras, intermitentes) estén funcionando correctamente.
+7. *Inspección del sistema de escape*:
+   - Asegurarse de que no haya fugas o daños en el sistema de escape.
+
+*Cada 20,000 km o 12 meses*
+
+1. *Cambio de filtros de aire y combustible*:
+   - Reemplazar el filtro de aire si es necesario. Si el vehículo es utilizado en condiciones polvorientas o de mucho tráfico, este cambio podría ser más frecuente.
+2. *Revisión del sistema de refrigeración*:
+   - Asegurarse de que el radiador y las mangueras no presenten fugas. El líquido refrigerante debe ser renovado para evitar la corrosión.
+3. *Chequeo de la batería*:
+   - Revisar el estado de la batería y los terminales para asegurarse de que no haya corrosión ni pérdida de carga.
+4. *Revisión de la suspensión*:
+   - Inspeccionar amortiguadores, resortes y demás componentes de la suspensión.
+5. *Inspección de correas y cadenas de distribución*:
+   - Revisar el estado de las correas del motor. Si el vehículo tiene cadena de distribución, verificar que esté en buen estado.
+
+*Cada 40,000 km o 2 años*
+
+1. *Reemplazo de correas de distribución (si aplica)*:
+   - Las correas de distribución deben ser reemplazadas para evitar que se rompan y causen daños graves al motor.
+2. *Inspección de la transmisión*:
+   - Revisar la caja de cambios, tanto manual como automática, para detectar cualquier fuga o irregularidad.
+3. *Reemplazo del líquido de frenos*:
+   - El líquido de frenos debe cambiarse para evitar la corrosión interna y asegurar un frenado eficiente.
+4. *Revisión de la dirección asistida*:
+   - Asegurarse de que no haya fugas en el sistema de dirección asistida y que los componentes estén funcionando correctamente.
+
+*Cada 60,000 km o 3 años*
+
+1. *Cambio del líquido de transmisión*:
+   - El líquido de transmisión debe ser reemplazado para asegurar su buen funcionamiento y evitar que se dañe el sistema.
+2. *Reemplazo de bujías (en vehículos con motor a gasolina)*:
+   - Reemplazar las bujías para mantener un buen rendimiento del motor y una buena eficiencia de combustible.
+3. *Reemplazo de las pastillas de freno*:
+   - Verificar el grosor de las pastillas de freno y reemplazarlas si están muy desgastadas.
+4. *Reemplazo del filtro de habitáculo*:
+   - Para asegurar que el aire dentro del vehículo sea limpio, especialmente en ambientes con alta contaminación.
+
+*Cada 100,000 km o 5 años*
+
+1. *Inspección completa del sistema de dirección*:
+   - Asegurarse de que no haya desgaste ni daños significativos en los componentes de la dirección.
+2. *Inspección de los amortiguadores y suspensiones*:
+   - Verificar que los amortiguadores no tengan fugas y que la suspensión funcione adecuadamente.
+3. *Reemplazo de la bomba de agua*:
+   - Esto es crucial para mantener el sistema de refrigeración en buen estado.
+
+*Otros cuidados adicionales*:
+
+- Realizar mantenimiento preventivo en cada cambio de aceite o según sea necesario, como revisar los alineamientos, frenos, y otras partes del vehículo que pueden desgastarse por el uso.
+- Comprobar las luces de advertencia: No ignorar luces como "check engine" o alertas de batería, frenos o aceite.
+- Realizar limpieza del sistema de inyección (cada 40,000 a 60,000 km) para mejorar la eficiencia del motor.
+
+Cada fabricante tiene sus propias recomendaciones, por lo que siempre es recomendable revisar el manual de usuario o las indicaciones del fabricante para los intervalos específicos de mantenimiento.
+
+== Aspectos Necesarios para la Producción de Huevos
+
+1. *EPP (Equipo de Protección Personal)*:
+   - *Guantes*: Para proteger las manos durante la manipulación de huevos y contacto con aves.
+   - *Botas de seguridad*: Para evitar resbalones y proteger contra cualquier material peligroso en el suelo.
+   - *Ropa de trabajo*: Ropa resistente, cómoda y que proteja a los trabajadores de riesgos biológicos y químicos.
+   - *Mascarillas o respiradores*: Para protegerse de la inhalación de polvo, productos químicos, o en caso de manipulación de los pollos.
+   - *Gafas de seguridad*: En caso de manipular sustancias o realizar tareas con maquinaria que pueda generar partículas.
+   - *Protectores auditivos*: Si se trabaja en áreas con ruido elevado debido a la maquinaria o el equipo de ventilación.
+
+   *Mantenimiento del EPP*:
+   - Limpieza regular y reemplazo de elementos desgastados.
+   - Desinfección de los EPP para evitar la propagación de enfermedades entre los trabajadores y las aves.
+
+2. *Material de Escritorio*:
+   - *Escritorios y sillas*: Asegurarse de que el mobiliario sea ergonómico para evitar problemas posturales en los empleados.
+   - *Computadoras y periféricos*: Computadoras, impresoras, fotocopiadoras, teléfonos, y otros equipos tecnológicos necesarios para la gestión de la empresa.
+   - *Papelería*: Papel, bolígrafos, marcadores, carpetas, archivadores, entre otros.
+   - *Material de archivo*: Folders, archivadores y etiquetas para mantener la documentación organizada y facilitar el acceso a información relevante sobre la producción, calidad, ventas, etc.
+   - *Calculadoras o software contable*: Para el registro de ventas, costos, inventarios y demás datos financieros.
+
+3. *Material de Limpieza*:
+   - *Detergentes y desinfectantes*: Para la limpieza de superficies, equipos de producción y almacenamiento.
+   - *Escobas, mopas y trapos*: Elementos básicos para mantener las instalaciones limpias.
+   - *Cepillos y esponjas*: Para la limpieza de zonas más específicas (como las jaulas de los pollos).
+   - *Guantes de limpieza*: Para evitar el contacto directo con productos de limpieza y suciedad.
+   - *Equipo de desinfección de manos*: Gel o solución desinfectante para que los trabajadores se higienicen después de cada tarea.
+   - *Basureos y contenedores*: Para una correcta disposición de desechos.
+
+   *Importancia de la limpieza en la industria avícola*:
+   - Evita la propagación de enfermedades en las aves.
+   - Mantiene la calidad del producto (huevos).
+   - Cumple con las normativas de higiene alimentaria.
+
+4. *Telecomunicaciones*:
+   - *Teléfonos fijos y móviles*: Para asegurar que los empleados de la planta puedan comunicarse entre sí, así como con proveedores y clientes.
+   - *Correo electrónico corporativo*: Para mantener una comunicación eficiente y formal, tanto interna como externa.
+   - *Red de Internet estable*: Es fundamental contar con un servicio de internet rápido y confiable para la gestión de datos, monitoreo de la producción, comunicación en línea, y gestión de pedidos.
+   - *Sistema de videoconferencia*: Herramientas como Zoom, Microsoft Teams o Google Meet pueden ser útiles para reuniones a distancia con los equipos de trabajo o con proveedores de insumos.
+   - *Radio comunicación interna*: En algunos casos, las radios pueden ser útiles para la comunicación dentro de grandes instalaciones como galpones o plantas de producción.
+
+   *Mantenimiento de las telecomunicaciones*:
+   - Verificación regular de los equipos.
+   - Actualización de software y sistemas de comunicación.
+
+5. *Sistema de Gestión de Calidad Total*:
+   - *Estándares de calidad*: Establecer los requisitos específicos para la producción de huevos, como el tamaño, el color, la frescura, y la ausencia de contaminantes.
+   - *Monitoreo constante*: Inspección diaria de la producción y del bienestar de las aves.
+   - *Control de procesos*: Asegurar que cada fase de la producción esté bajo control, desde la alimentación y el cuidado de las aves, hasta la recolección y el empaquetado de los huevos.
+   - *Auditorías internas y externas*: Revisar el cumplimiento de los procesos establecidos y verificar que se cumpla con la normativa sanitaria y de seguridad alimentaria.
+   - *Capacitación constante*: Los trabajadores deben recibir formación periódica sobre prácticas seguras y estándares de calidad.
+   - *Certificaciones de calidad*: Obtener y mantener las certificaciones necesarias, como ISO 9001 (gestión de calidad) o HACCP (seguridad alimentaria), dependiendo de las normativas locales e internacionales.
+   - *Retroalimentación del cliente*: Establecer canales de comunicación con los clientes para recibir retroalimentación sobre la calidad del producto.
+
+   *Mantenimiento del sistema de gestión de calidad*:
+   - Revisión continua de los procedimientos.
+   - Mejoras constantes basadas en el análisis de los resultados y los comentarios recibidos.
 
 == Sistema de Información Administrativo
 
@@ -4034,4 +4993,7 @@ El diagrama de clases es una representación gráfica de las clases y sus relaci
 - *Relaciones*: Asistencia pertenece a Empleado
 
 == Cronograma de Implementación
-#image("assets/2024-11-21-09-52-04.png")
+#figure(
+  caption: [Cronograma de implementación],
+  image("assets/2024-11-21-09-52-04.png"),
+)

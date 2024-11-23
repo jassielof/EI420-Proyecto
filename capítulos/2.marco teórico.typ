@@ -55,10 +55,10 @@
 #quote(attribution: <AMA>)[De acuerdo con American Marketing Association (AMA) «el marketing es la actividad, el conjunto de instituciones y los procesos para crear, comunicar y entregar e intercambiar ofertas que tiene valor para los consumidores, clientes, socios y sociedad en general».]
 
 === Estrategias de marketing
-#quote(attribution: <KotlerKellerMarketingManagement2022>)[Las estrategias de marketing son un conjunto de acciones planificadas y coordinadas que una empresa implementa para alcanzar sus objetivos comerciales y satisfacer las necesidades de sus consumidores. Estas estrategias incluyen decisiones sobre el mercado objetivo, la propuesta de valor, la mezcla de marketing (producto, precio, lugar y promoción) y la diferenciación en relación a la competencia. Las empresas deben adaptar sus estrategias en función de las tendencias del mercado, la segmentación del público y el análisis de la competencia para lograr una ventaja competitiva sostenible.]
+#quote(attribution: <MarketingManagement16thEd>)[Las estrategias de marketing son un conjunto de acciones planificadas y coordinadas que una empresa implementa para alcanzar sus objetivos comerciales y satisfacer las necesidades de sus consumidores. Estas estrategias incluyen decisiones sobre el mercado objetivo, la propuesta de valor, la mezcla de marketing (producto, precio, lugar y promoción) y la diferenciación en relación a la competencia. Las empresas deben adaptar sus estrategias en función de las tendencias del mercado, la segmentación del público y el análisis de la competencia para lograr una ventaja competitiva sostenible.]
 
 === Mercado
-#quote(attribution: <KotlerKellerDireccionMarketing>)[Un mercado es el conjunto de compradores y vendedores que interactúan para intercambiar bienes y servicios.]
+#quote(attribution: <MarketingManagement16thEd>)[Un mercado es el conjunto de compradores y vendedores que interactúan para intercambiar bienes y servicios.]
 
 === Oferta
 #quote(attribution: <KrugmanWellsEconomia2020>)[En economía, la oferta se refiere a la cantidad de bienes o servicios que los productores están dispuestos a vender a diferentes precios durante un período de tiempo determinado. Es una de las fuerzas fundamentales en el mercado que interactúa con la demanda para determinar los precios y las cantidades producidas.]
@@ -67,28 +67,28 @@
 #quote(attribution: <MankiwPrincipiosEconomia2021>)[La demanda es la cantidad de bienes o servicios que los consumidores están dispuestos y son capaces de comprar a diferentes precios durante un período de tiempo determinado. La ley de la demanda establece que, en general, a medida que el precio de un bien disminuye, la cantidad demandada de ese bien aumenta, y viceversa.]
 
 === Equilibrio Oferta-Demanda
-#quote(attribution: <MankiwPrincipiosEconomia2014>)[El equilibrio oferta-demanda es el punto en el que las fuerzas de la oferta y la demanda se igualan, determinando así el precio de mercado y la cantidad de un bien o servicio que se intercambia.]
+#quote(attribution: <MankiwPrincipiosEconomia2021>)[El equilibrio oferta-demanda es el punto en el que las fuerzas de la oferta y la demanda se igualan, determinando así el precio de mercado y la cantidad de un bien o servicio que se intercambia.]
 
 === Competencia
-#quote(attribution: <KotlerKellerDireccionMarketing2020>)[La competencia se refiere a la rivalidad entre empresas en un mismo mercado que luchan por captar la atención y los recursos de los consumidores.]
+#quote(attribution: <MarketingManagement16thEd>)[La competencia se refiere a la rivalidad entre empresas en un mismo mercado que luchan por captar la atención y los recursos de los consumidores.]
 
 === Mezcla comercial
-#quote(attribution: <KotlerArmstrongPrincipiosMarketing>)[La mezcla comercial son las herramientas o variables que una empresa utiliza para lograr sus objetivos de marketing en un mercado objetivo. Estas variables se combinan de manera estratégica para satisfacer las necesidades y deseos de los consumidores y obtener una ventaja competitiva.]
+#quote(attribution: <MarketingManagement16thEd>)[La mezcla comercial son las herramientas o variables que una empresa utiliza para lograr sus objetivos de marketing en un mercado objetivo. Estas variables se combinan de manera estratégica para satisfacer las necesidades y deseos de los consumidores y obtener una ventaja competitiva.]
 
 === Precio
-#quote(attribution: <KotlerKellerDireccionMarketing2018>)[El precio es el valor monetario que se asigna a un producto o servicio, y representa el sacrificio que el consumidor está dispuesto a hacer para obtenerlo.]
+#quote(attribution: <MarketingManagement16thEd>)[El precio es el valor monetario que se asigna a un producto o servicio, y representa el sacrificio que el consumidor está dispuesto a hacer para obtenerlo.]
 
 === Producto
-#quote(attribution: <KotlerKellerDireccionMarketingProducto>)[Un producto es cualquier bien o servicio que se ofrece al mercado para satisfacer las necesidades o deseos de los consumidores.]
+#quote(attribution: <MarketingManagement16thEd>)[Un producto es cualquier bien o servicio que se ofrece al mercado para satisfacer las necesidades o deseos de los consumidores.]
 
 === Promoción
-#quote(attribution: <KotlerArmstrongMarketingIntroduction>)[La promoción se refiere a las actividades de comunicación y marketing que informan, persuaden y recuerdan a los consumidores sobre los productos y servicios, con el objetivo de aumentar las ventas y la lealtad a la marca.]
+#quote(attribution: <MarketingManagement16thEd>)[La promoción se refiere a las actividades de comunicación y marketing que informan, persuaden y recuerdan a los consumidores sobre los productos y servicios, con el objetivo de aumentar las ventas y la lealtad a la marca.]
 
 === Plaza
-#quote(attribution: <KotlerArmstrongPrincipiosMarketingPlaza>)[Una plaza es el conjunto de actividades que se lleva a cabo para que el producto esté disponible para los consumidores en el momento y lugar adecuados.]
+#quote(attribution: <MarketingManagement16thEd>)[Una plaza es el conjunto de actividades que se lleva a cabo para que el producto esté disponible para los consumidores en el momento y lugar adecuados.]
 
 === Población
-#quote(attribution: <KotlerArmstrongPrincipiosMarketingPoblacion>)[Una población se refiere al conjunto de individuos de una misma especie que comparten un mismo espacio geográfico, características en común y que es objeto de estudio en una investigación o análisis específico.]
+#quote(attribution: <MarketingManagement16thEd>)[Una población se refiere al conjunto de individuos de una misma especie que comparten un mismo espacio geográfico, características en común y que es objeto de estudio en una investigación o análisis específico.]
 
 === Estadística descriptiva
 
@@ -126,7 +126,7 @@
 #quote(attribution: <HintonMcMurrayResearchMethods>)[El muestreo no probabilístico es un método de selección de muestras en el que los elementos no tienen una probabilidad conocida de ser elegidos, lo que puede introducir sesgos en los resultados.]
 
 === Nicho de mercado
-#quote(attribution: <KotlerKellerMarketingManagementNicho>)[Un nicho de mercado es un segmento específico y más reducido dentro de un mercado más amplio, con características y necesidades únicas que no están plenamente satisfechas por los productos o servicios generales. Las empresas que se enfocan en un nicho de mercado buscan atender de manera especializada y personalizada a este grupo particular de consumidores, lo que les permite diferenciarse y competir eficazmente.]
+#quote(attribution: <MarketingManagement16thEd>)[Un nicho de mercado es un segmento específico y más reducido dentro de un mercado más amplio, con características y necesidades únicas que no están plenamente satisfechas por los productos o servicios generales. Las empresas que se enfocan en un nicho de mercado buscan atender de manera especializada y personalizada a este grupo particular de consumidores, lo que les permite diferenciarse y competir eficazmente.]
 
 === Estrategia
 #quote(attribution: <MintzbergStrategySafari>)[La estrategia es considerada un plan de acción que establece cómo una organización alcanzará sus objetivos a largo plazo, considerando sus recursos y el entorno competitivo.]
@@ -135,16 +135,16 @@
 #quote(attribution: <BarneyHesterlyStrategicManagement>)[La ventaja competitiva es una característica que permite a una empresa superar a sus competidores, ofreciendo mayor valor a sus clientes o reduciendo sus costos.]
 
 === Segmentación de mercado
-#quote(attribution: <ArmstrongKotlerMarketingIntroduction>)[La segmentación de mercado es el proceso de dividir un mercado en grupos más pequeños de consumidores con características y necesidades similares para diseñar estrategias de marketing más efectivas.]
+#quote(attribution: <MarketingAnIntroduction15thEd>)[La segmentación de mercado es el proceso de dividir un mercado en grupos más pequeños de consumidores con características y necesidades similares para diseñar estrategias de marketing más efectivas.]
 
 === Mercado meta
-#quote(attribution: <KotlerKellerMarketingManagementMeta>)[El mercado meta es el grupo específico al que una empresa dirige sus productos y estrategias de marketing, basado en el análisis de segmentación.]
+#quote(attribution: <MarketingManagement16thEd>)[El mercado meta es el grupo específico al que una empresa dirige sus productos y estrategias de marketing, basado en el análisis de segmentación.]
 
 === Posicionamiento
-#quote(attribution: <KotlerKellerMarketingManagementPosicionamiento>)[El posicionamiento se refiere a la percepción que los consumidores tienen de una marca o producto en comparación con sus competidores, y cómo se diferencia en el mercado.]
+#quote(attribution: <MarketingManagement16thEd>)[El posicionamiento se refiere a la percepción que los consumidores tienen de una marca o producto en comparación con sus competidores, y cómo se diferencia en el mercado.]
 
 === Cadena de valor
-#quote(attribution: <KotlerKellerDireccionMarketingCadena>)[La cadena de valor es el conjunto de actividades que las empresas realizan para llevar un producto desde la concepción hasta la entrega al consumidor final, maximizando el valor añadido en cada etapa.]
+#quote(attribution: <MarketingManagement16thEd>)[La cadena de valor es el conjunto de actividades que las empresas realizan para llevar un producto desde la concepción hasta la entrega al consumidor final, maximizando el valor añadido en cada etapa.]
 
 === Actividades primarias
 #quote(attribution: <PorterCompetitiveAdvantagePrimarias>)[Las actividades primarias son las actividades económicas que se basan en la extracción de recursos naturales. Estas actividades son la base de la economía de un territorio y se clasifican de acuerdo con el proceso que suponen y al producto o servicio que producen u ofrecen.]
@@ -174,7 +174,7 @@
 #quote(attribution: <DaftOrganizationalTheory>)[La eficacia se refiere a la capacidad de alcanzar los objetivos establecidos, independientemente de los recursos utilizados.]
 
 === Participación en el mercado
-#quote(attribution: <KotlerKellerMarketingManagementParticipacion>)[La participación de mercado es el porcentaje de las ventas de un mercado que una empresa o producto tiene en un período de tiempo determinado, indicando el tamaño de la relación con sus competidores y reflejando su capacidad de atraer y retener clientes.]
+#quote(attribution: <MarketingManagement16thEd>)[La participación de mercado es el porcentaje de las ventas de un mercado que una empresa o producto tiene en un período de tiempo determinado, indicando el tamaño de la relación con sus competidores y reflejando su capacidad de atraer y retener clientes.]
 
 === Fidelidad
 #quote(attribution: <DickBasuCustomerLoyalty>)[La fidelidad es la voluntad libre, firme y constante de mantenerse activamente vinculado a personas ideales legítimamente aceptados, a pesar de la erosión del tiempo y los obstáculos interiores y exteriores, que suelen ocasionar de modo naturales ellos reflejan con sus compras repetidas y la preferencia por esa marca sobre sus competidores.]
@@ -231,7 +231,7 @@
 #quote(attribution: <SalvatoreInternationalEconomics>)[Un arancel específico es un impuesto que se aplica a un bien basado en una cantidad fija por unidad importada, independientemente de su valor.]
 
 === Barreras arancelarias
-#quote(attribution: <CavesJonesWorldTradeBarriers>)[Las barreras arancelarias son impuestos o tarifas que se imponen a las importaciones para restringir el comercio internacional.]
+#quote(attribution: <CavesJonesWorldTrade>)[Las barreras arancelarias son impuestos o tarifas que se imponen a las importaciones para restringir el comercio internacional.]
 
 === Barreras no arancelarias
 #quote(attribution: <WTOWorldTradeReport>)[Las barreras no arancelarias son restricciones al comercio que no involucran tarifas, como cuotas, normas de calidad, y requisitos de licencias.]
@@ -315,7 +315,7 @@
 #quote(attribution: <VanclaySocialImpact>)[La evaluación de impacto social (EIS) es un proceso que se enfoca en analizar y prever las consecuencias sociales de un proyecto o política, incluyendo efectos sobre las comunidades, la cultura, la economía local y la calidad de vida. La EIS utiliza metodologías cualitativas y cuantitativas para evaluar factores como la participación comunitaria, los cambios en el empleo y las dinámicas sociales. Este tipo de evaluación es crucial para asegurar que los proyectos no solo sean viables desde un punto de vista económico, sino que también contribuyan al bienestar social.]
 
 === Organigrama
-#quote(attribution: <DaftOrganizationTheory>)[Un organigrama es una representación gráfica de la estructura organizacional de una empresa o institución. Muestra las relaciones jerárquicas entre los distintos departamentos, puestos y funciones dentro de la organización. Los organigramas pueden variar en su diseño, desde estructuras jerárquicas simples hasta representaciones más complejas que incluyen equipos transversales y relaciones interdepartamentales. Su uso permite visualizar claramente la distribución de responsabilidades y la cadena de mando, facilitando la comunicación y la gestión organizacional.]
+#quote(attribution: <DaftOrganizationalTheory>)[Un organigrama es una representación gráfica de la estructura organizacional de una empresa o institución. Muestra las relaciones jerárquicas entre los distintos departamentos, puestos y funciones dentro de la organización. Los organigramas pueden variar en su diseño, desde estructuras jerárquicas simples hasta representaciones más complejas que incluyen equipos transversales y relaciones interdepartamentales. Su uso permite visualizar claramente la distribución de responsabilidades y la cadena de mando, facilitando la comunicación y la gestión organizacional.]
 
 === Inversión
 #quote(attribution: <BrighamEhrhardtFinancialManagement>)[La inversión se refiere a la asignación de recursos, generalmente financieros, en activos con la expectativa de obtener un rendimiento o beneficio en el futuro. Las inversiones pueden ser de diferentes tipos, incluyendo inversiones en capital fijo (como maquinaria y edificios) y en capital de trabajo (como inventarios y cuentas por cobrar). La decisión de inversión es crucial para el crecimiento y la sostenibilidad de una empresa.]
