@@ -236,6 +236,27 @@ Al ver que el MPL en la alternativa D es mayor según el procedimiento y los cá
 == Tamaño
 El tamaño del proyecto se determinará después de acabar los capítulos de ingeniería, inversiones y presupuesto.
 
+=== Coyuntura del mercado 
+La demanda de los huevos API en Santa Cruz no está disponible debido a que las otras empresas son autosuficientes en la región. Según nuestras estadísticas hechas por nosotros en Bolivia, se estima que hay saturación en el mercado siendo su única alternativa la exportación hacia el mercado internacional. La producción de huevos API puede llegar a su máximo nivel de demanda, brindando el producto a un número considerable de mercado internacional.
+
+=== Disponibilidad de los recursos financieros 
+Los inversionistas del proyecto han evaluado y cuentan con una sólida capacidad financiera para la inversión inicial requerida. Además, pueden acceder a financiamiento a través de instituciones bancarias locales. Se estima que, con una correcta gestión financiera, los recursos disponibles serán suficientes para cubrir la ampliación  de la granja, por que la construcción inicial no será suficiente para cubrir la operación inicial de la exportación de los huevos API, con la modificación de la granja se espera que  alcance su punto de equilibrio. 
+
+=== Disponibilidad de la energía 
+La granja podría enfrentar restricciones significativas en cuanto a la disponibilidad de energía, ya que para su operación se necesita energía estable y en alto volumen,  Santa Cruz cuenta con una infraestructura eléctrica bien desarrollada y un suministro de energía confiable, pero aun así se requiere maquinaria para no sufrir ningún tipo de incidente y no afecte a su producción de los huevos API. 
+=== Disponibilidad de los recursos humanos 
+Santa Cruz Metropolitana dispone de un buen número de ingenieros, trabajadores para monitoreo, y especialistas en tratamiento de huevos API y pollitos bebe gracias a las diversas universidades y centros de formación en la ciudad. Además, se puede atraer talento de otras partes del país mediante ofertas laborales competitivas y oportunidades de desarrollo profesional. La disponibilidad de personal capacitado no será una limitante para el proyecto. 
+
+=== Disponibilidad de la tecnología 
+El acceso a la tecnología necesaria para la operación de la producción de huevos API no representa un obstáculo. Equipos especializados, software de gestión de producción, almacenamiento  y otras tecnologías esenciales están disponibles en el mercado local e internacional. Además, se pueden establecer alianzas estratégicas con proveedores de equipos tecnológicos para asegurar la provisión y el mantenimiento de la tecnología necesaria. 
+
+=== Disponibilidad de las instalaciones 
+La disponibilidad de instalaciones tampoco es restrictiva. El proyecto contempla la adquisición o construcción de un espacio físico adecuado para las actividades de la producción de huevos API. Santa Cruz cuenta con terrenos y materiales para la construcción y adecuación de edificaciones que pueden ser adaptados para este propósito, asegurando que las instalaciones cumplan con los estándares requeridos para la producción de huevos API. 
+
+== Tamaño del proyecto 
+El proyecto se desarrollará en la granja DON LUCAS, se realizará una ampliación de esta que permitirá la construcción de una infraestructura adecuada para la producción de huevos API. El tamaño del espacio físico será suficiente para albergar áreas de incubación, desinfección para huevos API, almacenamiento, vacunación de los huevos API, oficinas, áreas comunes, y espacios para actividades de los trabajadores. 
+
+
 // === Mercado
 // === Tecnología
 // === Recursos Financieros

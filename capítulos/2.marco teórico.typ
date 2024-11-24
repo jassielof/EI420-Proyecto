@@ -64,10 +64,10 @@
 #quote(attribution: <KrugmanWellsEconomia2020>)[En economía, la oferta se refiere a la cantidad de bienes o servicios que los productores están dispuestos a vender a diferentes precios durante un período de tiempo determinado. Es una de las fuerzas fundamentales en el mercado que interactúa con la demanda para determinar los precios y las cantidades producidas.]
 
 === Demanda
-#quote(attribution: <MankiwPrincipiosEconomia2021>)[La demanda es la cantidad de bienes o servicios que los consumidores están dispuestos y son capaces de comprar a diferentes precios durante un período de tiempo determinado. La ley de la demanda establece que, en general, a medida que el precio de un bien disminuye, la cantidad demandada de ese bien aumenta, y viceversa.]
+#quote(attribution: <MankiwPrinciplesEconomics>)[La demanda es la cantidad de bienes o servicios que los consumidores están dispuestos y son capaces de comprar a diferentes precios durante un período de tiempo determinado. La ley de la demanda establece que, en general, a medida que el precio de un bien disminuye, la cantidad demandada de ese bien aumenta, y viceversa.]
 
 === Equilibrio Oferta-Demanda
-#quote(attribution: <MankiwPrincipiosEconomia2021>)[El equilibrio oferta-demanda es el punto en el que las fuerzas de la oferta y la demanda se igualan, determinando así el precio de mercado y la cantidad de un bien o servicio que se intercambia.]
+#quote(attribution: <MankiwPrinciplesEconomics>)[El equilibrio oferta-demanda es el punto en el que las fuerzas de la oferta y la demanda se igualan, determinando así el precio de mercado y la cantidad de un bien o servicio que se intercambia.]
 
 === Competencia
 #quote(attribution: <MarketingManagement16thEd>)[La competencia se refiere a la rivalidad entre empresas en un mismo mercado que luchan por captar la atención y los recursos de los consumidores.]
@@ -150,7 +150,7 @@
 #quote(attribution: <PorterCompetitiveAdvantagePrimarias>)[Las actividades primarias son las actividades económicas que se basan en la extracción de recursos naturales. Estas actividades son la base de la economía de un territorio y se clasifican de acuerdo con el proceso que suponen y al producto o servicio que producen u ofrecen.]
 
 === Actividades de apoyo
-#quote(attribution: <PorterCompetitiveAdvantageApoyo>)[Las actividades de apoyo son aquellas que ayudan a las actividades primarias que no están directamente relacionadas con la producción de bienes o servicios, pero son necesarias para el funcionamiento de la empresa. Incluyen la infraestructura de la empresa, la gestión de recursos humanos, el desarrollo tecnológico y la adquisición de insumos. Estas actividades facilitan la operación eficiente y efectiva de las actividades primarias.]
+#quote(attribution: <PorterCompetitiveAdvantagePrimarias>)[Las actividades de apoyo son aquellas que ayudan a las actividades primarias que no están directamente relacionadas con la producción de bienes o servicios, pero son necesarias para el funcionamiento de la empresa. Incluyen la infraestructura de la empresa, la gestión de recursos humanos, el desarrollo tecnológico y la adquisición de insumos. Estas actividades facilitan la operación eficiente y efectiva de las actividades primarias.]
 
 === Punto de venta
 #quote(attribution: <CossioRetailManagement>)[El punto de venta es el lugar donde se lleva a cabo la transacción entre el consumidor y el comerciante, y es crucial para la experiencia de compra y la percepción de la marca.]

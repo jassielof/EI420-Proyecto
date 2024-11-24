@@ -205,13 +205,6 @@ KrugmanWellsEconomia2020:
   edition: 5
   publisher: Editorial Pearson
 
-MankiwPrincipiosEconomia2021:
-  type: book
-  author: ["Mankiw, N. G."]
-  title: "Principios de Economía"
-  date: 2021
-  edition: 9
-  publisher: Cengage
 
 HernandezMetodologiaInvestigacion:
   type: book
@@ -307,14 +300,6 @@ BarneyHesterlyStrategicManagement:
   publisher: Pearson
 
 PorterCompetitiveAdvantagePrimarias:
-  type: book
-  author: ["Porter, M. E."]
-  title: "Competitive Advantage: Creating and Sustaining Superior Performance"
-  date: 2020
-  edition: 1
-  publisher: Harvard Business Review Press
-
-PorterCompetitiveAdvantageApoyo:
   type: book
   author: ["Porter, M. E."]
   title: "Competitive Advantage: Creating and Sustaining Superior Performance"
@@ -678,13 +663,6 @@ KrugmanWellsEconomia:
   edition: 5
   publisher: Editorial Pearson
 
-MankiwEconomia:
-  type: book
-  author: "N. Gregory Mankiw"
-  title: "Principios de Economía"
-  date: 2021
-  edition: 9
-  publisher: Editorial Cengage
 
 MorrisSchindehutteMI:
   type: book

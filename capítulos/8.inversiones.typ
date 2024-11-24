@@ -5,7 +5,9 @@ En el presente capítulo, se identificarán monetariamente todos los activos tan
 En este apartado se analizarán las inversiones iniciales que serán realizadas durante el año 0.
 
 === Activos Fijos
-El activo fijo para la clínica de rehabilitación se conforma de la siguiente manera, siendo el terreno y la construcción un aporte propio por parte de los inversionistas en el proyecto, teniendo en cuenta un 5% de imprevistos.
+El activo fijo para el proyecto se conforma de la siguiente manera,
+siendo el terreno y la construcción un aporte propio por parte de los inversionistas en
+el proyecto, teniendo en cuenta un 5% de imprevistos.
 
 #figure(
   kind: table,

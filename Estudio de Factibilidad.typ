@@ -34,11 +34,11 @@
 #[
   #show: contenido-principal.with()
   
-  = Introducción 
-  = Marco Teórico
-  = Diagnóstico Interno de la Empresa
-  = Estudio de la Materia Prima e Insumos
-  = Estudio de Mercado
+  // = Introducción 
+  // = Marco Teórico
+  // = Diagnóstico Interno de la Empresa
+  // = Estudio de la Materia Prima e Insumos
+  // = Estudio de Mercado
   #include "capítulos/1.introducción.typ"
   #include "capítulos/2.marco teórico.typ"
   #include "capítulos/3.diagnóstico interno de la empresa.typ"
@@ -65,7 +65,7 @@
 #[
   #show: anexos.with()
   
-  // #include "anexos/1.instrumentos de recolección.typ"
+  #include "anexos/1.instrumentos de recolección.typ"
   #include "anexos/2.propios de la investigación.typ"
   // #include "anexos/3.cálculos-tablas-cotizaciones.typ"
   // #include "anexos/4.cv.typ"
