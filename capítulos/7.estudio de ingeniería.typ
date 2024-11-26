@@ -15,49 +15,7 @@ Programa de Producción de los Huevos Api.
 
 #figure(
   caption: [Plan de Ventas de huevos Api para exportación],
-  align(center)[#table(
-      columns: (11.76%, 20.24%, 19.65%, 21.65%, 26.71%),
-      align: (auto, auto, auto, auto, auto),
-      table.header(
-        table.cell(align: center, rowspan: 2)[#strong[Año];],
-        table.cell(align: center, colspan: 4)[#strong[Huevos
-            API];],
-        table.cell(align: center)[#strong[Plan de ventas
-            Anual];],
-        table.cell(align: center)[#strong[Plan de ventas
-            Mensual];],
-        table.cell(align: center)[#strong[Plan de ventas
-            Semanal];],
-        table.cell(align: center)[#strong[Plan de ventas
-            Diaria];],
-        table.cell(align: center)[1],
-        table.cell(align: center)[28800],
-        table.cell(align: center)[2400],
-        table.cell(align: center)[600],
-        table.cell(align: center)[86],
-        table.cell(align: center)[2],
-        table.cell(align: center)[57600],
-        table.cell(align: center)[4800],
-        table.cell(align: center)[1200],
-        table.cell(align: center)[172],
-        table.cell(align: center)[3],
-        table.cell(align: center)[86400],
-        table.cell(align: center)[7200],
-        table.cell(align: center)[1800],
-        table.cell(align: center)[258],
-        table.cell(align: center)[4],
-        table.cell(align: center)[115200],
-        table.cell(align: center)[9600],
-        table.cell(align: center)[2400],
-        table.cell(align: center)[343],
-        table.cell(align: center)[5],
-        table.cell(align: center)[144000],
-        table.cell(align: center)[12000],
-        table.cell(align: center)[3000],
-        table.cell(align: center)[429],
-      ),
-      table.hline(),
-    )],
+  image("assets/2024-11-25-11-57-06.png"),
   kind: table,
 )
 
@@ -70,48 +28,7 @@ habrá que producir una mayor cantidad de huevos Api.
 
 #figure(
   caption: [Producción de huevos Api para exportación],
-  align(center)[#table(
-      columns: (25.1%, 17.71%, 19.87%, 19.11%, 18.22%),
-      align: (auto, auto, auto, auto, auto),
-      table.header(
-        table.cell(align: center, rowspan: 2)[#strong[Año];],
-        table.cell(align: center, colspan: 4)[#strong[Huevos
-            API];],
-        table.cell(align: center)[#strong[Producción
-            Anual];],
-        table.cell(align: center)[#strong[Producción
-            Mensual];],
-        table.cell(align: center)[#strong[Producción
-            Semanal];],
-        table.cell(align: center)[#strong[Producción Diaria];],
-        table.cell(align: center)[1],
-        table.cell(align: center)[29539],
-        table.cell(align: center)[2462],
-        table.cell(align: center)[616],
-        table.cell(align: center)[89],
-        table.cell(align: center)[2],
-        table.cell(align: center)[59077],
-        table.cell(align: center)[4924],
-        table.cell(align: center)[1231],
-        table.cell(align: center)[177],
-        table.cell(align: center)[3],
-        table.cell(align: center)[88616],
-        table.cell(align: center)[7385],
-        table.cell(align: center)[1847],
-        table.cell(align: center)[265],
-        table.cell(align: center)[4],
-        table.cell(align: center)[118154],
-        table.cell(align: center)[9847],
-        table.cell(align: center)[2462],
-        table.cell(align: center)[352],
-        table.cell(align: center)[5],
-        table.cell(align: center)[147693],
-        table.cell(align: center)[12308],
-        table.cell(align: center)[3077],
-        table.cell(align: center)[440],
-      ),
-      table.hline(),
-    )],
+  image("assets/2024-11-25-11-57-27.png"),
   kind: table,
 )
 
