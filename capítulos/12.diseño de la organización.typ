@@ -4,4 +4,7 @@
 === Organigrama
 === Manual de Organización y Funciones
 === Manual de Procedimientos
+Los procedimientos, casos de uso e interfaces respectivas ya fueron explicadas en el _*capítulo de ingeniería*_, _sistema de información administrativo_.
+Por lo tanto, no se repetirán en este capítulo.
+
 === Reglamento Interno
