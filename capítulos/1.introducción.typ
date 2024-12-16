@@ -36,7 +36,8 @@ Desarrollar y optimizar el proceso de la exportación de huevos fecundados API (
 - Realizar el diseño de ingeniería, cuantificar las inversiones que requiere el proyecto.
 - Proyectar los ingresos y costos que generará el proyecto y determinar el punto de equilibrio.
 - Seleccionar la fuente de financiamiento más económica y construir los flujos de fuentes y usos de fondos.
-- Evaluar el proyecto social y ambientalmente. Realizar el diseño de la organización.
+- Evaluar el proyecto social y ambientalmente.
+- Realizar el diseño de la organización.
 - Evaluar el proyecto económica y financieramente.
 
 == Límites

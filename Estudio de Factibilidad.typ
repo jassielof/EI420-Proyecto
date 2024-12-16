@@ -34,30 +34,25 @@
 #[
   #show: contenido-principal.with()
   
-  = Introducción
-  = Marco Teórico
-  = Diagnóstico Interno de la Empresa
-  = Estudio de la Materia Prima e Insumos
-  = Estudio de Mercado
-  // #include "capítulos/1.introducción.typ"
-  // #include "capítulos/2.marco teórico.typ"
-  // #include "capítulos/3.diagnóstico interno de la empresa.typ"
-  // #include "capítulos/4.estudio de la materia prima e insumos.typ"
-  // #include "capítulos/5.estudio de mercado.typ"
+  #include "capítulos/1.introducción.typ"
+  #include "capítulos/2.marco teórico.typ"
+  #include "capítulos/3.diagnóstico interno de la empresa.typ"
+  #include "capítulos/4.estudio de la materia prima e insumos.typ"
+  #include "capítulos/5.estudio de mercado.typ"
   #include "capítulos/6.localización y tamaño.typ"
   #include "capítulos/7.estudio de ingeniería.typ"
   #include "capítulos/8.inversiones.typ"
   #include "capítulos/9.presupuesto de ingresos y costos.typ"
-  // #include "capítulos/10.financiamiento.typ"
-  // #include "capítulos/11.evaluación social y ambiental.typ"
-  // #include "capítulos/12.diseño de la organización.typ"
-  // #include "capítulos/13.evaluación económica y financiera.typ"
-  // #include "capítulos/14.conclusiones y recomendaciones.typ"
+  #include "capítulos/10.financiamiento.typ"
+  #include "capítulos/11.evaluación social y ambiental.typ"
+  #include "capítulos/12.diseño de la organización.typ"
+  #include "capítulos/13.evaluación económica y financiera.typ"
+  #include "capítulos/14.conclusiones y recomendaciones.typ"
 ]
 
 #bibliography(
   "referencias.yml",
-  full: false,
+  full: true,
   title: [Bibliografía y Referencias],
   style: "apa",
 )

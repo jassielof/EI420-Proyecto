@@ -43,7 +43,7 @@
       - $<$ 1000 unidades
       - 1001--5000 unidades
       - 5001--10000 unidades
-      - $>$ 10000 unidades 
+      - $>$ 10000 unidades
     + ¿Le realizan algún descuento por comprar en grandes cantidades?
       - Sí
       - No
@@ -51,10 +51,10 @@
       - Descuento en el precio
       - Transporte incluido
       - Otro: (_especificar_)
-    + ¿Recibe promociones o descuentos personalizados en función de tus compras previas? 
+    + ¿Recibe promociones o descuentos personalizados en función de tus compras previas?
       - Sí
       - No
-    + ¿Participa en un programa de fidelidad por comprar huevos API en esa empresa?  
+    + ¿Participa en un programa de fidelidad por comprar huevos API en esa empresa?
       - Sí
       - No
     + ¿Le informaron sobre un mínimo y máximo de unidades de huevos que debía comprar al realizar su pedido?
@@ -88,7 +88,7 @@
       - 2--4 semanas
       - $>$ 1 mes
     + ¿Qué tipo de envases utilizaron para proteger los huevos durante el transporte hacia su empresa?
-    + ¿El envase contaba con un sistema especial para evitar que los huevos se dañen o pierdan su viabilidad? 
+    + ¿El envase contaba con un sistema especial para evitar que los huevos se dañen o pierdan su viabilidad?
       - Sí
       - No
     + ¿El envase permitía la ventilación o control de temperatura para mantener las condiciones óptimas para la incubación?
@@ -127,13 +127,13 @@
   - Telegram
   - Snapchat
   - Otros
-+ ¿Quedó satisfecho con su compra?  (siendo 1 muy malo y 5 muy bueno) (_después de la mezcla_)
++ ¿Quedó satisfecho con su compra? (siendo 1 muy malo y 5 muy bueno) (_después de la mezcla_)
   - 1
   - 2
   - 3
   - 4
   - 5
-+ ¿Por qué compró de esa empresa los huevos API? 
++ ¿Por qué compró de esa empresa los huevos API?
   - Precio unitario
   - Calidad de los huevos (_especificar_)
   - Cumplimiento de plazos de entrega
@@ -142,27 +142,28 @@
   - Formas de compra (online, tienda física)
   - Ubicación geográfica
   - Otros
-+ ¿Te cambiarías de proveedor? 
++ ¿Te cambiarías de proveedor?
   - Sí
-    + ¿Por qué motivo te cambiarías proveedor? 
+    + ¿Por qué motivo te cambiarías proveedor?
   - No
     + ¿Por qué motivo no te cambiarías proveedor?
 
 == Lista de Empresas Encuestadas
 
 #[
-#show table.cell: it => {
-  if it.x == 0 or it.y == 0 {
-    text(weight: "bold", it)
-  } else {
-    it
+
+  #show table.cell: it => {
+    if it.x == 0 or it.y == 0 {
+      text(weight: "bold", it)
+    } else {
+      it
+    }
   }
-}
 
-#show table.cell: set par(leading: 1em)
+  #show table.cell: set par(leading: 1em)
 
-#figure(
-    table(
+  // #figure(
+    #table(
       columns: 5,
       table.header([Provincia], [Municipio], [Razón Social], [Dirección], [Teléfono]),
       table.hline(),
@@ -186,6 +187,6 @@
       [Sara], [Colpa Bélgica], [PRODASA, PLANTA DE INCUBACIÓN "AMBAIBAL"], [Kilómetro 17 Camino a Bisito], [3523910],
       [Andrés Ibáñez], [El Torno], [VIRGEN DEL ROSARIO - PLANTA DE INCUBACIÓN], [Kilómetro 45 Carr. Antigua a Cochabamba (Jorochito)], [76392811],
     ),
-    caption: [Lista de Empresas Encuestadas],
-  ) <tab:empresas-encuestadas>
+  //   caption: [Lista de Empresas Encuestadas],
+  // ) <tab:empresas-encuestadas>
 ]

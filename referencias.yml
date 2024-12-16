@@ -1383,7 +1383,27 @@ HTML:
 # chapter 8
 # chapter 9
 # chapter 10
-# chapter 11
+# chapter 11: evaluación social y ambiental
+RM132-2020:
+  type: legislation
+  title: Resolución Ministerial N° 132, La Paz, 08 de septiembre de 2020
+  language: es-BO
+  organization: Ministerio de Planificación del Desarrollo del Estado Plurinacional de Bolivia
+  date: 2020-09-08
+  url: https://www.planificacion.gob.bo/uploads/14092020111648%5BSin_t%C3%ADtulo%5D.pdf
+RM199-2021:
+  type: legislation
+  title: Resolución Ministerial N° 199, La Paz, 27 de diciembre de 2021
+  organization: Ministerio de Planificación del Desarrollo del Estado Plurinacional de Bolivia
+  date: 2021-12-27
+  url: https://www.planificacion.gob.bo/uploads/Res_Ministerial_N_199_RestituyelaRM159.PDF
+RM159-2006:
+  type: legislation
+  title: Resolución Ministerial N° 159, La Paz, 22 de septiembre de 2006---Razones Precio Cuenta
+  organization: Dirección General de Inversión Pública
+  url: https://www.planificacion.gob.bo/uploads/Res_Ministerial_N_159_ResolucionMinisterialRazonesPrecioCuenta.pdf
+  date: 2006-09-22
+
 # chapter 12
 # chapter 13
 # chapter 14
