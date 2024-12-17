@@ -126,6 +126,7 @@ El IVA serian aproximadamente Bs 300.000, mientras que el IUE para calcularlo te
     #image("assets/2024-11-22-14-05-04.png")
     #image("assets/2024-11-22-14-05-14.png")
   ],
+  kind: table
 )
 
 == Punto de Equilibrio

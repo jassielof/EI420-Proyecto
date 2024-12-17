@@ -44,7 +44,7 @@ Desarrollar y optimizar el proceso de la exportación de huevos fecundados API (
 === Límites Geográficos o Espaciales
 
 - Este estudio se enfocará en la Producción y Exportación de huevos fecundados API que se realizará en el departamento de Santa Cruz, Bolivia.
-- La empresa avícola DON LUCAS tiene oficinas administrativas en Quinto Anillo entre Avenida Piraí y Radial 17/2 \#417 en Santa Cruz, Bolivia.
+- La RAU avícola DON LUCAS tiene oficinas administrativas en Quinto Anillo entre Avenida Piraí y Radial 17/2 \#417 en Santa Cruz, Bolivia.
 - La granja donde se realiza el proceso se ubica en Av. Nuevo Palmar, entre la comunidad Algarrobillo y el Río Grande o Guapay. Por otro lado, la información del mercado internacional se tomará vía web.
 
 === Límites Temporal
@@ -105,7 +105,7 @@ Para recoger la información primaria, se utilizarán cuestionarios de entrevist
 
 Las fuentes primarias de información serán obtenidas mediante:
 
-- Personal de la Empresa
+- Personal de la RAU
 - Oferta
 - Demanda
 - Proveedores de materia prima
@@ -131,7 +131,7 @@ Las fuentes secundarias para la recopilación de información incluyen:
 Los métodos para la recopilación de la información primaria son los siguientes:
 
 - Para la Demanda se utilizó un muestreo no probabilístico por conveniencia para ver el grado de aceptación del producto ofrecido, los huevos API.
-- Para la Oferta se utilizó también un muestreo no probabilístico por conveniencia para ver las capacidades máximas de producción de los establecimientos con planta de incubación en Santa Cruz.
+- Para la Oferta solo se usó la información primaria.
 
 ==== Instrumentos para la Recopilación de la Información Primaria
 

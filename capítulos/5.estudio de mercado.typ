@@ -168,6 +168,8 @@ Muestreo no probabilístico por conveniencia bajo los objetivos:
 - Condiciones de la intermediación
 
 == Análisis PESTAL
+Se realizó el análisis político en base a todo lo que afectará la empresa legal dentro de Santa Cruz. 
+
 === Político
 - *Regulaciones Gubernamentales*: La industria avícola está sujeta a diversas regulaciones que afectan la producción, comercialización y exportación de productos. Es crucial que la avícola Don Lucas cumpla con las normativas sanitarias y de calidad establecidas por el gobierno y organismos internacionales para garantizar la viabilidad de su producto en el mercado.
 - *Políticas Agrarias*: Las políticas del gobierno en relación con la agricultura y la ganadería pueden influir en la disponibilidad de subsidios, financiamiento y apoyo técnico para los productores avícolas. Un entorno favorable puede facilitar el crecimiento del negocio.
@@ -205,31 +207,26 @@ Muestreo no probabilístico por conveniencia bajo los objetivos:
 - *Economías de Escala*: Las empresas establecidas pueden beneficiarse de economías de escala, lo que les permite reducir costos y ofrecer precios más competitivos. Esto puede dificultar que nuevos entrantes logren competir en precio.
 - *Acceso a Canales de Distribución*: Los nuevos entrantes pueden enfrentar dificultades para acceder a canales de distribución establecidos, lo que puede limitar su capacidad para comercializar sus productos de manera efectiva.
 - *Diferenciación del Producto*: La especialización en la producción de huevos fecundados API puede crear una ventaja competitiva para empresas ya establecidas, dificultando que nuevos entrantes ofrezcan productos diferenciados que atraigan a los consumidores.
-- *Conclusión*: La amenaza de nuevos entrantes es moderada, ya que aunque existen barreras de entrada, la creciente demanda en el sector avícola puede atraer a nuevos competidores.
 
 === Poder de Negociación de los Proveedores
 - *Concentración de Proveedores*: Si la empresa depende de un número limitado de proveedores para insumos y materia prima, esto puede aumentar el poder de negociación de los proveedores. En el caso de la avícola Don Lucas, la calidad de los insumos es crucial para la producción de huevos fecundados.
 - *Disponibilidad de Sustitutos*: Si hay múltiples proveedores que ofrecen productos similares, el poder de negociación de los proveedores disminuye. Sin embargo, en el caso de insumos específicos para la producción avícola, la disponibilidad puede ser limitada.
 - *Costos de Cambio*: Si cambiar de proveedor implica costos significativos o riesgos para la calidad del producto, el poder de negociación de los proveedores aumenta. Esto puede ser un factor a considerar en la selección de proveedores para la granja.
-- *Conclusión*: El poder de negociación de los proveedores es moderado, ya que la calidad de los insumos es crítica, pero la disponibilidad de alternativas puede mitigar este poder.
 
 === Poder de Negociación de los Compradores
 - *Concentración de Compradores*: Si los compradores son pocos y compran grandes volúmenes, su poder de negociación aumenta. En el caso de la avícola Don Lucas, si se dirige a grandes distribuidores o cadenas de supermercados, estos pueden tener un poder significativo.
 - *Disponibilidad de Alternativas*: La existencia de productos sustitutos, como huevos no fecundados o pollitos de otras granjas, puede aumentar el poder de negociación de los compradores. Los consumidores pueden optar por alternativas si no están satisfechos con el precio o la calidad.
 - *Sensibilidad al Precio*: Si los compradores son sensibles a los cambios de precio, esto puede afectar la capacidad de la empresa para fijar precios competitivos. La percepción de calidad también juega un papel importante en la decisión de compra.
-- *Conclusión*: El poder de negociación de los compradores es alto, especialmente si se dirigen a grandes distribuidores, lo que puede presionar los márgenes de ganancia.
 
 === Amenaza de Productos Sustitutos
 - *Disponibilidad de Sustitutos*: La existencia de productos alternativos, como huevos no fecundados o productos avícolas de otras especies, representa una amenaza. Los consumidores pueden optar por estos productos si perciben que ofrecen mejor valor o calidad.
 - *Diferenciación del Producto*: La capacidad de la avícola Don Lucas para diferenciar sus huevos fecundados API a través de calidad, genética y procesos de producción puede reducir la amenaza de sustitutos. La especialización en este nicho puede atraer a un segmento de mercado específico.
 - *Tendencias del Consumidor*: Cambios en las preferencias de los consumidores hacia productos más saludables o sostenibles pueden influir en la demanda de huevos fecundados. La empresa debe estar atenta a estas tendencias para adaptarse.
-- *Conclusión*: La amenaza de productos sustitutos es moderada, ya que aunque existen alternativas, la diferenciación y la calidad pueden mitigar este riesgo.
 
 === Rivalidad entre Competidores Existentes
 - *Número de Competidores*: La rivalidad en el sector avícola puede ser intensa, especialmente si hay varios productores de huevos fecundados en la región. La competencia puede llevar a guerras de precios y a la necesidad de innovar constantemente.
 - *Crecimiento del Mercado*: Si el mercado está en crecimiento, la rivalidad puede ser menos intensa, ya que las empresas pueden expandir su participación sin afectar a los demás. Sin embargo, si el mercado se estanca, la competencia por cuota de mercado se intensificará.
 - *Diferenciación*: La capacidad de las empresas para diferenciarse a través de calidad, servicio al cliente y otros factores puede influir en la intensidad de la rivalidad. La avícola Don Lucas puede beneficiarse de su especialización en huevos fecundados API para destacarse.
-- *Conclusión*: La rivalidad entre competidores existentes es alta, lo que requiere que la empresa implemente estrategias efectivas de marketing y diferenciación para mantener su competitividad.
 
 == Análisis FODA
 
