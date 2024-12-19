@@ -1969,7 +1969,7 @@ alternativa expresados en dólares americanos:
 ===== Selección de equipo
 <selección-de-equipo-4>
 #figure(
-  caption: [],
+  caption: [Selección del equipo],
   image("media/image93.png"),
 )
 <tabla-7.2.60.-selección-del-equipo>

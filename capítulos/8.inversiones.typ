@@ -5,14 +5,12 @@ En el presente capítulo, se identificarán monetariamente todos los activos tan
 En este apartado se analizarán las inversiones iniciales que serán realizadas durante el año 0.
 
 === Activos Fijos
-El activo fijo para el proyecto se conforma de la siguiente manera,
-siendo el terreno y la construcción un aporte propio por parte de los inversionistas en
-el proyecto, teniendo en cuenta un 5% de imprevistos.
+El activo fijo para la exportación de huevos API se conforma de la siguiente manera, siendo el terreno y la construcción un aporte propio por parte de los inversionistas en el proyecto, teniendo en cuenta un 5% de imprevistos.
 
 #figure(
   kind: table,
   caption: [Activos Fijos],
-  image("assets/2024-11-21-09-58-37.png"),
+  image("assets/2024-12-19-07-01-37.png"),
 )
 
 === Activos Diferidos
@@ -21,7 +19,7 @@ Dentro de la inversión diferida van todos los activos intangibles que son neces
 #figure(
   kind: table,
   caption: [Activos Diferidos],
-  image("assets/2024-11-21-09-58-55.png"),
+  image("assets/2024-12-19-07-02-26.png"),
 )
 
 === Capital de Trabajo
@@ -43,7 +41,7 @@ Donde:
 #figure(
   kind: table,
   caption: [Capital de Trabajo],
-  image("assets/2024-11-22-14-24-58.png"),
+  image("assets/2024-12-19-07-03-16.png"),
 )
 
 === Estructura de Inversiones
@@ -51,15 +49,12 @@ Donde:
 #figure(
   kind: table,
   caption: [Estructura de Inversiones],
-  image("assets/2024-11-22-14-25-47.png")
+  image("assets/2024-12-19-07-03-31.png"),
 )
 == Plan de Reinversiones
 
 #figure(
   kind: table,
   caption: [Plan de Reinversiones],
-  image("assets/2024-11-22-14-26-08.png")
+  image("assets/2024-12-19-07-03-51.png"),
 )
-
-// === Activos Fijos
-// === Capital de Trabajo

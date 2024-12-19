@@ -1,6 +1,6 @@
 = Introducción
 == Prefacio
-En el presente trabajo, se desarrollará un “Estudio de factibilidad para la producción y comercialización de huevos fecundados API”. En este documento se verificará la viabilidad del punto legal, comercial, técnica, social, ambiental, económica y financiera para determinar la viabilidad del proyecto propuesto.
+En el presente trabajo, se desarrollará un "Estudio de factibilidad para la producción y comercialización de huevos fecundados API (Aptos Para la Incubación)". En este documento se verificará la viabilidad del punto legal, comercial, técnica, social, ambiental, económica y financiera para determinar la viabilidad del proyecto propuesto.
 
 == Antecedentes
 Los huevos fecundados Aptos para la Incubación son considerados aquellos que han sido fertilizados por un gallo y que poseen las condiciones necesarias para permitir el desarrollo embrionario y la eclosión posteriormente.~@PoultryIncubationACompleteGuide

@@ -47,15 +47,15 @@ La tasa y sus modificaciones son mencionadas en 3 Resoluciones Ministeriales (ex
 )
 
 === Inversiones
-La inversión social resulta en 29,726,011.81 BOB.
+La inversión social resulta en 5,990.11 BOB.
 
 #figure(
   caption: [Inversión social del proyecto],
   kind: table,
-  image("assets/2024-12-17-10-04-53.png")
+  image("assets/2024-12-19-07-03-31.png"),
 )
 
-Además, con la siguiente inversión en mano de obra:
+Además, con la siguiente inversión en mano de obra (in/directa):
 
 #figure(
   caption: [Mano de obra],
@@ -64,32 +64,37 @@ Además, con la siguiente inversión en mano de obra:
 )
 
 === Beneficios de la Sociedad
-#image("assets/2024-12-17-10-06-44.png")
+#image("assets/2024-12-19-07-55-10.png")
 
-=== Desbeneficios de la Sociedad
-#image("assets/2024-12-17-10-06-59.png")
+=== Desbeneficios de la Sociedad#footnote([El proyecto no presenta desbeneficios para la sociedad.])
+#image("assets/2024-12-19-07-55-31.png")
 
 === Resultado Social de la Operación del Proyecto
-#image("assets/2024-12-17-10-07-24.png")
+
+#image("assets/2024-12-19-07-57-07.png")
 
 === Flujo de Caja Social
 #figure(
   caption: [Flujo de caja social del periodo 10 (extendido)],
-  image("assets/2024-12-17-10-09-17.png") // año 10
+  image("assets/2024-12-19-07-59-17.png"), // año 10
+  kind: table
 )
 
 #figure(
   caption: [Flujo de caja social del periodo 20 (extendido)],
-  image("assets/2024-12-17-10-08-59.png") // año 20
+  image("assets/2024-12-19-07-59-48.png"), // año 20
+  kind: table
+  
 )
 
 #figure(
-  caption: [Flujo de caja social de los primeros 5 años (extendido/actualizado a 20 años)],
-  image("assets/2024-12-17-10-08-00.png")
+  caption: [Flujo de caja social de los primeros 5 años],
+  image("assets/2024-12-19-08-01-19.png"),
+  kind: table
 )
 
 === Resultados de la Evaluación Social
-Como resultado de la evaluación social, aplicando una TSD de 12.67% y extendiendo a 20 años, se obtiene una TIR máxima de -3% y un VAN de -22,419,062.98 BOB, lo que indica que el proyecto no tiene rentabilidad (TIR < TSD) social, ni económica social (VAN < 0).#footnote([Los flujos de caja sin extender a 20 años, y considerando el horizonte de 5 años, arrojan de igual forma resultados negativos (no viables).])
+Como resultado de la evaluación social, aplicando una TSD de 12.67% y extendiendo a 20 años, se obtiene una TIR máxima de 15299% (VAN = 0) y un VAN de 6,561,538.78 BOB, lo que indica que el proyecto tiene rentabilidad (TIR < TSD) social, y económica social (VAN < 0).#footnote([Los flujos de caja sin extender a 20 años, y considerando el horizonte de 5 años, arrojan de igual forma resultados positivos (viables).])
 
 == Evaluación Ambiental
 Es un estudio destinado a identificar y evaluar los potenciales impactos positivos y negativos que pueda causar la implementación, operación, futuro inducido, mantenimiento y abandono de un proyecto, obra o actividad, con el fin de establecer las correspondientes medidas para evitar, mitigar o controlar aquellos que sean negativos e incentivar los positivos.~(Ley N.º 1333, 1992, Título I, Capítulo II, Art. 4° b)#footnote([Ley N.º 1333. (1992). Ley del Medio Ambiente. Promulgada el 27 de abril de 1992. Gaceta Oficial de Bolivia, 15 de junio de 1992. Título I: Disposiciones Generales, Capítulo II: De las siglas y definiciones, Artículo 4° b. Definiciones.])
